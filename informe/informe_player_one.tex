@@ -1,0 +1,863 @@
+\documentclass[12pt,a4paper]{article}
+
+% -------------------------
+% PAQUETES
+% -------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{amsmath, amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tocbibind}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{listings}
+
+\geometry{margin=2.5cm}
+\setstretch{1.2}
+
+% -------------------------
+% DATOS DEL INFORME
+% -------------------------
+\title{Análisis y predicción de partidas competitivas de Age of Empires IV}
+\author{Constanza Zapata}
+\date{Noviembre 2026}
+
+\begin{document}
+
+% ==================================================
+% PORTADA
+% ==================================================
+\begin{titlepage}
+    \centering
+    
+    \vspace*{1.5cm}
+    
+    % Logo UBB
+    \includegraphics[width=4cm]{logo_ubb.png}
+    
+    \vspace{1cm}
+    
+    
+
+        
+    {\LARGE \textbf{Análisis y predicción de partidas competitivas de Age of Empires IV}\par}
+    
+    \vspace{1.5cm}
+    
+    {\large Informe del proyecto \textit{Player One}\par}
+    
+    \vfill
+    
+    \begin{flushleft}
+    \textbf{Estudiantes:} Constanza Zapata Anríquez y Antonia Muñoz Sierra\\[0.2cm]
+    \textbf{Asignatura:} Ciencia de Datos en la Terminal Linux \\[0.2cm]
+    \textbf{Profesor(a):} Luis Gómez \\[0.2cm]
+    \textbf{Fecha:} Noviembre 2026
+    \end{flushleft}
+    
+    \vspace{1.5cm}
+    
+    {\large Concepción\par}
+\end{titlepage}
+
+% ============================================================
+% RESUMEN E INDICES
+% ============================================================
+\pagenumbering{roman}
+\setcounter{page}{1}
+\section*{Resumen}
+\addcontentsline{toc}{section}{Resumen}
+
+Este trabajo presenta el desarrollo de \textit{Player One}, una herramienta de línea de comandos orientada a la consulta y al análisis de partidas competitivas individuales de \textit{Age of Empires IV}. Los datos se obtuvieron desde la API comunitaria AoE4 World y se procesaron principalmente mediante Nushell; para los resúmenes exploratorios se utilizó Polars y para el ajuste de la regresión logística se empleó Python con \texttt{scikit-learn}.
+
+La obtención de datos consideró diez jugadores seleccionados del ranking de Chile. Después de la depuración se conservaron 846 partidas con ratings disponibles para los dos participantes: 473 victorias y 373 derrotas desde la perspectiva del jugador analizado. La base se dividió cronológicamente en 592 registros de entrenamiento y 254 de prueba.
+
+Se compararon tres métodos para estimar la probabilidad de victoria: una probabilidad constante, la formulación de Elo y una regresión logística con diferencia de rating y ventaja teórica del cruce entre civilizaciones. En el conjunto de prueba se obtuvieron exactitudes de 54,72\%, 60,24\% y 63,78\%, respectivamente. La regresión logística también presentó la menor pérdida logarítmica global, aunque su diferencia respecto de Elo fue pequeña. Se discuten la concentración de partidas por jugador, las discrepancias de continuidad del rating, la disponibilidad de estadísticas de cruces y las limitaciones de generalización.
+
+\noindent\textbf{Palabras clave:} Nushell; AoE4 World; Elo; regresión logística; análisis exploratorio; predicción.
+
+\clearpage
+\tableofcontents
+\clearpage
+\listoftables
+\clearpage
+\listoffigures
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ============================================================
+% CAPITULO 1
+% ============================================================
+\section{Introducción}
+
+\textit{Age of Empires IV} es un videojuego de estrategia en tiempo real en el que los jugadores administran recursos, desarrollan civilizaciones y toman decisiones para superar a sus oponentes. En el entorno competitivo, el resultado de una partida puede relacionarse con el nivel de experiencia de los participantes, las civilizaciones seleccionadas y las características del enfrentamiento.
+
+El análisis de datos permite estudiar estas relaciones a partir de historiales de partidas y valorar si ciertos indicadores disponibles antes de cada encuentro aportan información útil para estimar una probabilidad de victoria. Entre estos indicadores se encuentran las diferencias de rating y las estadísticas agregadas de enfrentamientos entre civilizaciones. Sin embargo, antes de construir un modelo es necesario verificar la calidad de los registros y distinguir claramente la información anterior a la partida de aquella que solo se conoce después de su resultado.
+
+El proyecto \textit{Player One} aborda este problema mediante una herramienta de terminal que consulta la API de AoE4 World y un flujo de trabajo que obtiene, limpia, resume y analiza partidas clasificatorias individuales. La muestra final de modelación contiene 846 observaciones correspondientes a diez jugadores seleccionados del ranking de Chile.
+
+Se desarrollaron consultas y transformaciones principalmente en Nushell, con apoyo de Polars para el análisis exploratorio y de Python como motor externo para ajustar una regresión logística. La evaluación compara tres enfoques: la frecuencia histórica de victorias del entrenamiento, una probabilidad calculada mediante Elo y un modelo logístico que combina diferencia de rating con ventaja teórica del cruce de civilizaciones.
+
+Los datos se separaron temporalmente para evaluar los modelos en partidas posteriores a las utilizadas para el ajuste. Este diseño permite describir el rendimiento observado en un período de prueba sin mezclar aleatoriamente partidas antiguas y nuevas, aunque no elimina todas las posibles fuentes de sesgo.
+
+El informe presenta primero los objetivos y el proceso de obtención y depuración de los datos. Luego desarrolla los análisis descriptivos, la metodología de modelación y la implementación de los comandos. Finalmente, expone la comparación predictiva, las principales limitaciones y las conclusiones del trabajo.
+
+% ============================================================
+% CAPITULO 2
+% ============================================================
+\section{Objetivos}
+\subsection{Objetivo general}
+Desarrollar una herramienta de análisis de partidas competitivas de \textit{Age of Empires IV} utilizando Nushell y datos de AoE4 World, con el propósito de estudiar el desempeño de los jugadores y comparar modelos estadísticos para estimar la probabilidad de victoria.
+
+\subsection{Objetivos específicos}
+\begin{enumerate}[leftmargin=1.1cm]
+\item Implementar comandos que consulten perfiles, rankings, civilizaciones y partidas mediante la API de AoE4 World.
+\item Obtener y depurar una muestra de partidas clasificatorias individuales, aplicando criterios explícitos de selección y validación.
+\item Describir mapas, civilizaciones, jugadores, duraciones, diferencias de rating, actividad temporal y cruces mediante análisis exploratorio.
+\item Ajustar un modelo de regresión logística que considere la diferencia de rating y la ventaja teórica entre civilizaciones.
+\item Comparar una probabilidad constante, Elo y regresión logística mediante exactitud y pérdida logarítmica sobre una prueba cronológica.
+\item Documentar los comandos implementados, las decisiones de procesamiento y las principales limitaciones de los resultados.
+\end{enumerate}
+
+% ============================================================
+% CAPITULO 3
+% ============================================================
+\section{Obtención y preparación de datos}
+\subsection{Fuente y modalidad competitiva}
+
+Los datos utilizados se obtuvieron de AoE4 World, plataforma comunitaria que recopila y publica estadísticas de partidas competitivas de \textit{Age of Empires IV}. Su API proporciona respuestas en formato JSON sobre jugadores, clasificaciones, historiales y estadísticas de civilizaciones. La documentación pública se encuentra en \url{https://aoe4world.com/api}.
+
+Se trabajó con la modalidad \texttt{rm\_solo}, correspondiente a partidas clasificatorias individuales. La consulta se realizó desde Nushell y los registros recuperados se almacenaron localmente. Este almacenamiento facilita la inspección posterior y reduce la necesidad de repetir solicitudes a la API.
+
+\subsection{Selección de jugadores}
+
+El proceso de exploración del ranking utilizó el código de país \texttt{cl}. Se revisaron inicialmente once jugadores activos. Uno fue descartado por no cumplir el mínimo de partidas considerado en el procedimiento, por lo que se seleccionaron diez perfiles para el análisis.
+
+\begin{table}[htbp]
+\centering
+\caption{Resumen de la obtención de datos}
+\label{tab:obtencion}
+\begin{tabular}{lr}
+\toprule
+\textbf{Indicador} & \textbf{Cantidad}\\
+\midrule
+Jugadores revisados & 11\\
+Jugadores activos & 11\\
+Descartados por pocas partidas & 1\\
+Jugadores seleccionados & 10\\
+Partidas descargadas reportadas & 959\\
+Consultas contabilizadas & 24\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El resumen de exploración registra 959 partidas descargadas, mientras que el archivo aplanado empleado para la limpieza contiene 949 registros. La diferencia de diez observaciones entre ambos conteos permanece pendiente de una conciliación explícita de los archivos intermedios; no debe confundirse con las exclusiones aplicadas posteriormente durante la limpieza.
+
+\subsection{Información recopilada}
+
+Los historiales incluyen identificadores de partida, fecha de inicio, mapa, duración, civilización utilizada, resultado y puntuaciones de los participantes. Para el modelo predictivo se conservaron principalmente el resultado binario, la diferencia de rating y una medida agregada de ventaja del cruce entre civilizaciones. La identificación única de cada encuentro permitió evitar que una misma partida fuese contabilizada dos veces cuando ambos jugadores estaban incluidos en la selección.
+
+\subsection{Limpieza y depuración}
+
+La depuración se desarrolló en Nushell mediante el comando \texttt{aoe clean}, aplicado a los registros aplanados. El primer filtro conservó las partidas con modalidad, estado y resultado válidos. Se eliminaron diez registros con información no adecuada para definir victoria o derrota. A continuación se retiraron tres perspectivas duplicadas de partidas incluidas en más de un historial. La base preliminar quedó compuesta por 936 observaciones.
+
+Para construir la diferencia de rating fue necesario disponer de las puntuaciones de ambos jugadores. Se excluyeron 90 observaciones adicionales sin esa información y se obtuvo la base de 846 partidas utilizada en la modelación.
+
+\begin{table}[htbp]
+\centering
+\caption{Etapas de limpieza y número de observaciones}
+\label{tab:limpieza}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Etapa} & \textbf{Eliminados} & \textbf{Restantes}\\
+\midrule
+Registros aplanados & -- & 949\\
+Resultados, tipo o estado no válidos & 10 & 939\\
+Perspectivas duplicadas & 3 & 936\\
+Ausencia de ratings necesarios & 90 & 846\\
+\midrule
+\textbf{Base para modelación} & & \textbf{846}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Se conservó aproximadamente el 89,15\% de la base aplanada inicial. La exclusión por ratings faltantes evita utilizar puntuaciones inventadas para calcular una variable central del análisis. Como contrapartida, la muestra final puede representar de manera diferente a jugadores o partidas para los que los campos de rating no estaban disponibles.
+
+\subsection{Construcción de variables}
+
+La variable respuesta se definió como:
+\begin{equation}
+Y_i=\begin{cases}
+1, & \text{si el jugador analizado ganó la partida},\\
+0, & \text{si el jugador analizado perdió la partida}.
+\end{cases}
+\end{equation}
+
+La diferencia de rating se calculó mediante:
+\begin{equation}
+d_i=R_{i,\mathrm{jugador}}-R_{i,\mathrm{rival}}.
+\label{eq:diferencia}
+\end{equation}
+
+Un valor positivo indica que el jugador analizado posee un rating mayor que su rival; un valor negativo indica lo contrario. La duración se transformó de segundos a minutos como $T_i=t_i/60$. Este último indicador se utiliza para describir partidas ya terminadas, pero no como predictor disponible antes de su inicio.
+
+\subsection{Validación de los ratings}
+
+Para examinar si los ratings registrados pueden interpretarse como valores anteriores a las partidas, se ordenaron cronológicamente los historiales y se revisó la relación esperada entre rating y cambio posterior:
+\begin{equation}
+R_{t+1}=R_t+\Delta R_t.
+\end{equation}
+
+Entre 876 transiciones examinadas se observaron 864 coincidencias y 12 discrepancias, equivalentes a un 98,63\% de coincidencia. La diferencia absoluta media entre las doce discrepancias fue de 167,5 puntos. Estas diferencias podrían explicarse por encuentros intermedios no incluidos, cambios de clasificación o particularidades del historial, sin que los registros disponibles permitan establecer una causa única.
+
+La comprobación respalda, pero no demuestra de manera perfecta, la interpretación de rating previo al encuentro. En particular, evita asumir que todas las transiciones observadas corresponden a historiales completos.
+
+\subsection{Verificación de consistencia}
+
+Se verificó que los 846 registros de modelación contaran con identificadores de partida únicos, que sus duraciones fueran positivas y que la diferencia de rating guardada coincidiera con la resta de las puntuaciones correspondientes. La base final incluyó 473 victorias y 373 derrotas.
+
+\begin{table}[htbp]
+\centering
+\caption{Distribución del resultado en la base de modelación}
+\label{tab:resultados_base}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Resultado} & \textbf{Partidas} & \textbf{Porcentaje}\\
+\midrule
+Victoria & 473 & 55,91\%\\
+Derrota & 373 & 44,09\%\\
+\midrule
+\textbf{Total} & \textbf{846} & \textbf{100,00\%}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+% CAPITULO 4: EDA COMPLETO Y ORDENADO
+% ============================================================
+\section{Análisis exploratorio}
+
+El análisis exploratorio describió las principales características de las partidas conservadas e identificó patrones por mapa, civilización, jugador, fecha y diferencia de rating. Los resultados se obtuvieron a partir de los archivos procesados y de las tablas de resumen guardadas por el proyecto.
+
+\subsection{Distribución por mapa}
+
+Se identificaron 25 mapas diferentes. En la Tabla~\ref{tab:mapas} aparecen los diez más frecuentes junto con la proporción de victorias del jugador analizado.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Diez mapas más frecuentes en la muestra}
+\label{tab:mapas}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Mapa} & \textbf{Partidas} & \textbf{Victoria (\%)}\\
+\midrule
+Dry Arabia & 201 & 57,21\\
+Gorge & 104 & 54,81\\
+Lipany & 97 & 60,82\\
+High View & 72 & 63,89\\
+The Pit & 53 & 58,49\\
+Himeyama & 52 & 61,54\\
+King of the Hill & 45 & 48,89\\
+West Lake & 44 & 59,09\\
+Flankwoods & 42 & 42,86\\
+Hidden Valley & 23 & 47,83\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Dry Arabia fue el mapa con más partidas, con 201 encuentros, equivalentes al 23,76\% del total. Le siguieron Gorge y Lipany. La concentración en ciertos mapas debe considerarse al interpretar tasas específicas, ya que los mapas con menos observaciones aportan una evidencia descriptiva más limitada.
+
+\begin{figure}[htbp]
+\centering
+\begin{tabular}{@{}lcl@{}}
+\textbf{Mapa} & \textbf{Frecuencia relativa} & \textbf{N}\\[0.15cm]
+Dry Arabia & \rule{6.0cm}{0.25cm} & 201\\[0.15cm]
+Gorge & \rule{3.10cm}{0.25cm} & 104\\[0.15cm]
+Lipany & \rule{2.90cm}{0.25cm} & 97\\[0.15cm]
+High View & \rule{2.15cm}{0.25cm} & 72\\[0.15cm]
+The Pit & \rule{1.58cm}{0.25cm} & 53
+\end{tabular}
+\caption{Frecuencia de los cinco mapas más utilizados. Escala proporcional al mayor conteo.}
+\label{fig:mapas}
+\end{figure}
+
+\subsection{Distribución por civilización}
+
+En los archivos se registraron 25 identificadores de civilización. La Tabla~\ref{tab:civs} contiene las diez categorías más frecuentes, conservando los identificadores almacenados en la base. Estos nombres incluyen civilizaciones y variantes y requieren cotejar su correspondencia con el catálogo y el período de la API.
+
+\begin{table}[htbp]
+\centering\footnotesize
+\caption{Civilizaciones y variantes más observadas}
+\label{tab:civs}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Identificador} & \textbf{Partidas} & \textbf{Victoria (\%)}\\
+\midrule
+\texttt{order\_of\_the\_dragon} & 89 & 58,43\\
+\texttt{abbasid\_dynasty} & 83 & 48,19\\
+\texttt{tughlaq\_dynasty} & 77 & 55,84\\
+\texttt{house\_of\_lancaster} & 60 & 53,33\\
+\texttt{holy\_roman\_empire} & 52 & 50,00\\
+\texttt{macedonian\_dynasty} & 50 & 66,00\\
+\texttt{rus} & 47 & 53,19\\
+\texttt{scots} & 44 & 43,18\\
+\texttt{golden\_horde} & 40 & 60,00\\
+\texttt{french} & 37 & 56,76\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La categoría más frecuente fue \path{order_of_the_dragon}, seguida por \path{abbasid_dynasty} y \path{tughlaq_dynasty}. Entre las diez primeras, \path{macedonian_dynasty} registró la mayor tasa de victoria (66,00\%). Esta tasa no permite atribuir causalidad a la civilización: también intervienen la experiencia del jugador, el rating del rival y la composición de la muestra.
+
+\subsection{Duración de los encuentros}
+
+La duración media global fue de aproximadamente 22,34 minutos. Las partidas ganadas y perdidas presentaron valores próximos entre sí.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Duración de partidas según el resultado, en minutos}
+\label{tab:duracion}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Resultado} & \textbf{Media} & \textbf{Mediana} & \textbf{Mínimo} & \textbf{Máximo}\\
+\midrule
+Victoria & 21,95 & 20,77 & 0,48 & 80,67\\
+Derrota & 22,84 & 21,47 & 0,55 & 77,90\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Las derrotas tuvieron una duración media aproximadamente 0,90 minutos mayor que las victorias. La diferencia es descriptiva y no demuestra que jugar durante más tiempo aumente la probabilidad de perder. Además, la duración final no debe entrar en un predictor que pretende funcionar antes de empezar la partida.
+
+\subsection{Diferencia de rating}
+
+La Tabla~\ref{tab:rating} presenta los principales estadísticos de la variable $d_i$.
+\begin{table}[htbp]
+\centering
+\caption{Estadísticos descriptivos de la diferencia de rating}
+\label{tab:rating}
+\begin{tabular}{lr}
+\toprule
+\textbf{Estadístico} & \textbf{Puntos de rating}\\
+\midrule
+Media & 27,85\\
+Desviación estándar & 203,45\\
+Mínimo & $-794,00$\\
+Primer cuartil & $-82,00$\\
+Mediana & 22,50\\
+Tercer cuartil & 144,00\\
+Máximo & 848,00\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La media de 27,85 puntos y la mediana de 22,50 indican una ligera ventaja de rating del jugador analizado en los registros disponibles. Sin embargo, la desviación estándar de 203,45 puntos y los extremos muestran enfrentamientos con diferencias considerables. Por ello, el rating constituye una variable explicativa potencialmente útil para la predicción.
+
+\subsection{Actividad y resultados por jugador}
+
+Se calcularon las victorias, derrotas y tasas de victoria de cada uno de los diez perfiles. La Tabla~\ref{tab:jugadores} muestra los resultados de los registros conservados.
+\begin{table}[htbp]
+\centering\footnotesize
+\caption{Partidas y resultados de los diez jugadores}
+\label{tab:jugadores}
+\begin{tabular}{rrrrr}
+\toprule
+\textbf{Profile ID} & \textbf{Partidas} & \textbf{Victorias} & \textbf{Derrotas} & \textbf{Victoria (\%)}\\
+\midrule
+4703134 & 198 & 131 & 67 & 66,16\\
+6640305 & 193 & 95 & 98 & 49,22\\
+26053379 & 177 & 95 & 82 & 53,67\\
+231618 & 66 & 34 & 32 & 51,52\\
+272244 & 59 & 27 & 32 & 45,76\\
+5695714 & 40 & 23 & 17 & 57,50\\
+11040949 & 36 & 22 & 14 & 61,11\\
+3947737 & 32 & 17 & 15 & 53,13\\
+5451257 & 30 & 19 & 11 & 63,33\\
+255233 & 15 & 10 & 5 & 66,67\\
+\midrule
+\textbf{Total} & \textbf{846} & \textbf{473} & \textbf{373} & \textbf{55,91}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Los tres perfiles con más partidas concentraron 568 de los 846 encuentros (67,14\%). Por ello, las estadísticas globales están influidas en mayor medida por esos jugadores. También es importante distinguir el tamaño del historial al comparar tasas: un porcentaje elevado calculado sobre quince encuentros no tiene la misma estabilidad descriptiva que otro obtenido sobre casi doscientas observaciones.
+
+\subsection{Cruces entre civilizaciones}
+
+Se identificaron 348 combinaciones orientadas de civilización del jugador y civilización del rival. Es importante conservar el orden de la comparación: \texttt{french vs english} no describe la misma perspectiva que \texttt{english vs french}.
+
+\begin{table}[htbp]
+\centering\footnotesize
+\caption{Algunos de los cruces más frecuentes de la muestra}
+\label{tab:cruces}
+\begin{tabular}{p{8.3cm}rr}
+\toprule
+\textbf{Cruce jugador--rival} & \textbf{Partidas} & \textbf{Victoria (\%)}\\
+\midrule
+\texttt{scots vs vikings} & 13 & 38,46\\
+\texttt{scots vs scots} & 13 & 30,77\\
+\texttt{tughlaq\_dynasty vs knights\_templar} & 12 & 41,67\\
+\texttt{order\_of\_the\_dragon vs english} & 12 & 91,67\\
+\texttt{abbasid\_dynasty vs french} & 9 & 22,22\\
+\texttt{holy\_roman\_empire vs knights\_templar} & 9 & 44,44\\
+\texttt{house\_of\_lancaster vs knights\_templar} & 9 & 66,67\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El cruce \texttt{order\_of\_the\_dragon vs english} alcanzó 11 victorias en 12 partidas. No obstante, una tasa del 91,67\% basada en doce casos es sensible a cambios pequeños en los conteos. Las tasas obtenidas de esta muestra deben distinguirse de las estadísticas agregadas de la API, las cuales pueden cubrir otros períodos, jugadores, parches y rangos.
+
+\subsection{Evolución mensual}
+
+Las fechas de los registros de modelación abarcan desde el 7 de agosto hasta el 4 de noviembre de 2026, en horario UTC. La Tabla~\ref{tab:meses} resume la actividad por mes.
+
+\begin{table}[htbp]
+\centering
+\caption{Frecuencia mensual de partidas y victorias}
+\label{tab:meses}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Mes} & \textbf{Partidas} & \textbf{Victorias} & \textbf{Victoria (\%)}\\
+\midrule
+Agosto 2026 & 60 & 35 & 58,33\\
+Septiembre 2026 & 343 & 188 & 54,81\\
+Octubre 2026 & 395 & 228 & 57,72\\
+Noviembre 2026 & 48 & 22 & 45,83\\
+\midrule
+\textbf{Total} & \textbf{846} & \textbf{473} & \textbf{55,91}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\begin{tabular}{@{}lcl@{}}
+\textbf{Mes} & \textbf{Frecuencia relativa} & \textbf{N}\\[0.15cm]
+Agosto & \rule{0.91cm}{0.25cm} & 60\\[0.15cm]
+Septiembre & \rule{5.21cm}{0.25cm} & 343\\[0.15cm]
+Octubre & \rule{6.0cm}{0.25cm} & 395\\[0.15cm]
+Noviembre & \rule{0.73cm}{0.25cm} & 48
+\end{tabular}
+\caption{Cantidad de partidas por mes. Agosto y noviembre son períodos incompletos.}
+\label{fig:meses}
+\end{figure}
+
+Octubre fue el mes con más registros (395), seguido de septiembre (343). La comparación de frecuencias requiere precaución porque la cobertura temporal de agosto y noviembre es parcial. Las variaciones observadas no deben atribuirse exclusivamente a cambios en la actividad competitiva.
+
+\subsection{Cobertura de las estadísticas de cruces}
+
+Para 776 partidas se registró una estadística directa del cruce de civilizaciones. En las restantes 70 se utilizó un valor neutral de 0,5 ante la ausencia de una tasa directamente aplicable.
+
+\begin{table}[htbp]
+\centering
+\caption{Procedencia de la ventaja teórica del cruce}
+\label{tab:cobertura}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Fuente} & \textbf{Partidas} & \textbf{Porcentaje}\\
+\midrule
+Estadística directa & 776 & 91,73\%\\
+Valor neutral imputado & 70 & 8,27\%\\
+\midrule
+\textbf{Total} & \textbf{846} & \textbf{100,00\%}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Origen de las estadísticas según el conjunto de modelación}
+\label{tab:cobertura_split}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Fuente} & \textbf{Entrenamiento} & \textbf{Prueba}\\
+\midrule
+Estadística directa & 592 & 184\\
+Valor neutral imputado & 0 & 70\\
+\midrule
+\textbf{Total} & \textbf{592} & \textbf{254}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Las 70 partidas con valor neutral quedaron en el conjunto de prueba. Esto implica que el modelo se ajustó con observaciones que tenían ventaja directa, pero fue evaluado en un período que también contenía cruces sin información directa. Esta diferencia de cobertura puede afectar el desempeño y se analiza por separado en los resultados.
+
+\subsection{Síntesis del análisis exploratorio}
+
+La muestra presenta concentración de observaciones en pocos perfiles, un conjunto amplio de mapas y civilizaciones, diferencias considerables de rating y un número limitado de partidas para algunos cruces. A ello se suma una diferencia de disponibilidad de estadísticas entre entrenamiento y prueba. Estos elementos orientan la interpretación de los modelos y muestran por qué no basta con comparar únicamente las métricas globales.
+
+% ============================================================
+% CAPITULO 5
+% ============================================================
+\section{Metodología}
+
+\subsection{Problema de clasificación}
+
+El objetivo fue estimar $\hat p_i=P(Y_i=1\mid X_i)$, donde $Y_i$ indica victoria o derrota y $X_i$ reúne variables conocidas o interpretadas como disponibles antes de la partida. Se compararon un modelo constante, un referente Elo y una regresión logística de dos predictores.
+
+\subsection{Variables explicativas y transformaciones}
+
+La primera variable fue la diferencia de rating de la ecuación~\eqref{eq:diferencia}, expresada en centenas de puntos:
+\begin{equation}
+x_{1i}=\frac{d_i}{100}.
+\end{equation}
+
+La segunda variable fue la ventaja teórica del enfrentamiento, $c_i$, expresada como probabilidad entre cero y uno. Se transformó en unidades de diez puntos porcentuales alrededor de 0,5:
+\begin{equation}
+x_{2i}=10(c_i-0.5).
+\end{equation}
+
+Así, un rating favorable en cien puntos equivale a $x_{1i}=1$, mientras que una ventaja teórica del 60\% corresponde a $x_{2i}=1$. Si no se contaba con una tasa aplicable, se utilizó $c_i=0.5$ y se registró su procedencia como \texttt{neutral\_imputada}.
+
+\subsection{División cronológica de entrenamiento y prueba}
+
+Los 846 registros se ordenaron por fecha de inicio. Las primeras 592 partidas se reservaron para entrenamiento y las 254 más recientes para prueba, lo que representa aproximadamente una división del 70\% y 30\%.
+
+\begin{table}[htbp]
+\centering
+\caption{División temporal de los registros}
+\label{tab:split}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Indicador} & \textbf{Entrenamiento} & \textbf{Prueba} & \textbf{Total}\\
+\midrule
+Partidas & 592 & 254 & 846\\
+Victorias & 334 & 139 & 473\\
+Derrotas & 258 & 115 & 373\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El entrenamiento incluye partidas entre el 7 de agosto y el 15 de octubre de 2026; el período de prueba comienza el 16 de octubre y termina el 4 de noviembre de 2026. Los identificadores de partidas son únicos y no existen cruces de identificadores entre ambos subconjuntos. Esta división reduce la mezcla temporal, pero no demuestra que las estadísticas agregadas de civilizaciones correspondieran exactamente al parche o al instante previo a cada encuentro.
+
+\subsection{Modelo de probabilidad constante}
+
+La referencia más sencilla asigna una probabilidad idéntica a todas las partidas, calculada solo con el entrenamiento:
+\begin{equation}
+\hat p_{0}=\frac{334}{592}\approx 0.5642.
+\end{equation}
+
+Este modelo no utiliza rating ni civilizaciones y sirve para comprobar si incorporar información adicional mejora la predicción.
+
+\subsection{Probabilidad de referencia Elo}
+
+La diferencia de puntuación entre los jugadores se transforma en la probabilidad esperada:
+\begin{equation}
+\hat p_{\mathrm{Elo},i}=\frac{1}{1+10^{-d_i/400}}.
+\end{equation}
+
+Cuando $d_i=0$ la probabilidad es 0,5; con $d_i=100$ asciende aproximadamente a 0,6401. Se utiliza esta fórmula como modelo de referencia y no como descripción exhaustiva del algoritmo interno de clasificación del videojuego.
+
+\subsection{Regresión logística con dos predictores}
+
+El tercer modelo considera simultáneamente las dos variables definidas:
+\begin{align}
+\hat p_i&=\frac{1}{1+\exp(-z_i)},\\
+z_i&=\beta_0+\beta_1x_{1i}+\beta_2x_{2i}.
+\end{align}
+
+En términos de oportunidades de victoria, la formulación es:
+\begin{equation}
+\log\!\left(\frac{p_i}{1-p_i}\right)=\beta_0+\beta_1x_{1i}+\beta_2x_{2i}.
+\end{equation}
+
+El ajuste se realizó con \texttt{LogisticRegression(max\_iter=2000)} de \texttt{scikit-learn}, a través del archivo \texttt{modelos/motor\_logistico\_70.py}. Este motor externo recibe los CSV de entrenamiento y prueba, ajusta los coeficientes con las 592 observaciones del primero y genera probabilidades para las 254 del segundo. Las métricas comparativas se calcularon sobre los resultados guardados en los archivos del proyecto.
+
+\begin{table}[htbp]
+\centering
+\caption{Coeficientes del modelo logístico ajustado}
+\label{tab:coef}
+\begin{tabular}{lr}
+\toprule
+\textbf{Parámetro} & \textbf{Estimación}\\
+\midrule
+Intercepto $\hat\beta_0$ & 0,164212\\
+Diferencia de rating $\hat\beta_1$ & 0,289441\\
+Ventaja del cruce $\hat\beta_2$ & 0,483157\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Por tanto, la ecuación ajustada fue:
+\begin{equation}
+\boxed{\hat p_i=\frac{1}{1+\exp\!\left[-\left(0.164212+0.289441x_{1i}+0.483157x_{2i}\right)\right]}}.
+\label{eq:logit_final}
+\end{equation}
+
+Los dos coeficientes explicativos son positivos: manteniendo fija la otra variable, una mayor ventaja de rating o del cruce se asocia con una probabilidad de victoria estimada mayor. Esto describe asociaciones dentro de la muestra y no demuestra efectos causales.
+
+\subsection{Ejemplo numérico de predicción}
+
+Considérese un jugador de rating 1600 con civilización francesa y un rival de rating 1500 con civilización inglesa. Para ilustrar el cálculo, el archivo de ejemplos registra $c=0.561273$ para este cruce. Entonces:
+\begin{align}
+x_1&=\frac{1600-1500}{100}=1,\\
+x_2&=10(0.561273-0.5)=0.61273,\\
+z&=0.164212+0.289441(1)+0.483157(0.61273)\approx 0.74970.
+\end{align}
+
+De ahí se obtiene una probabilidad logística aproximada de 0,6791 (67,91\%), mientras que la referencia Elo entrega 0,6401 (64,01\%). Este es un ejemplo ilustrativo de cómo cambia la predicción al incorporar el cruce, no una garantía sobre el resultado efectivo de una partida.
+
+\subsection{Métricas de evaluación}
+
+Las probabilidades se transformaron en clases mediante el umbral 0,5: $\hat Y_i=1$ si $\hat p_i\geq0.5$, y $\hat Y_i=0$ en caso contrario. La exactitud se definió como:
+\begin{equation}
+\mathrm{Exactitud}=\frac{\text{número de predicciones correctas}}{n}\times 100.
+\end{equation}
+
+La pérdida logarítmica se calculó mediante:
+\begin{equation}
+L=-\frac{1}{n}\sum_{i=1}^{n}\left[y_i\ln(\hat p_i)+(1-y_i)\ln(1-\hat p_i)\right].
+\end{equation}
+
+La exactitud evalúa aciertos al usar un umbral; la pérdida logarítmica evalúa la calidad de las probabilidades y penaliza especialmente los errores realizados con confianza elevada. Ambas medidas se calcularon sobre las mismas 254 partidas para garantizar comparabilidad.
+
+\subsection{Implementación de la consola y reproducibilidad}
+
+La version de revision de \texttt{aoe.nu} integra los comandos de consulta, preparacion, exploracion, modelacion y prediccion. Su funcionamiento debe comprobarse en Ubuntu antes de la entrega. La Tabla~\ref{tab:comandos} resume su propósito.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Comandos principales presentes en los scripts del proyecto}
+\label{tab:comandos}
+\begin{tabularx}{\textwidth}{@{}p{3.2cm}X@{}}
+\toprule
+\textbf{Comando} & \textbf{Función}\\
+\midrule
+\texttt{aoe buscar} & Busca perfiles por nombre mediante la API.\\
+\texttt{aoe perfil} & Recupera información de un jugador por \texttt{profile\_id}.\\
+\texttt{aoe top} & Consulta posiciones del ranking según los parámetros.\\
+\texttt{aoe civs} & Consulta estadísticas agregadas de civilizaciones.\\
+\texttt{aoe partidas} & Recupera el historial de encuentros de un jugador.\\
+\texttt{aoe reportar} & Demuestra un envío POST a JSONPlaceholder; no constituye una denuncia real al juego.\\
+\texttt{aoe scout} & Selecciona jugadores y descarga datos para el análisis.\\
+\texttt{aoe clean} & Filtra y depura los registros del conjunto obtenido.\\
+\texttt{aoe cruce} & Consulta cruces por la API y contrasta tasas con la base depurada (por verificar).\\
+\texttt{aoe duelo} & Recibe dos identificadores de perfil y estima Elo y regresión logística (por verificar).\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Para reproducir el ajuste desde la carpeta del proyecto puede utilizarse el comando de la documentación:
+\begin{lstlisting}
+./.venv/bin/python modelos/motor_logistico_70.py \
+  data/processed/entrenamiento_846_70.csv \
+  data/processed/prueba_846_30.csv \
+  resultados/predicciones_logistica_verificacion.csv \
+  resultados/coeficientes_logistica_verificacion.json
+\end{lstlisting}
+
+Los resultados comparativos se encuentran en los archivos de la carpeta \texttt{resultados/}, incluyendo la comparación de modelos, las probabilidades individuales y los coeficientes de la regresion. El código de revisión se consolidó en \texttt{aoe.nu}, cuya ejecucion debe verificarse sobre el equipo de entrega.
+
+\textbf{Aspectos pendientes de verificación:} la revisión de \texttt{aoe duelo} recibe dos identificadores de perfil y la de \texttt{aoe cruce} consulta la API por rango; ambas deben ejecutarse y verificarse con resultados reales. La entrega también debe aportar evidencia de las comparaciones con \texttt{curl} y \texttt{jq}, asi como del uso de GNU Parallel sobre archivos locales.
+
+% ============================================================
+% CAPITULO 6
+% ============================================================
+\section{Resultados}
+
+\subsection{Comparación general de los modelos}
+
+Se evaluaron las predicciones de los tres enfoques sobre las 254 partidas posteriores al período de entrenamiento. El conjunto de prueba contenía 139 victorias y 115 derrotas.
+
+\begin{table}[htbp]
+\centering
+\caption{Exactitud y pérdida logarítmica en 254 partidas de prueba}
+\label{tab:comparacion}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Modelo} & \textbf{Aciertos} & \textbf{Exactitud (\%)} & \textbf{Log-loss}\\
+\midrule
+Probabilidad constante & 139 & 54,72 & 0,6893\\
+Elo & 153 & 60,24 & 0,6228\\
+Regresión logística & \textbf{162} & \textbf{63,78} & \textbf{0,6206}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La regresión logística presentó la mayor exactitud con 162 aciertos, frente a 153 de Elo y 139 del modelo constante. La ventaja sobre Elo fue de 9 partidas y 3,54 puntos porcentuales; respecto del modelo constante fue de 23 partidas y 9,06 puntos porcentuales.
+
+\begin{figure}[htbp]
+\centering
+\begin{tabular}{@{}lcl@{}}
+\textbf{Modelo} & \textbf{Exactitud relativa} & \textbf{Porcentaje}\\[0.15cm]
+Constante & \rule{5.47cm}{0.25cm} & 54,72\%\\[0.15cm]
+Elo & \rule{6.02cm}{0.25cm} & 60,24\%\\[0.15cm]
+Logística & \rule{6.38cm}{0.25cm} & 63,78\%
+\end{tabular}
+\caption{Exactitud de los tres modelos en el conjunto de prueba.}
+\label{fig:exactitud}
+\end{figure}
+
+\subsection{Comparación de probabilidades mediante log-loss}
+
+Los valores de pérdida logarítmica sin redondear fueron 0,689259 para el modelo constante, 0,622762 para Elo y 0,620621 para la regresión logística. Como un valor menor es preferible, el modelo logístico fue el mejor según esta métrica global. Sin embargo, la diferencia con Elo fue de aproximadamente 0,00214, considerablemente menor que la diferencia respecto de la referencia constante.
+
+La exactitud y la pérdida logarítmica describen aspectos distintos. Una clasificación puede acertar al superar el umbral de 0,5 sin asignar una probabilidad particularmente bien calibrada. Por esta razón, la comparación debe considerar ambas métricas de manera conjunta.
+
+\subsection{Matriz de clasificación de la regresión logística}
+
+La matriz de la Tabla~\ref{tab:confusion} muestra las clases predichas por el modelo logístico utilizando el umbral 0,5.
+
+\begin{table}[htbp]
+\centering
+\caption{Matriz de clasificación del modelo logístico}
+\label{tab:confusion}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Resultado real} & \textbf{Predice victoria} & \textbf{Predice derrota}\\
+\midrule
+Victoria & 108 & 31\\
+Derrota & 61 & 54\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El modelo identificó correctamente 108 de las 139 victorias y 54 de las 115 derrotas. De los 92 errores, 61 correspondieron a derrotas clasificadas como victorias y 31 a victorias clasificadas como derrotas. La suma de los aciertos, $108+54=162$, reproduce la exactitud del 63,78\% reportada en la tabla comparativa.
+
+\subsection{Análisis según la procedencia del cruce}
+
+Para examinar si las métricas variaban con la disponibilidad de datos, se evaluaron por separado las 184 partidas con ventaja directa y las 70 con ventaja neutral imputada.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Resultados por disponibilidad de la estadística del cruce}
+\label{tab:subgrupos}
+\begin{tabular}{llrr}
+\toprule
+\textbf{Fuente} & \textbf{Modelo} & \textbf{Exactitud (\%)} & \textbf{Log-loss}\\
+\midrule
+Directa & Constante & 58,70 & 0,6790\\
+Directa & Elo & 62,50 & 0,6109\\
+Directa & Logística & 65,76 & 0,6040\\
+\midrule
+Neutral imputada & Constante & 44,29 & 0,7162\\
+Neutral imputada & Elo & 54,29 & 0,6540\\
+Neutral imputada & Logística & 58,57 & 0,6644\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Entre las partidas con estadística directa, la regresión logística alcanzó una exactitud de 65,76\% y el menor log-loss del grupo. En las partidas con valor neutral también mantuvo la mayor exactitud, 58,57\%, pero Elo obtuvo menor pérdida logarítmica (0,6540 frente a 0,6644). Esto muestra que una ventaja en aciertos no implica necesariamente una ventaja en la calidad de las probabilidades.
+
+Los subconjuntos presentan diferencias tanto en sus características como en su período de registro. Por ello, el cambio de rendimiento no puede atribuirse causalmente a la imputación sin realizar pruebas adicionales que controlen esas diferencias.
+
+\subsection{Interpretación general}
+
+La regresión logística obtuvo el mejor desempeño global en la prueba disponible, pero no alcanzó una exactitud suficiente para interpretar sus predicciones como resultados seguros. Su mejora frente a Elo fue moderada y la diferencia de log-loss resultó pequeña. Los hallazgos respaldan el uso experimental de ambas variables explicativas y, al mismo tiempo, la necesidad de ampliar las verificaciones antes de generalizar el modelo a otros jugadores y períodos.
+
+% ============================================================
+% CAPITULO 7
+% ============================================================
+\section{Discusión y limitaciones}
+
+\subsection{Representatividad de la muestra}
+
+Los diez jugadores se seleccionaron desde el ranking de Chile y sus contribuciones no fueron equilibradas: tres perfiles aportaron alrededor de dos tercios de las partidas. Por lo tanto, las tasas observadas no representan una muestra aleatoria de todos los jugadores competitivos del videojuego. Los resultados describen el período y los perfiles incluidos y podrían variar si se incorporaran otros países, niveles o modalidades.
+
+\subsection{Calidad de datos y ratings previos}
+
+La depuración retiró partidas con resultados no válidos, duplicados y observaciones sin ratings completos. Esta decisión favorece la consistencia de los cálculos, pero reduce el tamaño de la muestra. La revisión secuencial de ratings produjo 864 coincidencias en 876 transiciones, con doce discrepancias que requieren explicación adicional. No puede garantizarse que todos los historiales disponibles estén completos.
+
+\subsection{Cruces, parches y disponibilidad temporal}
+
+Las tasas de enfrentamientos proceden de estadísticas agregadas. Su relación con el parche, la liga y la fecha de cada partida debe verificarse para evitar utilizar información agregada que no hubiera estado disponible en el momento del encuentro. La imputación neutral de 70 cruces, concentrada en el conjunto de prueba, añade una fuente de diferencia entre los períodos. Aun cuando se registró la procedencia de los valores, la cobertura no fue homogénea.
+
+\subsection{Capacidad predictiva y alcance estadístico}
+
+La evaluación utilizó una sola división temporal, sin intervalos de confianza ni validación repetida. La exactitud y el log-loss muestran un rendimiento observado en 254 casos, pero no establecen una superioridad universal del modelo logístico. También sería útil evaluar calibración, desempeño por jugador, robustez por parche y desempeño sobre datos que no reutilicen las mismas estadísticas agregadas.
+
+\subsection{Reproducibilidad y requisitos técnicos}
+
+El proyecto dispone de scripts y resultados que permiten examinar las transformaciones principales. La versión revisada reúne los comandos en \texttt{aoe.nu} y adapta la interfaz de \texttt{aoe duelo} para recibir identificadores de perfil, pero aún se requiere comprobar los comandos en Ubuntu. Falta ejecutar las consultas de contraste independiente con \texttt{curl} y \texttt{jq}, documentar la salida de GNU Parallel sobre archivos locales y verificar la reconstrucción completa del pipeline.
+
+Estas tareas pendientes se distinguen expresamente de los análisis estadísticos que sí están respaldados por los archivos de resultados.
+
+% ============================================================
+% CAPITULO 8
+% ============================================================
+\section{Conclusiones}
+
+El desarrollo de \textit{Player One} permitió construir un flujo de trabajo para consultar información competitiva de \textit{Age of Empires IV}, procesar historiales y examinar el resultado de partidas desde una perspectiva estadística. La limpieza de los registros condujo a una muestra de 846 partidas, distribuidas en 473 victorias y 373 derrotas.
+
+El análisis exploratorio mostró que las observaciones se concentran en pocos jugadores y en un grupo limitado de mapas, mientras que la diferencia de rating presenta una dispersión considerable. También se identificaron cruces poco frecuentes y una cobertura de estadísticas que no fue idéntica entre entrenamiento y prueba. Estos hallazgos resultan relevantes para interpretar las predicciones y evitar conclusiones que los datos no sostienen.
+
+La separación cronológica de 592 partidas de entrenamiento y 254 de prueba permitió comparar los modelos sobre encuentros posteriores a los utilizados para el ajuste. La regresión logística, que incorporó la diferencia de rating y la ventaja teórica del cruce, logró la mayor exactitud global (63,78\%) y el menor log-loss (0,6206), superando a la referencia Elo y al modelo constante. No obstante, la diferencia de pérdida frente a Elo fue pequeña y el desempeño varió entre los subconjuntos de prueba.
+
+En consecuencia, la información de rating y cruces resultó útil para este experimento, pero las probabilidades calculadas no garantizan el resultado de encuentros futuros. Para ampliar el alcance del proyecto sería necesario incorporar jugadores más diversos, controlar la vigencia temporal de las estadísticas de la API y evaluar el modelo en otros períodos. Asimismo, antes de la entrega debe completarse la verificación de los comandos y de los requisitos de reproducibilidad indicados en la discusión.
+
+% ============================================================
+% REFERENCIAS
+% ============================================================
+\clearpage
+\begin{thebibliography}{9}
+% Referencias se anaden automaticamente con tocbibind
+\bibitem{aoe4world} AoE4 World. \emph{API de estadísticas de Age of Empires IV}. \url{https://aoe4world.com/api}. Consulta de datos realizada para el proyecto en noviembre de 2026.
+\bibitem{nushell} Nushell. \emph{Documentación oficial del lenguaje y la terminal}. \url{https://www.nushell.sh/}.
+\bibitem{polars} Polars. \emph{Documentación de la herramienta de procesamiento de datos}. \url{https://pola.rs/}.
+\bibitem{sklearn} Scikit-learn. \emph{Documentación de LogisticRegression}. \url{https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html}.
+\bibitem{elo} Elo, A. E. (1978). \emph{The Rating of Chessplayers, Past and Present}. Arco Publishing.
+\end{thebibliography}
+
+% ============================================================
+% ANEXOS
+% ============================================================
+\clearpage
+\appendix
+\section{Archivos utilizados y generados}
+
+Los resultados descritos en el informe pueden cotejarse con los siguientes archivos del proyecto:
+\begin{itemize}[leftmargin=0.8cm]
+\item \texttt{aoe.nu}: comandos principales, exploración y limpieza.
+\item \texttt{aoe.nu}: cruces y comparación de probabilidades.
+\item \texttt{modelos/motor\_logistico\_70.py}: ajuste de regresión logística.
+\item \texttt{data/processed/partidas\_modelo\_846.csv}: muestra final.
+\item \texttt{data/processed/entrenamiento\_846\_70.csv}: entrenamiento cronológico.
+\item \texttt{data/processed/prueba\_846\_30.csv}: evaluación cronológica.
+\item \texttt{resultados/clean\_resumen.json}: resumen de depuración.
+\item \texttt{resultados/coeficientes\_logistica\_846.json}: parámetros estimados.
+\item \texttt{resultados/predicciones\_modelos\_846.csv}: probabilidades por partida.
+\item \texttt{resultados/comparacion\_modelos\_846.csv}: métricas globales.
+\item \texttt{resultados/cobertura\_cruces\_prueba.csv}: estadística directa e imputada.
+\item \texttt{resultados/diferencias\_rating.csv}: discrepancias de continuidad.
+\end{itemize}
+
+\section{Ejemplos de ejecución documentados}
+
+Los siguientes ejemplos corresponden a la interfaz disponible en los archivos revisados; no sustituyen la adaptación final exigida por la pauta.
+\begin{lstlisting}
+# Desde la carpeta player-one, abrir Nushell
+overlay use ./aoe.nu
+
+# Consultas y preparacion (segun parametros del script)
+# Revisar: help "aoe buscar" y help "aoe perfil"
+
+# Cargar los comandos predictivos adicionales
+overlay use ./aoe.nu
+
+# Comparar estadisticas de civilizaciones
+ aoe cruce french english
+
+# Version revisada: usa ratings, no profile_id
+ aoe duelo 4703134 6640305 --civ1 french --civ2 english
+\end{lstlisting}
+
+\section{Verificaciones previas a la entrega}
+
+\begin{enumerate}[leftmargin=1.0cm]
+\item Conciliar la diferencia entre 959 partidas descargadas reportadas y 949 registros aplanados.
+\item Validar la clasificación de civilizaciones base y variantes frente al catálogo utilizado.
+\item Incorporar y documentar los campos exigidos de rating previo y tipos de civilización en la tabla final, si no están presentes en la versión definitiva.
+\item Confirmar los contrastes independientes con \texttt{curl} y \texttt{jq} y las transformaciones locales con GNU Parallel.
+\item Ejecutar y verificar \texttt{aoe duelo} con identificadores de perfiles y contrastar \texttt{aoe cruce} por liga y parche.
+\item Verificar la integración de los comandos en un solo archivo \texttt{.nu} y revisar las instrucciones del README.
+\item Incorporar a GitHub el código fuente del informe, su PDF, el dataset procesado y los scripts; comprobar ramas y commits de ambas integrantes.
+\end{enumerate}
+
+\end{document}
