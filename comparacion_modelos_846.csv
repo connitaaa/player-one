@@ -1,0 +1,4 @@
+modelo,partidas,exactitud_pct,log_loss
+p_constante,254,54.72,0.6892587990975992
+p_elo,254,60.24,0.6227618434122232
+p_logistica,254,63.78,0.6206213032528042

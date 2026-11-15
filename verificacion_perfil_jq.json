@@ -1,0 +1,310 @@
+{
+  "profile_id": 4703134,
+  "name": "[Real] Starflark",
+  "country": "cl",
+  "rm_solo": {
+    "rating": 2161,
+    "max_rating": 2194,
+    "max_rating_7d": 2161,
+    "max_rating_1m": 2194,
+    "rank": 27,
+    "rank_level": "conqueror_3",
+    "streak": 1,
+    "games_count": 308,
+    "wins_count": 207,
+    "losses_count": 101,
+    "disputes_count": 0,
+    "drops_count": 3,
+    "last_game_at": "2026-11-07T17:34:21.000Z",
+    "win_rate": 67.2,
+    "rating_history": {
+      "1793557015": {
+        "rating": 2161,
+        "streak": 1,
+        "wins_count": 200,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 298
+      },
+      "1793558717": {
+        "rating": 2167,
+        "streak": 2,
+        "wins_count": 201,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 299
+      },
+      "1793568348": {
+        "rating": 2181,
+        "streak": 3,
+        "wins_count": 202,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 300
+      },
+      "1793569542": {
+        "rating": 2194,
+        "streak": 4,
+        "wins_count": 203,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 301
+      },
+      "1794058588": {
+        "rating": 2158,
+        "streak": -1,
+        "wins_count": 203,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 302
+      },
+      "1794059290": {
+        "rating": 2180,
+        "streak": 1,
+        "wins_count": 204,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 303
+      },
+      "1794061059": {
+        "rating": 2182,
+        "streak": 2,
+        "wins_count": 205,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 304
+      },
+      "1794062351": {
+        "rating": 2189,
+        "streak": 3,
+        "wins_count": 206,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 305
+      },
+      "1794062497": {
+        "rating": 2173,
+        "streak": -1,
+        "wins_count": 206,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 306
+      },
+      "1794065574": {
+        "rating": 2159,
+        "streak": -2,
+        "wins_count": 206,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 307
+      },
+      "1794072861": {
+        "rating": 2161,
+        "streak": 1,
+        "wins_count": 207,
+        "drops_count": 3,
+        "disputes_count": 0,
+        "games_count": 308
+      }
+    },
+    "season": 14,
+    "civilizations": [
+      {
+        "civilization": "jin_dynasty",
+        "win_rate": 66.66666666666667,
+        "pick_rate": 69.23076923076923,
+        "games_count": 9
+      },
+      {
+        "civilization": "mongols",
+        "win_rate": 75.0,
+        "pick_rate": 30.76923076923077,
+        "games_count": 4
+      }
+    ],
+    "previous_seasons": [
+      {
+        "rating": 2073,
+        "rank": 47,
+        "rank_level": "conqueror_3",
+        "streak": 1,
+        "games_count": 468,
+        "wins_count": 312,
+        "losses_count": 156,
+        "disputes_count": 0,
+        "drops_count": 5,
+        "last_game_at": "2026-08-31T14:46:35.000Z",
+        "win_rate": 66.7,
+        "season": 13
+      },
+      {
+        "rating": 2097,
+        "rank": 31,
+        "rank_level": "conqueror_3",
+        "streak": 5,
+        "games_count": 767,
+        "wins_count": 518,
+        "losses_count": 249,
+        "disputes_count": 0,
+        "drops_count": 3,
+        "last_game_at": "2026-05-04T22:52:59.000Z",
+        "win_rate": 67.5,
+        "season": 12
+      },
+      {
+        "rating": 2002,
+        "rank": 44,
+        "rank_level": "conqueror_3",
+        "streak": 11,
+        "games_count": 424,
+        "wins_count": 255,
+        "losses_count": 169,
+        "disputes_count": 0,
+        "drops_count": 0,
+        "last_game_at": "2025-10-25T15:30:25.000Z",
+        "win_rate": 60.1,
+        "season": 11
+      },
+      {
+        "rating": 1900,
+        "rank": 54,
+        "rank_level": "conqueror_3",
+        "streak": 5,
+        "games_count": 223,
+        "wins_count": 135,
+        "losses_count": 88,
+        "disputes_count": 0,
+        "drops_count": 1,
+        "last_game_at": "2025-06-22T00:17:36.000Z",
+        "win_rate": 60.5,
+        "season": 10
+      },
+      {
+        "rating": 1699,
+        "rank": 185,
+        "rank_level": "conqueror_3",
+        "streak": -1,
+        "games_count": 671,
+        "wins_count": 365,
+        "losses_count": 306,
+        "disputes_count": 0,
+        "drops_count": 5,
+        "last_game_at": "2025-04-07T16:29:51.000Z",
+        "win_rate": 54.4,
+        "season": 9
+      },
+      {
+        "rating": 1664,
+        "rank": 170,
+        "rank_level": "conqueror_3",
+        "streak": 1,
+        "games_count": 172,
+        "wins_count": 91,
+        "losses_count": 81,
+        "disputes_count": 0,
+        "drops_count": 1,
+        "last_game_at": "2024-10-16T19:38:35.000Z",
+        "win_rate": 52.9,
+        "season": 8
+      },
+      {
+        "rating": 1796,
+        "rank": 88,
+        "rank_level": "conqueror_3",
+        "streak": 3,
+        "games_count": 202,
+        "wins_count": 111,
+        "losses_count": 91,
+        "disputes_count": 0,
+        "drops_count": 0,
+        "last_game_at": "2024-07-15T18:07:22.000Z",
+        "win_rate": 55.0,
+        "season": 7
+      },
+      {
+        "rating": 1733,
+        "rank": 112,
+        "rank_level": "conqueror_3",
+        "streak": -1,
+        "games_count": 464,
+        "wins_count": 246,
+        "losses_count": 218,
+        "disputes_count": 0,
+        "drops_count": 1,
+        "last_game_at": "2024-03-12T00:22:14.000Z",
+        "win_rate": 53.0,
+        "season": 6
+      },
+      {
+        "rating": 1687,
+        "rank": 163,
+        "rank_level": "conqueror_3",
+        "streak": -3,
+        "games_count": 444,
+        "wins_count": 242,
+        "losses_count": 202,
+        "disputes_count": 0,
+        "drops_count": 4,
+        "last_game_at": "2023-11-14T01:02:59.000Z",
+        "win_rate": 54.5,
+        "season": 5
+      },
+      {
+        "rating": 1603,
+        "rank": 202,
+        "rank_level": "conqueror_3",
+        "streak": 1,
+        "games_count": 120,
+        "wins_count": 64,
+        "losses_count": 56,
+        "disputes_count": 0,
+        "drops_count": 1,
+        "last_game_at": "2023-06-15T01:47:26.000Z",
+        "win_rate": 53.3,
+        "season": 4
+      },
+      {
+        "rating": 1611,
+        "rank": 159,
+        "rank_level": "conqueror_3",
+        "streak": 3,
+        "games_count": 84,
+        "wins_count": 46,
+        "losses_count": 38,
+        "disputes_count": 0,
+        "drops_count": 0,
+        "last_game_at": "2023-02-13T15:42:32.000Z",
+        "win_rate": 54.8,
+        "season": 3
+      },
+      {
+        "rating": 1421,
+        "rank": 363,
+        "rank_level": "conqueror_1",
+        "streak": 3,
+        "games_count": 241,
+        "wins_count": 120,
+        "losses_count": 121,
+        "disputes_count": 0,
+        "drops_count": 2,
+        "last_game_at": "2022-10-24T18:26:30.000Z",
+        "win_rate": 49.8,
+        "season": 2
+      },
+      {
+        "rating": 1536,
+        "rank": 317,
+        "rank_level": "conqueror_2",
+        "streak": 2,
+        "games_count": 161,
+        "wins_count": 86,
+        "losses_count": 75,
+        "disputes_count": 0,
+        "drops_count": 0,
+        "last_game_at": "2022-06-29T19:23:38.000Z",
+        "win_rate": 53.4,
+        "season": 1
+      }
+    ]
+  }
+}

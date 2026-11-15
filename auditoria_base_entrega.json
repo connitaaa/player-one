@@ -1,0 +1,14 @@
+{
+  "observaciones": 846,
+  "ids_unicos": 846,
+  "fuentes": {
+    "directa": 776,
+    "neutral_imputada": 70
+  },
+  "categorias_fuera_catalogo": {
+    "scots": 44,
+    "vikings": 11
+  },
+  "clasificacion": "provisional; cotejar con parche y catalogo",
+  "rating_previo": "rating registrado, interpretacion avalada parcialmente por continuidad (no probado universalmente)"
+}

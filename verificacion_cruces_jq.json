@@ -1,0 +1,14 @@
+{
+  "patch": "12182,12260,12303",
+  "rank_level": null,
+  "french_english": {
+    "win_rate": 57.39814152966404,
+    "win_count": 2409,
+    "games_count": 4193,
+    "civilization": "french",
+    "duration_median": 1601,
+    "duration_average": 1701.49845127472,
+    "other_civilization": "english",
+    "player_games_count": 4197
+  }
+}

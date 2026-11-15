@@ -1,0 +1,22 @@
+{
+  "entrenamiento": 676,
+  "prueba": 170,
+  "victorias_entrenamiento": 383,
+  "victorias_prueba": 90,
+  "predictor": "diferencia_rating_observada / 100",
+  "advertencia": "La interpretación prepartida del rating debe validarse con los historiales.",
+  "coeficiente_por_100_puntos": 0.30552,
+  "intercepto": 0.186952,
+  "logistica": {
+    "exactitud": 0.6412,
+    "auc_roc": 0.6762,
+    "brier": 0.2205,
+    "log_loss": 0.6284
+  },
+  "elo_referencia_400": {
+    "exactitud": 0.5765,
+    "auc_roc": 0.6762,
+    "brier": 0.2227,
+    "log_loss": 0.6256
+  }
+}

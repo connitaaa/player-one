@@ -1,0 +1,950 @@
+game_id,profile_id,jugador,rival_id,rival,fecha_inicio,duracion_seg,mapa,kind,leaderboard,ongoing,civ,civ_rival,resultado,rating,rating_rival,rating_diff,rating_rival_diff
+258731558,4703134,[Real] Starflark,19869372,MrEggoWaffles,2026-11-01T21:27:46.000Z,1076,Marshland,rm_1v1,rm_solo,false,mongols,scots,win,2181,1928,13,-14
+258726323,4703134,[Real] Starflark,19869372,MrEggoWaffles,2026-11-01T20:57:28.000Z,1700,Fangs,rm_1v1,rm_solo,false,jin_dynasty,scots,win,2167,1943,14,-15
+258694837,4703134,[Real] Starflark,21314439,宇宙无敌暴龙王战士,2026-11-01T18:20:56.000Z,1461,Marshland,rm_1v1,rm_solo,false,jin_dynasty,holy_roman_empire,win,2161,1609,6,-1
+258691400,4703134,[Real] Starflark,17674466,Dr.Falcon13,2026-11-01T18:04:33.000Z,742,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,chinese,win,2147,1955,14,-16
+258684131,4703134,[Real] Starflark,11018483,YZY,2026-11-01T17:35:34.000Z,1251,Cliffside,rm_1v1,rm_solo,false,jin_dynasty,vikings,loss,2174,2140,-27,26
+258682875,4703134,[Real] Starflark,11018483,YZY,2026-11-01T17:29:19.000Z,289,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,vikings,win,2152,2163,22,-23
+257425257,4703134,[Real] Starflark,19904137,Vashundol,2026-10-25T19:13:59.000Z,967,Himeyama,rm_1v1,rm_solo,false,japanese,chinese,win,2145,1790,7,-9
+257422946,4703134,[Real] Starflark,21732333,YZ,2026-10-25T18:57:40.000Z,285,Lipany,rm_1v1,rm_solo,false,mongols,byzantines,win,2128,1942,17,-18
+257401403,4703134,[Real] Starflark,11390192,MAINKASSADINM7E,2026-10-25T16:24:35.000Z,884,Himeyama,rm_1v1,rm_solo,false,japanese,jin_dynasty,win,2119,1788,9,-11
+257386103,4703134,[Real] Starflark,6787847,VIET AOE4,2026-10-25T14:50:47.000Z,1113,Lipany,rm_1v1,rm_solo,false,mongols,abbasid_dynasty,win,2112,1693,7,-8
+257382315,4703134,[Real] Starflark,11125131,Twilight,2026-10-25T14:30:23.000Z,659,Himeyama,rm_1v1,rm_solo,false,japanese,jin_dynasty,win,2106,1664,6,-8
+257290818,4703134,[Real] Starflark,13789380,Bee🦋🕷️🦇,2026-10-25T01:53:41.000Z,971,Himeyama,rm_1v1,rm_solo,false,japanese,mongols,win,2102,1577,4,-6
+257243730,4703134,[Real] Starflark,3813060,kiljardi,2026-10-24T18:08:52.000Z,1308,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,ottomans,win,2081,2025,21,-22
+257241534,4703134,[Real] Starflark,21732333,YZ,2026-10-24T17:51:42.000Z,958,Himeyama,rm_1v1,rm_solo,false,japanese,chinese,loss,2112,1909,-31,30
+257218151,4703134,[Real] Starflark,21732333,YZ,2026-10-24T15:13:16.000Z,2360,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,rus,win,2091,2006,21,-22
+257210539,4703134,[Real] Starflark,12294160,194 the northern Beast,2026-10-24T14:30:05.000Z,2222,Lipany,rm_1v1,rm_solo,false,jin_dynasty,chinese,win,2068,2093,23,-24
+257109079,4703134,[Real] Starflark,520130,Chuckfrancis,2026-10-23T22:58:16.000Z,1992,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,holy_roman_empire,win,2049,1982,19,-20
+257107569,4703134,[Real] Starflark,26264739,RiuT,2026-10-23T22:38:21.000Z,756,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,byzantines,win,2038,1852,11,-13
+257093049,4703134,[Real] Starflark,8781640,Mirari,2026-10-23T20:16:46.000Z,2248,Lipany,rm_1v1,rm_solo,false,mongols,rus,win,2024,1846,14,-15
+257090540,4703134,[Real] Starflark,8781640,Mirari,2026-10-23T19:56:05.000Z,1092,Dry Arabia,rm_1v1,rm_solo,false,mongols,jeanne_darc,win,2009,1862,15,-16
+257088476,4703134,[Real] Starflark,21732333,YZ,2026-10-23T19:39:17.000Z,950,Dry Arabia,rm_1v1,rm_solo,false,mongols,chinese,loss,2027,2134,-18,17
+256839614,4703134,[Real] Starflark,23867306,xTavşan31,2026-10-21T21:52:42.000Z,1047,Lipany,rm_1v1,rm_solo,false,mongols,knights_templar,win,2015,1777,12,-14
+256683784,4703134,[Real] Starflark,19869372,MrEggoWaffles,2026-10-20T16:27:19.000Z,2497,The Pit,rm_1v1,rm_solo,false,mongols,macedonian_dynasty,loss,2043,1963,-28,27
+256673263,4703134,[Real] Starflark,570060,SG KnockKnock,2026-10-20T15:00:56.000Z,3408,Lipany,rm_1v1,rm_solo,false,jin_dynasty,knights_templar,win,2034,1707,9,-11
+256659535,4703134,[Real] Starflark,6943917,LORD_BALDEMORT,2026-10-20T13:25:54.000Z,1545,Baltic,rm_1v1,rm_solo,false,malians,jeanne_darc,loss,2052,2259,-18,16
+256658463,4703134,[Real] Starflark,6877505,速不台的奇妙冒险,2026-10-20T13:19:03.000Z,310,The Pit,rm_1v1,rm_solo,false,mongols,golden_horde,win,2047,1575,5,-7
+256594571,4703134,[Real] Starflark,1408680,Antoxa,2026-10-19T21:56:49.000Z,4840,Himeyama,rm_1v1,rm_solo,false,mongols,english,win,2041,1582,6,-3
+256464907,4703134,[Real] Starflark,20128941,Franncow,2026-10-18T20:59:48.000Z,1171,Lipany,rm_1v1,rm_solo,false,mongols,golden_horde,win,2035,1612,6,-8
+256461854,4703134,[Real] Starflark,6776758,Maly Libi,2026-10-18T20:32:02.000Z,1359,Lipany,rm_1v1,rm_solo,false,jin_dynasty,abbasid_dynasty,win,2021,1850,14,-15
+256437625,4703134,[Real] Starflark,6969960,月見ヤチヨ,2026-10-18T17:27:51.000Z,1123,Lipany,rm_1v1,rm_solo,false,mongols,knights_templar,win,2002,1971,19,-20
+256435410,4703134,[Real] Starflark,9185986,Jambastico,2026-10-18T17:11:14.000Z,738,The Pit,rm_1v1,rm_solo,false,mongols,mongols,win,1998,1507,4,-6
+256420949,4703134,[Real] Starflark,7887498,Busenlilli,2026-10-18T15:33:07.000Z,2561,Lipany,rm_1v1,rm_solo,false,jin_dynasty,mongols,win,1980,1936,18,-20
+256321302,4703134,[Real] Starflark,20864112,大肥鱼,2026-10-18T01:49:08.000Z,1340,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,ottomans,win,1971,1706,9,-11
+256304127,4703134,[Real] Starflark,6946414,[Real] Mecro,2026-10-17T22:03:53.000Z,745,The Pit,rm_1v1,rm_solo,false,mongols,holy_roman_empire,win,1958,1791,13,-14
+256302389,4703134,[Real] Starflark,19026876,mateus111,2026-10-17T21:46:06.000Z,866,The Pit,rm_1v1,rm_solo,false,mongols,order_of_the_dragon,win,1948,1690,10,-12
+256299228,4703134,[Real] Starflark,20985555,NSG!The Lucky Noob,2026-10-17T21:16:27.000Z,1609,Dry Arabia,rm_1v1,rm_solo,false,mongols,macedonian_dynasty,loss,1968,2099,-20,18
+256279397,4703134,[Real] Starflark,2101691,AGED UtinOwns🥷👹👺,2026-10-17T18:37:39.000Z,1272,The Pit,rm_1v1,rm_solo,false,mongols,rus,win,1953,1812,15,-17
+256277020,4703134,[Real] Starflark,2942077,VES Valdy,2026-10-17T18:19:41.000Z,820,Lipany,rm_1v1,rm_solo,false,jin_dynasty,french,loss,1973,2021,-20,19
+256273940,4703134,[Real] Starflark,10665287,つよ,2026-10-17T17:56:10.000Z,831,The Pit,rm_1v1,rm_solo,false,jin_dynasty,sengoku_daimyo,win,1969,1444,4,-1
+256260122,4703134,[Real] Starflark,11953874,WSG.哔哩哔哩！干杯~,2026-10-17T16:14:06.000Z,916,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,mongols,win,1942,2009,27,-28
+256255992,4703134,[Real] Starflark,11953874,WSG.哔哩哔哩！干杯~,2026-10-17T15:47:12.000Z,1524,Dry Arabia,rm_1v1,rm_solo,false,malians,mongols,loss,1964,1988,-22,21
+256240846,4703134,[Real] Starflark,16507261,Scapolocaldo667,2026-10-17T14:18:44.000Z,1263,Himeyama,rm_1v1,rm_solo,false,mongols,golden_horde,win,1959,1497,5,-7
+256156721,4703134,[Real] Starflark,6488478,Wolfinator,2026-10-17T01:33:05.000Z,2412,The Pit,rm_1v1,rm_solo,false,knights_templar,byzantines,win,1952,1387,7,-1
+256126280,4703134,[Real] Starflark,11196869,Kreasher,2026-10-16T19:45:11.000Z,1820,The Pit,rm_1v1,rm_solo,false,malians,delhi_sultanate,loss,1986,1753,-34,34
+256123687,4703134,[Real] Starflark,11196869,Kreasher,2026-10-16T19:23:45.000Z,1140,Himeyama,rm_1v1,rm_solo,false,japanese,ayyubids,win,1973,1767,13,-14
+256121243,4703134,[Real] Starflark,7714333,Conter1593,2026-10-16T19:03:50.000Z,1081,Dry Arabia,rm_1v1,rm_solo,false,malians,byzantines,win,1965,1704,8,-10
+256112040,4703134,[Real] Starflark,11018483,YZY,2026-10-16T17:45:47.000Z,713,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,byzantines,loss,1980,2252,-15,14
+256107261,4703134,[Real] Starflark,11018483,YZY,2026-10-16T17:06:05.000Z,2241,The Pit,rm_1v1,rm_solo,false,mongols,macedonian_dynasty,loss,1996,2237,-16,15
+256105130,4703134,[Real] Starflark,11018483,YZY,2026-10-16T16:48:07.000Z,981,The Pit,rm_1v1,rm_solo,false,delhi_sultanate,mongols,loss,2013,2221,-17,16
+256090826,4703134,[Real] Starflark,898725,lostki,2026-10-16T15:04:24.000Z,1560,Himeyama,rm_1v1,rm_solo,false,japanese,jin_dynasty,win,1992,1887,21,-16
+256086651,4703134,[Real] Starflark,11989921,<梦限大>千石由乃,2026-10-16T14:37:36.000Z,1056,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,malians,win,1970,1971,22,-23
+256015232,4703134,[Real] Starflark,11390192,MAINKASSADINM7E,2026-10-16T00:05:00.000Z,1035,Lipany,rm_1v1,rm_solo,false,delhi_sultanate,ayyubids,win,1959,1716,11,-12
+256013812,4703134,[Real] Starflark,18504557,Realt1ger,2026-10-15T23:39:39.000Z,1174,Dry Arabia,rm_1v1,rm_solo,false,delhi_sultanate,rus,win,1944,1788,15,-16
+256012877,4703134,[Real] Starflark,10334593,Gursonix,2026-10-15T23:24:05.000Z,871,Dry Arabia,rm_1v1,rm_solo,false,malians,japanese,win,1937,1571,7,-8
+255887533,4703134,[Real] Starflark,21593342,ELPEPE1236,2026-10-14T22:51:46.000Z,1014,Lipany,rm_1v1,rm_solo,false,ayyubids,abbasid_dynasty,win,1931,1564,6,-8
+255885247,4703134,[Real] Starflark,10090733,Kaya,2026-10-14T22:14:57.000Z,1868,Lipany,rm_1v1,rm_solo,false,japanese,english,win,1925,1587,6,-8
+255884634,4703134,[Real] Starflark,22797165,芬达芬达不是好狗,2026-10-14T22:05:55.000Z,330,Himeyama,rm_1v1,rm_solo,false,japanese,house_of_lancaster,win,1908,1793,17,-19
+255873404,4703134,[Real] Starflark,26157234,lllllllllllllll,2026-10-14T19:54:13.000Z,580,Himeyama,rm_1v1,rm_solo,false,sengoku_daimyo,holy_roman_empire,loss,1935,1990,-27,26
+255872811,4703134,[Real] Starflark,22797165,芬达芬达不是好狗,2026-10-14T19:49:09.000Z,253,Himeyama,rm_1v1,rm_solo,false,japanese,house_of_lancaster,loss,1964,1870,-29,28
+255868882,4703134,[Real] Starflark,17669489,Mameluk Johan,2026-10-14T19:11:04.000Z,1924,Lipany,rm_1v1,rm_solo,false,jin_dynasty,knights_templar,loss,1989,1992,-25,24
+255866447,4703134,[Real] Starflark,6271507,pankz,2026-10-14T18:49:13.000Z,1006,Lipany,rm_1v1,rm_solo,false,jin_dynasty,zhu_xis_legacy,win,1980,1782,9,-11
+255767200,4703134,[Real] Starflark,8699292,邪魔,2026-10-13T23:38:49.000Z,1098,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,jin_dynasty,win,1971,1618,9,-4
+255764925,4703134,[Real] Starflark,8781640,Mirari,2026-10-13T22:59:08.000Z,2244,The Pit,rm_1v1,rm_solo,false,jin_dynasty,rus,loss,2002,1889,-31,30
+255763559,4703134,[Real] Starflark,387963,Swaggy McCheese,2026-10-13T22:36:38.000Z,1053,The Pit,rm_1v1,rm_solo,false,jin_dynasty,tughlaq_dynasty,win,1993,1685,9,-11
+255643850,4703134,[Real] Starflark,4309542,Chrysaor,2026-10-12T23:47:29.000Z,1474,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,house_of_lancaster,win,1979,1818,14,-16
+255642700,4703134,[Real] Starflark,6757911,EL.AyameSatou,2026-10-12T23:28:16.000Z,1106,The Pit,rm_1v1,rm_solo,false,jin_dynasty,macedonian_dynasty,loss,2002,2014,-23,22
+255611019,4703134,[Real] Starflark,11390192,MAINKASSADINM7E,2026-10-12T18:10:45.000Z,889,The Pit,rm_1v1,rm_solo,false,jin_dynasty,malians,win,1995,1624,7,-4
+255608558,4703134,[Real] Starflark,8699292,邪魔,2026-10-12T17:50:46.000Z,965,Lipany,rm_1v1,rm_solo,false,jin_dynasty,malians,win,1986,1588,9,-2
+255605334,4703134,[Real] Starflark,2860646,JanisCP,2026-10-12T17:24:19.000Z,1264,The Pit,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,win,1971,1822,15,-16
+255595658,4703134,[Real] Starflark,16903892,JKForsaken,2026-10-12T16:06:44.000Z,2050,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,malians,win,1961,1681,10,-11
+255585859,4703134,[Real] Starflark,11018483,YZY,2026-10-12T14:53:43.000Z,1697,Himeyama,rm_1v1,rm_solo,false,jin_dynasty,sengoku_daimyo,loss,1975,2265,-14,13
+255582553,4703134,[Real] Starflark,5364911,El Sensei,2026-10-12T14:32:00.000Z,1176,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,byzantines,loss,1983,2415,-8,6
+255578481,4703134,[Real] Starflark,23867306,xTavşan31,2026-10-12T14:04:54.000Z,910,Himeyama,rm_1v1,rm_solo,false,japanese,french,win,1968,1816,15,-16
+255572451,4703134,[Real] Starflark,6665750,雨落,2026-10-12T13:26:17.000Z,1498,Lipany,rm_1v1,rm_solo,false,delhi_sultanate,english,win,1935,2130,33,-33
+255570109,4703134,[Real] Starflark,6665750,雨落,2026-10-12T13:10:22.000Z,840,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,english,loss,1951,2116,-16,14
+255524351,4703134,[Real] Starflark,22121720,切克耶夫,2026-10-12T03:15:13.000Z,345,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,chinese,win,1941,1718,10,-12
+255522434,4703134,[Real] Starflark,17507493,I No？I Yes！Ru J Sang,2026-10-12T02:44:50.000Z,1183,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,zhu_xis_legacy,win,1923,1898,18,-19
+255498804,4703134,[Real] Starflark,7054390,Gorat,2026-10-11T21:15:37.000Z,1081,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,tughlaq_dynasty,loss,1962,1624,-39,39
+255474232,4703134,[Real] Starflark,11017474,Yabgu,2026-10-11T17:58:11.000Z,1085,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,golden_horde,win,1959,1345,3,-5
+255444133,4703134,[Real] Starflark,17890740,知小星,2026-10-11T14:37:07.000Z,1634,Himeyama,rm_1v1,rm_solo,false,mongols,english,loss,1994,1146,-35,68
+255441145,4703134,[Real] Starflark,4309542,Chrysaor,2026-10-11T14:21:02.000Z,581,Lipany,rm_1v1,rm_solo,false,jin_dynasty,macedonian_dynasty,win,1978,1839,16,-17
+255433017,4703134,[Real] Starflark,25429502,Lemais_,2026-10-11T13:37:22.000Z,2139,Lipany,rm_1v1,rm_solo,false,sengoku_daimyo,french,loss,2005,1948,-27,26
+255429619,4703134,[Real] Starflark,13166986,明明,2026-10-11T13:19:20.000Z,998,Lipany,rm_1v1,rm_solo,false,ayyubids,tughlaq_dynasty,win,1996,1503,9,-1
+255425182,4703134,[Real] Starflark,11953874,WSG.哔哩哔哩！干杯~,2026-10-11T12:54:20.000Z,1365,Himeyama,rm_1v1,rm_solo,false,abbasid_dynasty,mongols,loss,2020,2016,-24,23
+255329490,4703134,[Real] Starflark,23129337,Ｉ❤人類,2026-10-10T21:15:41.000Z,526,Himeyama,rm_1v1,rm_solo,false,abbasid_dynasty,chinese,win,2015,1470,5,-1
+255325903,4703134,[Real] Starflark,11018483,YZY,2026-10-10T20:43:17.000Z,1709,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,house_of_lancaster,loss,2033,2187,-18,17
+255324057,4703134,[Real] Starflark,19026876,mateus111,2026-10-10T20:27:37.000Z,861,Himeyama,rm_1v1,rm_solo,false,ayyubids,order_of_the_dragon,win,2023,1783,10,-12
+255301135,4703134,[Real] Starflark,620274,[BuS] Bum9,2026-10-10T17:29:03.000Z,1386,Lipany,rm_1v1,rm_solo,false,ayyubids,rus,win,1999,1983,24,-25
+255299118,4703134,[Real] Starflark,11196869,Kreasher,2026-10-10T17:13:21.000Z,724,The Pit,rm_1v1,rm_solo,false,delhi_sultanate,rus,win,1985,1795,14,-15
+255288702,4703134,[Real] Starflark,2606764,Kaiser Johan,2026-10-10T15:58:47.000Z,1566,King of the Hill,rm_1v1,rm_solo,false,abbasid_dynasty,english,loss,2005,2070,-20,19
+255279148,4703134,[Real] Starflark,898725,lostki,2026-10-10T15:01:47.000Z,1224,Dry Arabia,rm_1v1,rm_solo,false,malians,sengoku_daimyo,win,1984,1813,21,-13
+255268478,4703134,[Real] Starflark,6943917,LORD_BALDEMORT,2026-10-10T14:03:51.000Z,1346,Himeyama,rm_1v1,rm_solo,false,abbasid_dynasty,holy_roman_empire,win,1951,2238,33,-33
+255263653,4703134,[Real] Starflark,24487574,哈气的哈压酷奶龙,2026-10-10T13:37:58.000Z,1239,Dry Arabia,rm_1v1,rm_solo,false,ottomans,jin_dynasty,win,1928,1870,23,-18
+255197187,4703134,[Real] Starflark,13789380,Bee🦋🕷️🦇,2026-10-10T02:14:01.000Z,104,Dry Arabia,rm_1v1,rm_solo,false,malians,french,win,1921,1603,7,-9
+255196129,4703134,[Real] Starflark,16276193,一般路过的白丝萝莉猫娘喵♥~~,2026-10-10T02:00:09.000Z,660,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,mongols,win,1913,1630,8,-9
+255194456,4703134,[Real] Starflark,1525046,会跑的经验,2026-10-10T01:37:37.000Z,1178,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,tughlaq_dynasty,win,1906,1617,7,-8
+255181761,4703134,[Real] Starflark,3043343,|HTD| ele[xus],2026-10-09T22:37:42.000Z,1167,Himeyama,rm_1v1,rm_solo,false,ayyubids,mongols,win,1899,1603,7,-8
+255180646,4703134,[Real] Starflark,8781640,Mirari,2026-10-09T22:23:37.000Z,620,King of the Hill,rm_1v1,rm_solo,false,ottomans,macedonian_dynasty,win,1882,1798,17,-18
+255178626,4703134,[Real] Starflark,6943917,LORD_BALDEMORT,2026-10-09T22:00:40.000Z,1295,Dry Arabia,rm_1v1,rm_solo,false,ottomans,chinese,loss,1894,2281,-12,10
+255166181,4703134,[Real] Starflark,24058080,The Cold Goddess,2026-10-09T20:03:40.000Z,1323,King of the Hill,rm_1v1,rm_solo,false,malians,house_of_lancaster,loss,1937,1396,-43,43
+255163665,4703134,[Real] Starflark,20503489,AhShitHereWeGoAgain,2026-10-09T19:41:54.000Z,1042,King of the Hill,rm_1v1,rm_solo,false,knights_templar,byzantines,loss,1972,1722,-35,35
+255160560,4703134,[Real] Starflark,20503489,AhShitHereWeGoAgain,2026-10-09T19:15:22.000Z,1457,Himeyama,rm_1v1,rm_solo,false,ayyubids,byzantines,win,1960,1735,12,-13
+255152072,4703134,[Real] Starflark,7648808,大象佬,2026-10-09T18:03:03.000Z,1026,Dry Arabia,rm_1v1,rm_solo,false,malians,abbasid_dynasty,win,1954,1549,6,-8
+255148556,4703134,[Real] Starflark,2860646,JanisCP,2026-10-09T17:31:10.000Z,1574,Baltic,rm_1v1,rm_solo,false,knights_templar,knights_templar,win,1937,1851,17,-18
+255141376,4703134,[Real] Starflark,24208532,",",2026-10-09T16:28:45.000Z,1366,King of the Hill,rm_1v1,rm_solo,false,knights_templar,tughlaq_dynasty,loss,1949,2255,-12,10
+255139573,4703134,[Real] Starflark,21457215,🐒,2026-10-09T16:13:18.000Z,687,King of the Hill,rm_1v1,rm_solo,false,knights_templar,macedonian_dynasty,win,1943,1553,6,-8
+254663775,4703134,[Real] Starflark,16676360,新晓七,2026-10-05T20:54:18.000Z,692,Baltic,rm_1v1,rm_solo,false,knights_templar,knights_templar,win,1938,1479,5,-6
+254660927,4703134,[Real] Starflark,21170971,Talouc,2026-10-05T20:24:38.000Z,1560,The Pit,rm_1v1,rm_solo,false,malians,abbasid_dynasty,loss,1970,1826,-32,31
+254644646,4703134,[Real] Starflark,2052642,Birnensaft,2026-10-05T18:01:55.000Z,1611,Dry Arabia,rm_1v1,rm_solo,false,malians,english,win,1957,1803,13,-15
+254642041,4703134,[Real] Starflark,1270139,hacker,2026-10-05T17:38:47.000Z,1276,Dry Arabia,rm_1v1,rm_solo,false,malians,malians,loss,1970,2194,-13,11
+254639308,4703134,[Real] Starflark,2052642,Birnensaft,2026-10-05T17:16:21.000Z,1128,Lipany,rm_1v1,rm_solo,false,malians,english,win,1957,1790,13,-15
+254623397,4703134,[Real] Starflark,9298419,VES Numudan,2026-10-05T15:10:08.000Z,1249,Dry Arabia,rm_1v1,rm_solo,false,malians,knights_templar,loss,1970,2171,-13,11
+254620497,4703134,[Real] Starflark,21515277,the luckiest,2026-10-05T14:48:55.000Z,827,Himeyama,rm_1v1,rm_solo,false,mongols,house_of_lancaster,loss,1993,2042,-23,22
+254616337,4703134,[Real] Starflark,6877505,速不台的奇妙冒险,2026-10-05T14:19:04.000Z,1593,Lipany,rm_1v1,rm_solo,false,ayyubids,mongols,win,1986,1619,7,-8
+254612841,4703134,[Real] Starflark,9926116,Miao,2026-10-05T13:54:13.000Z,1283,Dry Arabia,rm_1v1,rm_solo,false,malians,order_of_the_dragon,win,1977,1658,9,-6
+254609380,4703134,[Real] Starflark,21515277,the luckiest,2026-10-05T13:28:54.000Z,1078,Dry Arabia,rm_1v1,rm_solo,false,malians,house_of_lancaster,loss,2001,2039,-24,23
+254292496,4703134,[Real] Starflark,12294160,194 the northern Beast,2026-10-03T12:16:53.000Z,544,Baltic,rm_1v1,rm_solo,false,knights_templar,jin_dynasty,win,1975,2097,26,-27
+254287357,4703134,[Real] Starflark,15244998,何以为我,2026-10-03T11:41:25.000Z,1464,Dry Arabia,rm_1v1,rm_solo,false,malians,knights_templar,win,1955,,20,
+254211678,4703134,[Real] Starflark,8840075,8jardi,2026-10-02T21:12:12.000Z,1298,Himeyama,rm_1v1,rm_solo,false,ayyubids,japanese,win,1923,2124,32,-33
+254206562,4703134,[Real] Starflark,25429502,Lemais_,2026-10-02T20:25:36.000Z,2133,Lipany,rm_1v1,rm_solo,false,delhi_sultanate,zhu_xis_legacy,loss,1948,1914,-25,25
+254203876,4703134,[Real] Starflark,1978249,[KGB] Leozim_,2026-10-02T20:02:11.000Z,521,Dry Arabia,rm_1v1,rm_solo,false,malians,english,win,1940,1637,8,-10
+254201532,4703134,[Real] Starflark,15591987,英格兰小鸡,2026-10-02T19:41:31.000Z,883,Himeyama,rm_1v1,rm_solo,false,golden_horde,japanese,win,1926,1758,14,-15
+254065301,4703134,[Real] Starflark,6757911,EL.AyameSatou,2026-10-01T19:12:53.000Z,979,Dry Arabia,rm_1v1,rm_solo,false,ayyubids,byzantines,win,1897,2015,29,-30
+254059895,4703134,[Real] Starflark,6757911,EL.AyameSatou,2026-10-01T18:27:08.000Z,2631,Lipany,rm_1v1,rm_solo,false,french,byzantines,loss,1917,1996,-20,19
+254056811,4703134,[Real] Starflark,1037542,Mercedes-Benz W126,2026-10-01T18:00:28.000Z,1537,Dry Arabia,rm_1v1,rm_solo,false,french,mongols,loss,1949,1764,-32,36
+254055313,4703134,[Real] Starflark,3509463,Nuage,2026-10-01T17:47:18.000Z,614,Himeyama,rm_1v1,rm_solo,false,golden_horde,golden_horde,win,1940,1623,9,-5
+253957764,4703134,[Real] Starflark,8781640,Mirari,2026-09-30T23:46:25.000Z,1515,Gorge,rm_1v1,rm_solo,false,mongols,rus,loss,1974,1770,-34,33
+253956812,4703134,[Real] Starflark,8781640,Mirari,2026-09-30T23:30:29.000Z,837,West Lake,rm_1v1,rm_solo,false,macedonian_dynasty,sengoku_daimyo,win,1960,1785,14,-15
+253955370,4703134,[Real] Starflark,6588513,Ivanoha,2026-09-30T23:06:52.000Z,1108,Dry Arabia,rm_1v1,rm_solo,false,malians,tughlaq_dynasty,win,1947,1817,13,-14
+253828710,4703134,[Real] Starflark,6640305,ape,2026-09-29T22:42:29.000Z,2297,West Lake,rm_1v1,rm_solo,false,malians,golden_horde,win,1938,1665,9,-11
+253716840,4703134,[Real] Starflark,769187,VES Myriad,2026-09-29T00:50:33.000Z,1288,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,french,loss,1957,2078,-19,18
+253715731,4703134,[Real] Starflark,769187,VES Myriad,2026-09-29T00:32:29.000Z,986,Gorge,rm_1v1,rm_solo,false,golden_horde,chinese,loss,1978,2058,-21,20
+253685412,4703134,[Real] Starflark,8183755,FünfmalViereck,2026-09-28T18:23:30.000Z,1581,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,house_of_lancaster,win,1954,1974,24,-25
+253682742,4703134,[Real] Starflark,8183755,FünfmalViereck,2026-09-28T18:00:46.000Z,1212,Gorge,rm_1v1,rm_solo,false,delhi_sultanate,house_of_lancaster,win,1928,2001,26,-27
+253679677,4703134,[Real] Starflark,20898732,Lapis,2026-09-28T17:32:54.000Z,1123,High View,rm_1v1,rm_solo,false,macedonian_dynasty,rus,win,1916,1636,12,-6
+253676945,4703134,[Real] Starflark,8362827,0island,2026-09-28T17:08:47.000Z,1021,Gorge,rm_1v1,rm_solo,false,mongols,chinese,win,1912,1410,4,-5
+253673173,4703134,[Real] Starflark,12294160,194 the northern Beast,2026-09-28T16:34:20.000Z,1523,High View,rm_1v1,rm_solo,false,malians,chinese,win,1881,2097,31,-32
+253662918,4703134,[Real] Starflark,6640305,ape,2026-09-28T15:09:19.000Z,1096,West Lake,rm_1v1,rm_solo,false,jin_dynasty,golden_horde,loss,1918,1632,-37,42
+253582880,4703134,[Real] Starflark,21515277,the luckiest,2026-09-27T21:54:48.000Z,803,Dry Arabia,rm_1v1,rm_solo,false,ayyubids,malians,loss,1943,1913,-25,24
+253582053,4703134,[Real] Starflark,10881495,F72,2026-09-27T21:43:59.000Z,581,High View,rm_1v1,rm_solo,false,ayyubids,order_of_the_dragon,win,1936,1565,7,-3
+253580454,4703134,[Real] Starflark,20619674,キュウべえ,2026-09-27T21:25:38.000Z,873,High View,rm_1v1,rm_solo,false,knights_templar,macedonian_dynasty,loss,1951,2143,-15,14
+253577072,4703134,[Real] Starflark,520130,Chuckfrancis,2026-09-27T20:49:42.000Z,2024,High View,rm_1v1,rm_solo,false,golden_horde,order_of_the_dragon,win,1935,1799,16,-18
+253575317,4703134,[Real] Starflark,520130,Chuckfrancis,2026-09-27T20:33:03.000Z,857,High View,rm_1v1,rm_solo,false,knights_templar,abbasid_dynasty,win,1917,1818,18,-19
+253568280,4703134,[Real] Starflark,11018483,YZY,2026-09-27T19:33:14.000Z,705,Gorge,rm_1v1,rm_solo,false,delhi_sultanate,ayyubids,loss,1933,2148,-16,14
+253566354,4703134,[Real] Starflark,21170971,Talouc,2026-09-27T19:17:45.000Z,879,High View,rm_1v1,rm_solo,false,jin_dynasty,byzantines,loss,1963,1856,-30,29
+253562387,4703134,[Real] Starflark,16794502,JIF Music,2026-09-27T18:47:12.000Z,1674,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,french,loss,1981,2033,-18,21
+253543424,4703134,[Real] Starflark,11390192,MAINKASSADINM7E,2026-09-27T16:20:57.000Z,2063,Gorge,rm_1v1,rm_solo,false,knights_templar,mongols,win,1970,1784,11,-13
+253537666,4703134,[Real] Starflark,25930698,9bb,2026-09-27T15:40:57.000Z,2140,High View,rm_1v1,rm_solo,false,mongols,jin_dynasty,loss,2003,1810,-33,32
+253535263,4703134,[Real] Starflark,25930698,9bb,2026-09-27T15:25:33.000Z,709,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,jin_dynasty,win,1988,1826,15,-16
+253434230,4703134,[Real] Starflark,11018483,YZY,2026-09-27T00:09:12.000Z,1513,High View,rm_1v1,rm_solo,false,malians,english,loss,2004,2203,-16,15
+253432421,4703134,[Real] Starflark,11018483,YZY,2026-09-26T23:42:27.000Z,1486,Gorge,rm_1v1,rm_solo,false,knights_templar,ayyubids,win,1971,2237,33,-34
+253431098,4703134,[Real] Starflark,11018483,YZY,2026-09-26T23:23:01.000Z,1027,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,order_of_the_dragon,loss,1986,2224,-15,13
+253429792,4703134,[Real] Starflark,11018483,YZY,2026-09-26T23:04:15.000Z,1036,West Lake,rm_1v1,rm_solo,false,delhi_sultanate,order_of_the_dragon,win,1951,2259,35,-35
+253419172,4703134,[Real] Starflark,8442107,Wam01,2026-09-26T21:02:49.000Z,898,West Lake,rm_1v1,rm_solo,false,macedonian_dynasty,french,loss,1963,2026,-12,22
+253417280,4703134,[Real] Starflark,6757911,EL.AyameSatou,2026-09-26T20:45:42.000Z,986,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,french,loss,1985,1996,-22,21
+253404486,4703134,[Real] Starflark,8354416,EL.loueMT,2026-09-26T18:55:28.000Z,768,Gorge,rm_1v1,rm_solo,false,jin_dynasty,french,loss,1997,2202,-12,11
+253402425,4703134,[Real] Starflark,20503489,AhShitHereWeGoAgain,2026-09-26T18:38:47.000Z,863,High View,rm_1v1,rm_solo,false,jin_dynasty,chinese,win,1985,1766,,
+253398193,4703134,[Real] Starflark,17674466,Dr.Falcon13,2026-09-26T18:04:57.000Z,1925,West Lake,rm_1v1,rm_solo,false,jin_dynasty,malians,loss,2017,1848,-32,32
+253256813,4703134,[Real] Starflark,11962132,迪兹坚果,2026-09-25T19:50:26.000Z,1599,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,mongols,loss,2041,2155,-24,23
+253253948,4703134,[Real] Starflark,11962132,迪兹坚果,2026-09-25T19:25:12.000Z,1441,West Lake,rm_1v1,rm_solo,false,tughlaq_dynasty,rus,loss,2067,2130,-26,25
+253251814,4703134,[Real] Starflark,11962132,迪兹坚果,2026-09-25T19:05:56.000Z,1094,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,golden_horde,win,2044,2154,23,-24
+253249835,4703134,[Real] Starflark,25930698,9bb,2026-09-25T18:47:13.000Z,1067,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,jin_dynasty,loss,2078,1833,-34,34
+253138971,4703134,[Real] Starflark,10334593,Gursonix,2026-09-24T23:33:09.000Z,852,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,house_of_lancaster,win,2070,1738,8,-10
+253138303,4703134,[Real] Starflark,570060,SG KnockKnock,2026-09-24T23:22:31.000Z,435,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,house_of_lancaster,win,2064,1505,6,-1
+253137057,4703134,[Real] Starflark,4309542,Chrysaor,2026-09-24T23:02:15.000Z,835,Archipelago,rm_1v1,rm_solo,false,knights_templar,house_of_lancaster,win,2052,1796,12,-14
+253135979,4703134,[Real] Starflark,10334593,Gursonix,2026-09-24T22:44:22.000Z,961,High View,rm_1v1,rm_solo,false,macedonian_dynasty,sengoku_daimyo,win,2044,1727,8,-10
+253015102,4703134,[Real] Starflark,3587408,mebak,2026-09-23T23:45:22.000Z,989,High View,rm_1v1,rm_solo,false,macedonian_dynasty,jin_dynasty,win,2041,1407,3,-5
+253013376,4703134,[Real] Starflark,3587408,mebak,2026-09-23T23:15:21.000Z,1545,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,jin_dynasty,win,2038,1412,3,-5
+252890938,4703134,[Real] Starflark,9822255,Maslak191,2026-09-22T23:13:03.000Z,992,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,zhu_xis_legacy,win,2032,1567,6,-1
+252767177,4703134,[Real] Starflark,3632854,HADES,2026-09-21T23:35:11.000Z,1094,West Lake,rm_1v1,rm_solo,false,macedonian_dynasty,zhu_xis_legacy,win,2028,1423,4,-1
+252765883,4703134,[Real] Starflark,20128941,Franncow,2026-09-21T23:13:21.000Z,1004,High View,rm_1v1,rm_solo,false,macedonian_dynasty,french,win,2019,1714,9,-10
+252764540,4703134,[Real] Starflark,12359841,Caiofora,2026-09-21T22:50:34.000Z,1162,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,house_of_lancaster,win,2016,1329,3,-1
+252707906,4703134,[Real] Starflark,11989921,<梦限大>千石由乃,2026-09-21T14:00:16.000Z,956,High View,rm_1v1,rm_solo,false,macedonian_dynasty,malians,win,2000,1842,16,-17
+252704778,4703134,[Real] Starflark,8354416,EL.loueMT,2026-09-21T13:38:45.000Z,1186,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,rus,loss,2013,2165,-13,12
+252704449,4703134,[Real] Starflark,8354416,EL.loueMT,2026-09-21T13:36:41.000Z,34,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,macedonian_dynasty,win,1977,2202,36,-37
+252639757,4703134,[Real] Starflark,12148530,bbp,2026-09-20T22:29:28.000Z,1440,Gorge,rm_1v1,rm_solo,false,mongols,house_of_lancaster,loss,2008,1836,-31,35
+252637126,4703134,[Real] Starflark,19473260,やがて君になる,2026-09-20T21:54:51.000Z,1755,West Lake,rm_1v1,rm_solo,false,macedonian_dynasty,chinese,win,1998,1749,10,-12
+252635341,4703134,[Real] Starflark,12148530,bbp,2026-09-20T21:33:04.000Z,572,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,house_of_lancaster,win,1979,1883,19,-20
+252633192,4703134,[Real] Starflark,7614140,VES Msn.bodog,2026-09-20T21:09:50.000Z,1289,Dry Arabia,rm_1v1,rm_solo,false,sengoku_daimyo,tughlaq_dynasty,loss,1999,2022,-20,19
+252491804,4703134,[Real] Starflark,8680664,Tryon,2026-09-19T23:28:40.000Z,895,West Lake,rm_1v1,rm_solo,false,golden_horde,ayyubids,win,1990,1679,9,-11
+252490094,4703134,[Real] Starflark,11040949,Real Alukar,2026-09-19T23:05:28.000Z,1102,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,macedonian_dynasty,win,1972,1732,18,-9
+252489076,4703134,[Real] Starflark,8680664,Tryon,2026-09-19T22:51:47.000Z,698,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,ayyubids,win,1961,1726,11,-13
+252406515,4703134,[Real] Starflark,23488978,InnocenCe,2026-09-19T12:06:00.000Z,2452,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,house_of_lancaster,loss,1982,2034,-21,20
+252305450,4703134,[Real] Starflark,24841416,RolloIV,2026-09-18T18:14:16.000Z,1674,High View,rm_1v1,rm_solo,false,zhu_xis_legacy,order_of_the_dragon,win,1977,1584,5,-7
+252279805,4703134,[Real] Starflark,21593342,ELPEPE1236,2026-09-18T14:51:11.000Z,1105,Snake River,rm_1v1,rm_solo,false,golden_horde,english,win,1970,1599,7,-8
+252276164,4703134,[Real] Starflark,8840075,8jardi,2026-09-18T14:28:15.000Z,1002,Snake River,rm_1v1,rm_solo,false,golden_horde,house_of_lancaster,loss,1984,2209,-14,13
+252272411,4703134,[Real] Starflark,24400710,无远弗届,2026-09-18T14:04:28.000Z,1381,Flankwoods,rm_1v1,rm_solo,false,jeanne_darc,byzantines,loss,2020,1776,-36,35
+252195826,4703134,[Real] Starflark,520130,Chuckfrancis,2026-09-17T21:05:35.000Z,1216,Gorge,rm_1v1,rm_solo,false,golden_horde,house_of_lancaster,win,1998,1986,22,-23
+252194579,4703134,[Real] Starflark,22861128,Kelhasur,2026-09-17T20:50:36.000Z,814,Archipelago,rm_1v1,rm_solo,false,knights_templar,house_of_lancaster,win,1988,1757,10,-12
+252182301,4703134,[Real] Starflark,2347873,SAS,2026-09-17T18:53:49.000Z,2147,Gorge,rm_1v1,rm_solo,false,golden_horde,jin_dynasty,win,1956,2140,32,-32
+252180101,4703134,[Real] Starflark,17669489,Mameluk Johan,2026-09-17T18:34:22.000Z,1023,Hideout,rm_1v1,rm_solo,false,golden_horde,abbasid_dynasty,win,1931,1974,25,-26
+252168554,4703134,[Real] Starflark,3877183,LaSh,2026-09-17T16:44:42.000Z,1869,Gorge,rm_1v1,rm_solo,false,golden_horde,ottomans,win,1913,1811,18,-19
+252164074,4703134,[Real] Starflark,14611083,Deniskya,2026-09-17T16:05:05.000Z,2299,Hideout,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,loss,1944,1798,-31,31
+252162022,4703134,[Real] Starflark,11960419,muszkieter,2026-09-17T15:46:33.000Z,974,Hidden Valley,rm_1v1,rm_solo,false,malians,macedonian_dynasty,win,1935,1659,9,-10
+252154196,4703134,[Real] Starflark,8304908,Bitcousin,2026-09-17T14:44:05.000Z,1185,Hidden Valley,rm_1v1,rm_solo,false,golden_horde,house_of_lancaster,loss,1968,1771,-33,33
+252152131,4703134,[Real] Starflark,8840075,8jardi,2026-09-17T14:29:27.000Z,236,Snake River,rm_1v1,rm_solo,false,golden_horde,golden_horde,loss,,,,
+252149033,4703134,[Real] Starflark,8840075,8jardi,2026-09-17T14:07:12.000Z,1245,Snake River,rm_1v1,rm_solo,false,golden_horde,chinese,loss,2002,2090,,
+252145655,4703134,[Real] Starflark,6943917,LORD_BALDEMORT,2026-09-17T13:42:47.000Z,716,Archipelago,rm_1v1,rm_solo,false,macedonian_dynasty,house_of_lancaster,loss,2020,2205,-18,17
+252080378,4703134,[Real] Starflark,10094923,我去不早说,2026-09-16T22:04:30.000Z,800,Gorge,rm_1v1,rm_solo,false,golden_horde,chinese,win,2014,1246,6,-1
+252079210,4703134,[Real] Starflark,10334593,Gursonix,2026-09-16T21:47:49.000Z,742,Gorge,rm_1v1,rm_solo,false,golden_horde,delhi_sultanate,win,2009,1521,5,-2
+258742862,11040949,Real Alukar,19869372,MrEggoWaffles,2026-11-01T22:43:13.000Z,1255,Fangs,rm_1v1,rm_solo,false,holy_roman_empire,scots,win,1783,1938,34,-28
+258740528,11040949,Real Alukar,17669038,xTavşan,2026-11-01T22:25:57.000Z,907,Dry Arabia,rm_1v1,rm_solo,false,japanese,vikings,loss,1794,1988,-11,15
+258737497,11040949,Real Alukar,17669038,xTavşan,2026-11-01T22:05:21.000Z,1129,Fangs,rm_1v1,rm_solo,false,chinese,vikings,loss,1806,1971,-12,17
+258735355,11040949,Real Alukar,17669038,xTavşan,2026-11-01T21:50:50.000Z,788,Fangs,rm_1v1,rm_solo,false,delhi_sultanate,vikings,loss,1819,1953,-13,18
+258731329,11040949,Real Alukar,17669038,xTavşan,2026-11-01T21:26:13.000Z,1378,Dry Arabia,rm_1v1,rm_solo,false,scots,vikings,loss,1834,1933,-15,20
+258724978,11040949,Real Alukar,17669038,xTavşan,2026-11-01T20:50:02.000Z,1015,Cliffside,rm_1v1,rm_solo,false,scots,vikings,win,1798,1998,36,-31
+258399849,11040949,Real Alukar,8840075,8jardi,2026-10-31T15:14:20.000Z,1224,Himeyama,rm_1v1,rm_solo,false,scots,jin_dynasty,loss,1808,2006,-10,16
+258393069,11040949,Real Alukar,2938977,Sadman,2026-10-31T14:49:12.000Z,1340,Flankwoods,rm_1v1,rm_solo,false,scots,vikings,win,1785,1623,23,-8
+258371065,11040949,Real Alukar,11125131,Twilight,2026-10-31T13:30:28.000Z,3198,Dry Arabia,rm_1v1,rm_solo,false,jin_dynasty,vikings,win,1765,1645,20,-14
+257448784,11040949,Real Alukar,20070428,输了就一个月不黑狼神,2026-10-25T22:49:06.000Z,1198,Dry Arabia,rm_1v1,rm_solo,false,mongols,knights_templar,win,1744,1672,21,-15
+256481799,11040949,Real Alukar,11018483,YZY,2026-10-19T00:49:39.000Z,1214,Flankwoods,rm_1v1,rm_solo,false,macedonian_dynasty,order_of_the_dragon,win,1697,2264,47,-38
+256480118,11040949,Real Alukar,11018483,YZY,2026-10-19T00:23:11.000Z,1420,Dry Arabia,rm_1v1,rm_solo,false,delhi_sultanate,english,loss,1698,2255,-1,9
+256479054,11040949,Real Alukar,20128941,Franncow,2026-10-19T00:06:38.000Z,861,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1725,1612,-27,36
+252572112,11040949,Real Alukar,16730738,crashBoy,2026-09-20T13:37:18.000Z,809,West Lake,rm_1v1,rm_solo,false,mongols,order_of_the_dragon,win,1700,1718,25,-16
+252566210,11040949,Real Alukar,4188347,塔狗仙人,2026-09-20T13:03:13.000Z,1260,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,jin_dynasty,loss,1723,1695,-23,32
+252490094,11040949,Real Alukar,4703134,[Real] Starflark,2026-09-19T23:05:28.000Z,1102,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,macedonian_dynasty,loss,1732,1972,-9,18
+252488870,11040949,Real Alukar,19731864,Молчаливый БОБ,2026-09-19T22:48:47.000Z,809,Flankwoods,rm_1v1,rm_solo,false,japanese,order_of_the_dragon,win,1717,1342,15,-1
+252486367,11040949,Real Alukar,10334593,Gursonix,2026-09-19T22:15:54.000Z,1502,Dry Arabia,rm_1v1,rm_solo,false,japanese,delhi_sultanate,win,1694,1638,23,-12
+252461445,11040949,Real Alukar,9298419,VES Numudan,2026-09-19T18:31:26.000Z,1044,High View,rm_1v1,rm_solo,false,macedonian_dynasty,knights_templar,loss,1695,1985,-1,20
+252407470,11040949,Real Alukar,8840075,8jardi,2026-09-19T12:12:23.000Z,3168,High View,rm_1v1,rm_solo,false,macedonian_dynasty,chinese,win,1645,2141,50,-37
+252337842,11040949,Real Alukar,19473260,やがて君になる,2026-09-18T23:43:47.000Z,1709,West Lake,rm_1v1,rm_solo,false,macedonian_dynasty,chinese,win,1610,1853,35,-22
+252336840,11040949,Real Alukar,6924135,Corvinus1,2026-09-18T23:28:46.000Z,804,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,loss,1611,2405,-1,1
+252253823,11040949,Real Alukar,664580,Sun Tzowel,2026-09-18T11:51:41.000Z,3271,High View,rm_1v1,rm_solo,false,macedonian_dynasty,holy_roman_empire,win,1582,1689,29,-15
+252253213,11040949,Real Alukar,1199378,翡冷翠,2026-09-18T11:46:25.000Z,112,High View,rm_1v1,rm_solo,false,macedonian_dynasty,english,win,1558,1526,24,-10
+252211751,11040949,Real Alukar,10988018,Con Mèo Ngu Ngốc ♥,2026-09-18T01:19:20.000Z,,Flankwoods,rm_1v1,rm_solo,false,abbasid_dynasty,english,,1558,1348,,
+252203235,11040949,Real Alukar,23036377,【GAUL】Tartine Farouche,2026-09-17T22:50:46.000Z,1045,High View,rm_1v1,rm_solo,false,macedonian_dynasty,sengoku_daimyo,win,1517,1818,41,-25
+252200237,11040949,Real Alukar,24309546,微凉的晨露,2026-09-17T22:04:50.000Z,2182,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,sengoku_daimyo,win,1491,1442,26,-3
+252198335,11040949,Real Alukar,4205816,Fil,2026-09-17T21:36:55.000Z,1424,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,mongols,win,1460,1383,31,-1
+252195954,11040949,Real Alukar,23036377,【GAUL】Tartine Farouche,2026-09-17T21:07:00.000Z,1650,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,sengoku_daimyo,loss,1464,1788,-4,23
+251967545,11040949,Real Alukar,4634973,ShtoprrrrTV,2026-09-16T00:30:58.000Z,2929,Dry Arabia,rm_1v1,rm_solo,false,delhi_sultanate,english,win,1413,1680,51,-16
+251966514,11040949,Real Alukar,22757942,...,2026-09-16T00:15:23.000Z,712,Flankwoods,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,win,1377,1314,36,-1
+251964687,11040949,Real Alukar,23036377,【GAUL】Tartine Farouche,2026-09-15T23:44:37.000Z,1610,Gorge,rm_1v1,rm_solo,false,macedonian_dynasty,sengoku_daimyo,win,1321,1866,56,-31
+251850297,11040949,Real Alukar,16780922,翁若,2026-09-15T01:31:46.000Z,1050,Flankwoods,rm_1v1,rm_solo,false,macedonian_dynasty,tughlaq_dynasty,win,1270,1722,51,-20
+251848311,11040949,Real Alukar,21837624,Vegeta,2026-09-15T01:01:26.000Z,1740,West Lake,rm_1v1,rm_solo,false,malians,zhu_xis_legacy,loss,1271,,-1,
+250719052,11040949,Real Alukar,6946414,[Real] Mecro,2026-09-06T21:05:42.000Z,2293,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,rus,loss,1274,1620,-3,31
+250716773,11040949,Real Alukar,6946414,[Real] Mecro,2026-09-06T20:44:52.000Z,1112,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,rus,win,1228,1638,46,-18
+250713848,11040949,Real Alukar,6946414,[Real] Mecro,2026-09-06T20:19:05.000Z,1409,Flankwoods,rm_1v1,rm_solo,false,ayyubids,delhi_sultanate,loss,1230,1606,-2,32
+250712876,11040949,Real Alukar,21170971,Talouc,2026-09-06T20:10:50.000Z,393,Dry Arabia,rm_1v1,rm_solo,false,mongols,rus,loss,1231,1703,-1,30
+250710087,11040949,Real Alukar,10999320,Muhodo,2026-09-06T19:48:22.000Z,1185,West Lake,rm_1v1,rm_solo,false,holy_roman_empire,sengoku_daimyo,win,1164,,67,
+250418144,11040949,Real Alukar,7169059,blue。,2026-09-05T03:10:05.000Z,1750,High View,rm_1v1,rm_solo,false,delhi_sultanate,french,win,1121,,43,
+250416346,11040949,Real Alukar,25988260,Saliez,2026-09-05T02:49:13.000Z,1036,Flankwoods,rm_1v1,rm_solo,false,jeanne_darc,french,loss,,1701,,28
+250414234,11040949,Real Alukar,24628216,Bakun,2026-09-05T02:25:23.000Z,977,Flankwoods,rm_1v1,rm_solo,false,japanese,zhu_xis_legacy,win,,1758,,-22
+250413931,11040949,Real Alukar,9903999,叶居,2026-09-05T02:22:09.000Z,77,West Lake,rm_1v1,rm_solo,false,mongols,malians,loss,,1473,,43
+250411700,11040949,Real Alukar,11133509,这得挨不少揍，先生,2026-09-05T01:56:20.000Z,,Dry Arabia,rm_1v1,rm_solo,false,byzantines,jin_dynasty,,,1788,,
+250410040,11040949,Real Alukar,14380558,BlNG0,2026-09-05T01:37:02.000Z,1060,Gorge,rm_1v1,rm_solo,false,byzantines,knights_templar,loss,,1683,,34
+250409111,11040949,Real Alukar,11133509,这得挨不少揍，先生,2026-09-05T01:25:44.000Z,611,Flankwoods,rm_1v1,rm_solo,false,byzantines,sengoku_daimyo,loss,,1744,,30
+246195402,11040949,Real Alukar,15930050,天了,2026-08-07T00:37:37.000Z,1438,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,byzantines,win,1885,1435,5,-7
+259129268,6640305,ape,4309542,Chrysaor,2026-11-04T00:38:35.000Z,1154,Highwoods,rm_1v1,rm_solo,false,scots,scots,loss,1606,1770,-10,18
+259126852,6640305,ape,1492832,bakmogoon,2026-11-04T00:15:19.000Z,1305,Marshland,rm_1v1,rm_solo,false,scots,chinese,loss,1629,1645,-23,22
+259117251,6640305,ape,11390192,MAINKASSADINM7E,2026-11-03T22:38:40.000Z,1520,Highwoods,rm_1v1,rm_solo,false,abbasid_dynasty,rus,win,1591,1801,38,-33
+258757564,6640305,ape,20872747,战狼号,2026-11-02T00:49:55.000Z,1570,Fangs,rm_1v1,rm_solo,false,abbasid_dynasty,vikings,loss,1608,1685,-17,21
+258744920,6640305,ape,520130,Chuckfrancis,2026-11-01T23:00:31.000Z,1689,Cliffside,rm_1v1,rm_solo,false,golden_horde,scots,loss,1618,1804,-10,14
+258742684,6640305,ape,6946414,[Real] Mecro,2026-11-01T22:41:40.000Z,1082,Highwoods,rm_1v1,rm_solo,false,ayyubids,scots,loss,1633,1733,-15,19
+258735506,6640305,ape,22760694,LateNightsTemplar,2026-11-01T21:51:55.000Z,1601,Highwoods,rm_1v1,rm_solo,false,abbasid_dynasty,scots,win,1616,,17,
+258723766,6640305,ape,9853947,ff20022020,2026-11-01T20:43:31.000Z,1954,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,mongols,win,1589,1520,27,-15
+258682795,6640305,ape,10007885,CallexX_0,2026-11-01T17:28:52.000Z,647,Waterholes,rm_1v1,rm_solo,false,scots,vikings,loss,1605,1698,-16,21
+258665080,6640305,ape,17425450,Gemini 4,2026-11-01T16:07:13.000Z,1571,Dry Arabia,rm_1v1,rm_solo,false,ottomans,scots,loss,1630,1555,-25,29
+258657446,6640305,ape,3623094,sirius1235527,2026-11-01T15:33:28.000Z,1453,Dry Arabia,rm_1v1,rm_solo,false,ottomans,scots,loss,1647,1764,-17,20
+258653092,6640305,ape,3623094,sirius1235527,2026-11-01T15:15:40.000Z,960,Himeyama,rm_1v1,rm_solo,false,scots,scots,loss,1665,1742,-18,22
+258640193,6640305,ape,10090733,Kaya,2026-11-01T14:26:35.000Z,1244,The Pit,rm_1v1,rm_solo,false,vikings,english,loss,1690,1644,-25,29
+258625360,6640305,ape,8301702,MCK Rharesh,2026-11-01T13:33:23.000Z,3109,Himeyama,rm_1v1,rm_solo,false,scots,scots,loss,1719,1542,-29,34
+258473024,6640305,ape,25611378,NOC | Tizzy,2026-10-31T21:25:30.000Z,283,Flankwoods,rm_1v1,rm_solo,false,scots,french,loss,1742,1923,-23,22
+258468604,6640305,ape,22413977,how to play this game?,2026-10-31T20:58:06.000Z,1593,Dry Arabia,rm_1v1,rm_solo,false,scots,vikings,loss,1759,1924,-17,15
+258464863,6640305,ape,7410194,ORANGUTAN,2026-10-31T20:36:37.000Z,1054,Dry Arabia,rm_1v1,rm_solo,false,scots,vikings,loss,1766,2202,-7,5
+258462401,6640305,ape,26310224,Sinxx,2026-10-31T20:22:53.000Z,301,Himeyama,rm_1v1,rm_solo,false,scots,chinese,loss,1800,1627,-34,34
+258368689,6640305,ape,7410194,ORANGUTAN,2026-10-31T13:21:57.000Z,1127,Lipany,rm_1v1,rm_solo,false,scots,vikings,loss,1808,2186,-8,6
+258357648,6640305,ape,7887498,Busenlilli,2026-10-31T12:39:06.000Z,1415,Atacama,rm_1v1,rm_solo,false,scots,mongols,win,1782,1864,26,-27
+258352201,6640305,ape,22958087,科钦球,2026-10-31T12:16:51.000Z,204,Himeyama,rm_1v1,rm_solo,false,scots,scots,win,1752,1873,30,-31
+258252265,6640305,ape,16794502,JIF Music,2026-10-31T01:36:43.000Z,1760,Dry Arabia,rm_1v1,rm_solo,false,scots,scots,loss,1760,2177,-8,7
+258248827,6640305,ape,10665287,つよ,2026-10-31T01:11:39.000Z,1362,Lipany,rm_1v1,rm_solo,false,scots,sengoku_daimyo,loss,1796,1583,-36,35
+258245323,6640305,ape,15469403,你眉间的雪,2026-10-31T00:45:07.000Z,827,Himeyama,rm_1v1,rm_solo,false,scots,scots,win,1782,1608,14,-15
+257840358,6640305,ape,1422791,prabuty,2026-10-28T22:49:25.000Z,1246,Dry Arabia,rm_1v1,rm_solo,false,ottomans,ottomans,win,1767,1670,15,-17
+257713939,6640305,ape,19723693,Gaeul,2026-10-28T00:16:26.000Z,1475,The Pit,rm_1v1,rm_solo,false,ottomans,zhu_xis_legacy,win,1751,1691,16,-17
+257711190,6640305,ape,1065835,Tikm,2026-10-27T23:36:42.000Z,2268,Himeyama,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,loss,1776,1773,-25,24
+257707674,6640305,ape,520130,Chuckfrancis,2026-10-27T22:49:26.000Z,1592,The Pit,rm_1v1,rm_solo,false,ottomans,jin_dynasty,win,1746,1905,30,-31
+257706329,6640305,ape,7614140,VES Msn.bodog,2026-10-27T22:32:10.000Z,958,The Pit,rm_1v1,rm_solo,false,order_of_the_dragon,delhi_sultanate,loss,1754,2156,-8,6
+257701515,6640305,ape,19805563,dziļzyls,2026-10-27T21:37:53.000Z,1167,Atacama,rm_1v1,rm_solo,false,order_of_the_dragon,chinese,loss,1784,1665,-30,29
+257699040,6640305,ape,10334593,Gursonix,2026-10-27T21:13:26.000Z,1389,The Pit,rm_1v1,rm_solo,false,ayyubids,tughlaq_dynasty,loss,1817,1640,-33,33
+257588004,6640305,ape,2925691,鳏夫,2026-10-27T01:24:13.000Z,760,Atacama,rm_1v1,rm_solo,false,english,mongols,win,1799,1683,18,-14
+257587902,6640305,ape,2925691,鳏夫,2026-10-27T01:22:28.000Z,35,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,win,1779,1704,20,-21
+257584920,6640305,ape,21680681,⚠,2026-10-27T00:35:51.000Z,1945,Dry Arabia,rm_1v1,rm_solo,false,ottomans,malians,win,1752,1838,27,-27
+257583497,6640305,ape,7838422,Filisberto,2026-10-27T00:14:36.000Z,1229,The Pit,rm_1v1,rm_solo,false,holy_roman_empire,mongols,loss,1766,2027,-14,12
+257581641,6640305,ape,10821495,hiyoko,2026-10-26T23:45:55.000Z,1363,Flankwoods,rm_1v1,rm_solo,false,holy_roman_empire,ottomans,loss,1796,1682,-30,29
+257576605,6640305,ape,11280999,Kyomu,2026-10-26T22:34:02.000Z,1478,Dry Arabia,rm_1v1,rm_solo,false,english,ottomans,win,1783,1583,13,-14
+257566524,6640305,ape,8304908,Bitcousin,2026-10-26T20:46:06.000Z,2081,Dry Arabia,rm_1v1,rm_solo,false,ottomans,holy_roman_empire,win,1759,1801,24,-25
+257460223,6640305,ape,25915539,一只眠,2026-10-26T01:29:38.000Z,2958,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,french,loss,1771,2014,-12,11
+257457960,6640305,ape,11018483,YZY,2026-10-26T00:56:41.000Z,1448,The Pit,rm_1v1,rm_solo,false,holy_roman_empire,order_of_the_dragon,loss,1778,2345,-7,1
+257456096,6640305,ape,11018483,YZY,2026-10-26T00:30:31.000Z,870,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,french,loss,1785,2339,-7,6
+257454343,6640305,ape,20997865,Devlet Giray,2026-10-26T00:05:21.000Z,1449,The Pit,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1774,1539,11,-12
+257446309,6640305,ape,9014000,Ezra123,2026-10-25T22:21:05.000Z,1457,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,malians,win,1743,1896,31,-32
+257445464,6640305,ape,18294659,̶R̶u̶s̶E̶n̶j̶o̶y̶e̶r,2026-10-25T22:12:09.000Z,425,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1732,1524,11,-13
+257443716,6640305,ape,7714333,Conter1593,2026-10-25T21:52:40.000Z,909,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1719,1581,13,-15
+257441264,6640305,ape,7934613,Hotaru2407,2026-10-25T21:26:56.000Z,1430,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,win,1709,1466,10,-12
+257431643,6640305,ape,13789380,Bee🦋🕷️🦇,2026-10-25T20:02:56.000Z,1470,Flankwoods,rm_1v1,rm_solo,false,holy_roman_empire,french,win,1687,1627,22,-18
+257416157,6640305,ape,7450111,alby,2026-10-25T18:07:34.000Z,1252,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,rus,loss,1715,1587,-28,34
+257415325,6640305,ape,19904137,Vashundol,2026-10-25T18:01:24.000Z,325,Flankwoods,rm_1v1,rm_solo,false,holy_roman_empire,chinese,loss,1740,1807,-25,24
+257412318,6640305,ape,21732333,YZ,2026-10-25T17:39:30.000Z,1266,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,byzantines,loss,1753,1960,-13,12
+257407424,6640305,ape,18504557,Realt1ger,2026-10-25T17:04:50.000Z,1440,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,ayyubids,win,1736,1633,17,-19
+257403081,6640305,ape,7450111,alby,2026-10-25T16:35:36.000Z,1643,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,ottomans,win,1717,1546,19,-11
+257397127,6640305,ape,21976887,xTheMagiicz,2026-10-25T15:56:48.000Z,1824,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,macedonian_dynasty,win,1705,1532,12,-13
+257381532,6640305,ape,8354416,EL.loueMT,2026-10-25T14:26:10.000Z,875,Dry Arabia,rm_1v1,rm_solo,false,ottomans,chinese,loss,1710,2400,-5,3
+257375137,6640305,ape,6946414,[Real] Mecro,2026-10-25T13:52:58.000Z,1930,King of the Hill,rm_1v1,rm_solo,false,holy_roman_empire,japanese,loss,1740,1618,-30,30
+257370585,6640305,ape,9926116,Miao,2026-10-25T13:29:00.000Z,1345,Lipany,rm_1v1,rm_solo,false,ottomans,order_of_the_dragon,win,1712,1842,28,-29
+257285264,6640305,ape,289639,LegendLil,2026-10-25T00:43:42.000Z,954,Lipany,rm_1v1,rm_solo,false,ottomans,malians,win,1700,1171,12,-1
+257283913,6640305,ape,11018483,YZY,2026-10-25T00:24:57.000Z,945,King of the Hill,rm_1v1,rm_solo,false,ottomans,byzantines,loss,1707,2321,-7,1
+257182886,6640305,ape,7887498,Busenlilli,2026-10-24T11:53:02.000Z,2105,King of the Hill,rm_1v1,rm_solo,false,ottomans,mongols,loss,1724,1888,-17,16
+257181690,6640305,ape,351510,Nic_God,2026-10-24T11:44:22.000Z,17,King of the Hill,rm_1v1,rm_solo,false,ottomans,abbasid_dynasty,noresult,1710,,14,
+257117869,6640305,ape,21593342,ELPEPE1236,2026-10-24T01:03:03.000Z,1645,King of the Hill,rm_1v1,rm_solo,false,ottomans,house_of_lancaster,win,1690,1687,20,-21
+257108813,6640305,ape,3901344,Hakoda,2026-10-23T22:54:41.000Z,1610,Lipany,rm_1v1,rm_solo,false,ottomans,knights_templar,win,1673,1590,17,-19
+257106993,6640305,ape,8781640,Mirari,2026-10-23T22:32:10.000Z,1244,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,macedonian_dynasty,loss,1689,1884,-16,15
+257105282,6640305,ape,7614140,VES Msn.bodog,2026-10-23T22:11:49.000Z,1176,The Pit,rm_1v1,rm_solo,false,french,delhi_sultanate,loss,1697,2078,-8,6
+257102165,6640305,ape,20903369,neimi,2026-10-23T21:39:50.000Z,1389,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1687,1520,10,-12
+257097458,6640305,ape,18701154,frakenstijn,2026-10-23T20:54:52.000Z,1154,The Pit,rm_1v1,rm_solo,false,byzantines,french,win,1676,1463,11,-13
+257094260,6640305,ape,18764788,Kukumama,2026-10-23T20:27:37.000Z,1066,Flankwoods,rm_1v1,rm_solo,false,ottomans,knights_templar,loss,1705,1614,-29,28
+257092021,6640305,ape,18764788,Kukumama,2026-10-23T20:08:36.000Z,1064,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,loss,1736,1578,-31,36
+256849626,6640305,ape,23667794,教学号,2026-10-22T00:37:27.000Z,579,Lipany,rm_1v1,rm_solo,false,golden_horde,french,loss,1750,1826,-14,21
+256842955,6640305,ape,11721036,PeekingPanda3,2026-10-21T22:44:53.000Z,1262,Lipany,rm_1v1,rm_solo,false,ottomans,mongols,win,1738,1552,12,-14
+256716107,6640305,ape,282012,Zerr der Härte 🌟,2026-10-20T21:45:02.000Z,1426,King of the Hill,rm_1v1,rm_solo,false,holy_roman_empire,japanese,loss,1773,1556,-35,34
+256713081,6640305,ape,11390192,MAINKASSADINM7E,2026-10-20T21:08:29.000Z,1831,Lipany,rm_1v1,rm_solo,false,golden_horde,chinese,loss,1796,1796,-23,22
+256607298,6640305,ape,15817299,EL_P4SH4_PRO_MAX,2026-10-20T01:27:16.000Z,1061,Dry Arabia,rm_1v1,rm_solo,false,french,knights_templar,win,1786,1546,10,-12
+256596190,6640305,ape,8781640,Mirari,2026-10-19T22:21:15.000Z,1926,Lipany,rm_1v1,rm_solo,false,ottomans,macedonian_dynasty,win,1756,1916,30,-31
+256594949,6640305,ape,6946414,[Real] Mecro,2026-10-19T22:02:33.000Z,959,King of the Hill,rm_1v1,rm_solo,false,byzantines,byzantines,win,1733,1752,23,-24
+256592692,6640305,ape,11018483,YZY,2026-10-19T21:31:45.000Z,1587,Dry Arabia,rm_1v1,rm_solo,false,english,macedonian_dynasty,loss,1741,2232,-8,7
+256581818,6640305,ape,19805563,dziļzyls,2026-10-19T19:39:34.000Z,2473,Flankwoods,rm_1v1,rm_solo,false,holy_roman_empire,macedonian_dynasty,win,1720,1469,21,-8
+256482896,6640305,ape,22139910,思密达,2026-10-19T01:07:18.000Z,1576,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,house_of_lancaster,win,1698,1708,22,-23
+256481080,6640305,ape,19370774,Duck So,2026-10-19T00:38:38.000Z,1485,King of the Hill,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,win,1682,1584,16,-17
+256475312,6640305,ape,8680664,Tryon,2026-10-18T23:08:35.000Z,1923,Lipany,rm_1v1,rm_solo,false,ottomans,ayyubids,win,1661,1552,21,-17
+256473591,6640305,ape,23814379,Pig2,2026-10-18T22:41:41.000Z,1563,Lipany,rm_1v1,rm_solo,false,ottomans,rus,loss,1695,1409,-34,43
+256469608,6640305,ape,23046769,Haoran Lu,2026-10-18T21:50:15.000Z,2583,Dry Arabia,rm_1v1,rm_solo,false,ottomans,zhu_xis_legacy,win,1660,1979,35,-35
+256467238,6640305,ape,3671968,VES Matiz,2026-10-18T21:23:29.000Z,1504,King of the Hill,rm_1v1,rm_solo,false,chinese,rus,loss,1678,1721,-18,22
+256451386,6640305,ape,3671968,VES Matiz,2026-10-18T19:07:57.000Z,1602,King of the Hill,rm_1v1,rm_solo,false,holy_roman_empire,rus,loss,1704,1665,-26,25
+256446967,6640305,ape,7268835,Spironoa,2026-10-18T18:37:08.000Z,1655,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,abbasid_dynasty,win,1690,1534,14,-15
+256443315,6640305,ape,20985555,NSG!The Lucky Noob,2026-10-18T18:09:56.000Z,1487,Atacama,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,loss,1701,2035,-11,9
+256416856,6640305,ape,16441683,ฉันคือฉัน7,2026-10-18T15:08:36.000Z,1712,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,byzantines,unknown,1701,1555,,
+256408236,6640305,ape,21842764,霍格天体,2026-10-18T14:18:54.000Z,2216,Dry Arabia,rm_1v1,rm_solo,false,ottomans,house_of_lancaster,loss,1728,1677,-27,26
+256310260,6640305,ape,23319195,Green,2026-10-17T23:19:01.000Z,2199,Atacama,rm_1v1,rm_solo,false,golden_horde,rus,loss,1742,1941,-14,12
+256308427,6640305,ape,25429502,Lemais_,2026-10-17T22:54:06.000Z,1384,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,english,loss,1762,1804,-20,19
+256307279,6640305,ape,21167799,等我启动,2026-10-17T22:39:36.000Z,779,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,tughlaq_dynasty,loss,1793,1669,-31,30
+256299521,6640305,ape,217880,edenov01,2026-10-17T21:19:06.000Z,1174,Atacama,rm_1v1,rm_solo,false,golden_horde,byzantines,win,1774,1758,19,-20
+256297710,6640305,ape,2942077,VES Valdy,2026-10-17T21:02:46.000Z,934,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,ayyubids,loss,1784,2091,-10,8
+256259160,6640305,ape,21593342,ELPEPE1236,2026-10-17T16:07:36.000Z,1174,The Pit,rm_1v1,rm_solo,false,ayyubids,knights_templar,win,1771,1610,13,-15
+256152500,6640305,ape,16676360,新晓七,2026-10-17T00:35:02.000Z,1202,King of the Hill,rm_1v1,rm_solo,false,ottomans,order_of_the_dragon,win,1761,1528,10,-12
+255774396,6640305,ape,26147363,难道他真的是钻石哥？,2026-10-14T01:34:49.000Z,1452,Lipany,rm_1v1,rm_solo,false,ottomans,japanese,win,1746,1645,15,-16
+255765248,6640305,ape,8699292,邪魔,2026-10-13T23:04:43.000Z,791,King of the Hill,rm_1v1,rm_solo,false,holy_roman_empire,macedonian_dynasty,win,1726,1615,20,-14
+255761307,6640305,ape,11561109,高冷千金的贴身高手,2026-10-13T22:02:15.000Z,1518,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,byzantines,win,1709,1616,17,-18
+255759916,6640305,ape,26218959,我是坏人,2026-10-13T21:41:47.000Z,1075,The Pit,rm_1v1,rm_solo,false,french,byzantines,loss,1719,2136,-10,8
+255758132,6640305,ape,387963,Swaggy McCheese,2026-10-13T21:18:43.000Z,1112,The Pit,rm_1v1,rm_solo,false,macedonian_dynasty,tughlaq_dynasty,win,1695,1710,24,-25
+255641049,6640305,ape,24834157,npz,2026-10-12T23:02:08.000Z,1584,Dry Arabia,rm_1v1,rm_solo,false,english,ottomans,win,1682,1521,13,-15
+255636950,6640305,ape,11561109,高冷千金的贴身高手,2026-10-12T22:01:18.000Z,1236,Atacama,rm_1v1,rm_solo,false,ottomans,japanese,win,1666,1557,16,-18
+255635028,6640305,ape,16507261,Scapolocaldo667,2026-10-12T21:36:56.000Z,1371,Dry Arabia,rm_1v1,rm_solo,false,ottomans,golden_horde,loss,1698,1551,-32,32
+255632386,6640305,ape,9569223,Werbix,2026-10-12T21:07:26.000Z,1584,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,holy_roman_empire,win,1681,1586,17,-18
+255618045,6640305,ape,7887498,Busenlilli,2026-10-12T19:03:45.000Z,1749,The Pit,rm_1v1,rm_solo,false,french,mongols,loss,1708,1644,-27,26
+255614590,6640305,ape,1065835,Tikm,2026-10-12T18:37:28.000Z,1501,Himeyama,rm_1v1,rm_solo,false,chinese,knights_templar,loss,1726,1848,-18,17
+255605757,6640305,ape,11390192,MAINKASSADINM7E,2026-10-12T17:28:07.000Z,2418,King of the Hill,rm_1v1,rm_solo,false,holy_roman_empire,mongols,win,1706,1640,20,-16
+255601802,6640305,ape,11561109,高冷千金的贴身高手,2026-10-12T16:55:53.000Z,1851,King of the Hill,rm_1v1,rm_solo,false,macedonian_dynasty,rus,loss,1740,1545,-34,33
+255597035,6640305,ape,22797165,芬达芬达不是好狗,2026-10-12T16:17:23.000Z,1945,The Pit,rm_1v1,rm_solo,false,french,mongols,win,1712,1772,28,-24
+255590835,6640305,ape,844518,Cow,2026-10-12T15:29:41.000Z,2219,King of the Hill,rm_1v1,rm_solo,false,chinese,malians,win,1698,1520,14,-10
+255586432,6640305,ape,4309542,Chrysaor,2026-10-12T14:57:57.000Z,1806,Himeyama,rm_1v1,rm_solo,false,french,knights_templar,loss,1715,1841,-17,15
+255510587,6640305,ape,9912050,SCT-424,2026-10-11T23:52:35.000Z,1272,The Pit,rm_1v1,rm_solo,false,macedonian_dynasty,order_of_the_dragon,win,1705,1487,10,-11
+255509270,6640305,ape,19026876,mateus111,2026-10-11T23:31:41.000Z,990,Himeyama,rm_1v1,rm_solo,false,jeanne_darc,order_of_the_dragon,loss,1729,1734,-24,23
+255424540,6640305,ape,6007603,江东铁壁不会打海,2026-10-11T12:50:29.000Z,2472,Dry Arabia,rm_1v1,rm_solo,false,english,macedonian_dynasty,win,1696,1884,33,-34
+255341481,6640305,ape,16730738,crashBoy,2026-10-10T23:30:19.000Z,1669,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,order_of_the_dragon,loss,1727,1563,-31,35
+255339057,6640305,ape,2942077,VES Valdy,2026-10-10T22:57:50.000Z,1734,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,chinese,loss,1738,1973,-11,10
+255337305,6640305,ape,2942077,VES Valdy,2026-10-10T22:36:27.000Z,1153,King of the Hill,rm_1v1,rm_solo,false,chinese,rus,loss,1750,1963,-12,10
+255332743,6640305,ape,2187708,枕鹤zzz,2026-10-10T21:46:03.000Z,1783,Himeyama,rm_1v1,rm_solo,false,chinese,house_of_lancaster,win,1733,1569,17,-12
+255328172,6640305,ape,19026876,mateus111,2026-10-10T21:03:19.000Z,1826,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,order_of_the_dragon,win,1708,1771,25,-26
+255326525,6640305,ape,3043343,|HTD| ele[xus],2026-10-10T20:48:44.000Z,760,Himeyama,rm_1v1,rm_solo,false,chinese,mongols,win,1689,1680,19,-20
+255314843,6640305,ape,19026876,mateus111,2026-10-10T19:16:00.000Z,2000,Lipany,rm_1v1,rm_solo,false,ottomans,order_of_the_dragon,loss,1711,1762,-22,21
+255312217,6640305,ape,24936581,New Player,2026-10-10T18:55:21.000Z,1127,Dry Arabia,rm_1v1,rm_solo,false,byzantines,house_of_lancaster,win,1687,1622,24,-17
+255291421,6640305,ape,23046769,Haoran Lu,2026-10-10T16:16:52.000Z,870,Lipany,rm_1v1,rm_solo,false,golden_horde,zhu_xis_legacy,loss,1711,1883,-24,23
+255288900,6640305,ape,19537369,防线又被突破了，呜呜,2026-10-10T16:00:02.000Z,915,Himeyama,rm_1v1,rm_solo,false,french,zhu_xis_legacy,win,1698,1519,13,-14
+255270395,6640305,ape,11561109,高冷千金的贴身高手,2026-10-10T14:13:55.000Z,2131,Lipany,rm_1v1,rm_solo,false,ottomans,french,win,1678,1672,20,-21
+255260284,6640305,ape,19904137,Vashundol,2026-10-10T13:19:16.000Z,1004,King of the Hill,rm_1v1,rm_solo,false,golden_horde,chinese,win,1660,1598,18,-20
+255254179,6640305,ape,21707412,Zolzund,2026-10-10T12:42:52.000Z,1147,Himeyama,rm_1v1,rm_solo,false,golden_horde,french,win,1643,1490,17,-14
+255179592,6640305,ape,22413977,how to play this game?,2026-10-09T22:11:28.000Z,1938,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,rus,loss,1658,1774,-15,20
+255053141,6640305,ape,21427140,Breeze,2026-10-08T23:57:43.000Z,997,Dry Arabia,rm_1v1,rm_solo,false,chinese,knights_templar,win,1647,1121,11,-1
+254807061,6640305,ape,2101691,AGED UtinOwns🥷👹👺,2026-10-07T00:08:24.000Z,2228,King of the Hill,rm_1v1,rm_solo,false,chinese,mongols,loss,1667,1716,-20,24
+254796862,6640305,ape,3906954,Terazul,2026-10-06T21:30:04.000Z,1328,The Pit,rm_1v1,rm_solo,false,golden_horde,sengoku_daimyo,win,1651,,16,
+254546520,6640305,ape,8781640,Mirari,2026-10-05T00:19:56.000Z,2665,Lipany,rm_1v1,rm_solo,false,golden_horde,rus,win,1614,1800,37,-32
+254545158,6640305,ape,7504598,InKaiDus,2026-10-04T23:59:39.000Z,1157,Dry Arabia,rm_1v1,rm_solo,false,ottomans,house_of_lancaster,loss,1640,1511,-26,36
+254535778,6640305,ape,8680664,Tryon,2026-10-04T21:46:28.000Z,1835,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,ayyubids,loss,1660,1801,-20,19
+254534075,6640305,ape,8680664,Tryon,2026-10-04T21:27:42.000Z,1037,Lipany,rm_1v1,rm_solo,false,golden_horde,ayyubids,win,1626,1831,34,-30
+254531221,6640305,ape,383452,Valeier,2026-10-04T20:59:05.000Z,1658,Lipany,rm_1v1,rm_solo,false,french,abbasid_dynasty,loss,1647,1681,-21,25
+254503623,6640305,ape,9569223,Werbix,2026-10-04T17:31:12.000Z,1887,Lipany,rm_1v1,rm_solo,false,english,holy_roman_empire,loss,1673,1563,-26,30
+254500043,6640305,ape,1379401,GKS,2026-10-04T17:05:09.000Z,1518,Atacama,rm_1v1,rm_solo,false,french,french,loss,1704,1624,-31,30
+254494705,6640305,ape,17963085,SmokeJT,2026-10-04T16:28:48.000Z,1518,The Pit,rm_1v1,rm_solo,false,french,ayyubids,win,1694,1505,10,-12
+254491277,6640305,ape,15580596,混沌海盗王休伦,2026-10-04T16:06:13.000Z,1211,Dry Arabia,rm_1v1,rm_solo,false,french,chinese,loss,1714,1818,-20,18
+254482064,6640305,ape,21170971,Talouc,2026-10-04T15:09:54.000Z,2045,Dry Arabia,rm_1v1,rm_solo,false,french,byzantines,win,1678,1842,36,-32
+254477942,6640305,ape,19100866,一条咸鱼,2026-10-04T14:46:29.000Z,1334,King of the Hill,rm_1v1,rm_solo,false,french,holy_roman_empire,loss,1707,1706,-29,28
+254469892,6640305,ape,21091207,zsehwt,2026-10-04T14:00:11.000Z,2677,Dry Arabia,rm_1v1,rm_solo,false,french,order_of_the_dragon,loss,1733,1681,-26,30
+254468641,6640305,ape,23129337,Ｉ❤人類,2026-10-04T13:53:21.000Z,,King of the Hill,rm_1v1,rm_solo,false,french,house_of_lancaster,,1733,1505,,
+254460910,6640305,ape,282012,Zerr der Härte 🌟,2026-10-04T13:09:49.000Z,1682,The Pit,rm_1v1,rm_solo,false,french,ayyubids,win,1716,1621,17,-18
+254387047,6640305,ape,7838422,Filisberto,2026-10-04T00:55:55.000Z,374,Himeyama,rm_1v1,rm_solo,false,golden_horde,mongols,loss,1727,2057,-11,9
+254385146,6640305,ape,7838422,Filisberto,2026-10-04T00:29:39.000Z,1398,Himeyama,rm_1v1,rm_solo,false,french,mongols,loss,1738,2047,-11,10
+254384869,6640305,ape,7838422,Filisberto,2026-10-04T00:26:07.000Z,76,The Pit,rm_1v1,rm_solo,false,french,mongols,loss,1750,2037,-12,10
+254370862,6640305,ape,11018483,YZY,2026-10-03T21:32:27.000Z,1862,The Pit,rm_1v1,rm_solo,false,french,french,win,1711,2112,39,-40
+254367355,6640305,ape,11018483,YZY,2026-10-03T21:00:10.000Z,1730,Lipany,rm_1v1,rm_solo,false,french,house_of_lancaster,loss,1720,2105,-9,7
+254361218,6640305,ape,8010517,Wind,2026-10-03T20:08:29.000Z,2481,The Pit,rm_1v1,rm_solo,false,french,house_of_lancaster,win,1706,1366,14,-3
+254343679,6640305,ape,15580596,混沌海盗王休伦,2026-10-03T17:55:53.000Z,997,Lipany,rm_1v1,rm_solo,false,french,chinese,loss,1727,1771,-21,20
+254340607,6640305,ape,6687875,Reza,2026-10-03T17:31:14.000Z,1337,Dry Arabia,rm_1v1,rm_solo,false,french,byzantines,win,1716,964,11,-1
+254336057,6640305,ape,13789380,Bee🦋🕷️🦇,2026-10-03T16:55:58.000Z,1703,Himeyama,rm_1v1,rm_solo,false,french,jeanne_darc,win,1702,1533,14,-16
+254228462,6640305,ape,11914524,PANİC ATAK,2026-10-03T00:48:02.000Z,1665,Atacama,rm_1v1,rm_solo,false,french,knights_templar,loss,1734,1564,-32,31
+254224937,6640305,ape,13789380,Bee🦋🕷️🦇,2026-10-02T23:57:43.000Z,1111,Lipany,rm_1v1,rm_solo,false,french,jeanne_darc,win,1720,1552,14,-16
+254220394,6640305,ape,10334593,Gursonix,2026-10-02T22:52:10.000Z,1323,The Pit,rm_1v1,rm_solo,false,french,tughlaq_dynasty,win,1701,1660,19,-21
+254095070,6640305,ape,648269,DarkValor,2026-10-02T01:32:34.000Z,1246,Lipany,rm_1v1,rm_solo,false,french,knights_templar,win,1690,1482,11,-13
+254093587,6640305,ape,7874688,FelipeoFire,2026-10-02T01:11:08.000Z,926,The Pit,rm_1v1,rm_solo,false,french,byzantines,win,1672,1627,18,-19
+254092988,6640305,ape,8498146,Memento Mori,2026-10-02T01:02:02.000Z,442,Lipany,rm_1v1,rm_solo,false,french,french,win,1638,1804,34,-28
+254091653,6640305,ape,26157234,lllllllllllllll,2026-10-02T00:40:14.000Z,1255,Flankwoods,rm_1v1,rm_solo,false,order_of_the_dragon,house_of_lancaster,loss,1664,1647,-26,25
+254081509,6640305,ape,16903892,JKForsaken,2026-10-01T21:59:37.000Z,1873,King of the Hill,rm_1v1,rm_solo,false,order_of_the_dragon,ayyubids,loss,1689,1640,-25,29
+254079523,6640305,ape,16903892,JKForsaken,2026-10-01T21:32:30.000Z,1464,Flankwoods,rm_1v1,rm_solo,false,order_of_the_dragon,holy_roman_empire,win,1665,1660,24,-20
+254077773,6640305,ape,6757911,EL.AyameSatou,2026-10-01T21:11:50.000Z,1191,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,ottomans,loss,1675,1975,-10,8
+254044710,6640305,ape,282012,Zerr der Härte 🌟,2026-10-01T16:15:30.000Z,1092,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,jeanne_darc,win,1650,1620,25,-21
+254041960,6640305,ape,25429502,Lemais_,2026-10-01T15:51:47.000Z,1371,Dry Arabia,rm_1v1,rm_solo,false,ottomans,tughlaq_dynasty,loss,1663,1881,-13,11
+254038555,6640305,ape,21091207,zsehwt,2026-10-01T15:24:06.000Z,1455,Hidden Valley,rm_1v1,rm_solo,false,chinese,jin_dynasty,loss,1689,1511,-26,36
+254019584,6640305,ape,8297910,123456,2026-10-01T13:01:42.000Z,701,Dry Arabia,rm_1v1,rm_solo,false,ottomans,knights_templar,win,1670,1598,19,-20
+253958763,6640305,ape,9547511,果宝人老，实话不多,2026-10-01T00:04:05.000Z,1835,High View,rm_1v1,rm_solo,false,ottomans,mongols,loss,1670,1472,,
+253955733,6640305,ape,26147402,Mi,2026-09-30T23:12:39.000Z,1741,High View,rm_1v1,rm_solo,false,english,zhu_xis_legacy,win,1654,1555,16,-18
+253828710,6640305,ape,4703134,[Real] Starflark,2026-09-29T22:42:29.000Z,2297,West Lake,rm_1v1,rm_solo,false,golden_horde,malians,loss,1665,1938,-11,9
+253827546,6640305,ape,6946414,[Real] Mecro,2026-09-29T22:23:49.000Z,967,High View,rm_1v1,rm_solo,false,order_of_the_dragon,order_of_the_dragon,loss,1684,1762,-19,18
+253717836,6640305,ape,8781640,Mirari,2026-09-29T01:05:48.000Z,1275,High View,rm_1v1,rm_solo,false,english,sengoku_daimyo,loss,1704,1729,-20,24
+253716161,6640305,ape,3043343,|HTD| ele[xus],2026-09-29T00:39:34.000Z,1380,West Lake,rm_1v1,rm_solo,false,golden_horde,japanese,win,1690,1535,14,-16
+253707339,6640305,ape,21050396,Filthy And Disgusting Rat,2026-09-28T22:13:38.000Z,2171,Gorge,rm_1v1,rm_solo,false,ottomans,tughlaq_dynasty,win,1672,1598,18,-19
+253706027,6640305,ape,6348623,Zug Zug,2026-09-28T21:54:32.000Z,1080,High View,rm_1v1,rm_solo,false,macedonian_dynasty,jin_dynasty,win,1651,1612,21,-17
+253703197,6640305,ape,7714333,Conter1593,2026-09-28T21:16:13.000Z,1339,West Lake,rm_1v1,rm_solo,false,golden_horde,zhu_xis_legacy,win,1627,1606,24,-21
+253700513,6640305,ape,7101790,DimPaille,2026-09-28T20:45:44.000Z,1777,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,abbasid_dynasty,loss,1648,1710,-21,19
+253684083,6640305,ape,8185877,VanDerDorf,2026-09-28T18:12:21.000Z,2535,West Lake,rm_1v1,rm_solo,false,golden_horde,knights_templar,loss,1669,1651,-21,25
+253682789,6640305,ape,11196869,Kreasher,2026-09-28T18:01:16.000Z,618,High View,rm_1v1,rm_solo,false,ottomans,chinese,loss,1686,1795,-17,16
+253680523,6640305,ape,6787847,VIET AOE4,2026-09-28T17:40:44.000Z,1049,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1710,1687,-24,28
+253669702,6640305,ape,11280999,Kyomu,2026-09-28T16:04:08.000Z,1203,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,japanese,win,1696,1537,14,-16
+253665624,6640305,ape,12305952,最后的轻语,2026-09-28T15:30:06.000Z,1594,High View,rm_1v1,rm_solo,false,english,house_of_lancaster,win,1674,1737,22,-23
+253662918,6640305,ape,4703134,[Real] Starflark,2026-09-28T15:09:19.000Z,1096,West Lake,rm_1v1,rm_solo,false,golden_horde,jin_dynasty,win,1632,1918,42,-37
+253662394,6640305,ape,21391949,Small Talk,2026-09-28T15:05:16.000Z,158,High View,rm_1v1,rm_solo,false,knights_templar,house_of_lancaster,loss,1651,1808,-19,18
+253660363,6640305,ape,21391949,Small Talk,2026-09-28T14:50:21.000Z,832,High View,rm_1v1,rm_solo,false,abbasid_dynasty,house_of_lancaster,loss,1672,1789,-21,19
+253598676,6640305,ape,24035836,WSG.wArsWoRd,2026-09-28T01:49:07.000Z,1590,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,mongols,loss,1702,1598,-30,30
+253523997,6640305,ape,12195356,跳跳骑士,2026-09-27T14:18:29.000Z,1652,West Lake,rm_1v1,rm_solo,false,golden_horde,abbasid_dynasty,win,1685,1598,17,-18
+253434152,6640305,ape,8304908,Bitcousin,2026-09-27T00:08:09.000Z,3527,Hidden Valley,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,loss,1710,1677,-25,24
+253428813,6640305,ape,8304908,Bitcousin,2026-09-26T22:50:52.000Z,2907,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,french,win,1687,1684,23,-24
+253427184,6640305,ape,6827902,TyrusLunarspear,2026-09-26T22:29:12.000Z,1148,High View,rm_1v1,rm_solo,false,holy_roman_empire,chinese,win,1670,1557,17,-13
+253415026,6640305,ape,9042713,Marok,2026-09-26T20:24:53.000Z,1739,Dry Arabia,rm_1v1,rm_solo,false,ayyubids,house_of_lancaster,win,1644,1617,26,-22
+253408002,6640305,ape,6776758,Maly Libi,2026-09-26T19:24:52.000Z,3530,Hideout,rm_1v1,rm_solo,false,ottomans,golden_horde,loss,1663,1778,-19,18
+253404122,6640305,ape,24626683,Adam Małysz,2026-09-26T18:52:36.000Z,1569,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,french,loss,1690,1640,-27,26
+253390195,6640305,ape,19026876,mateus111,2026-09-26T17:01:05.000Z,1085,High View,rm_1v1,rm_solo,false,golden_horde,order_of_the_dragon,win,1672,1591,18,-20
+253386401,6640305,ape,11721036,PeekingPanda3,2026-09-26T16:32:14.000Z,1487,Hidden Valley,rm_1v1,rm_solo,false,holy_roman_empire,chinese,win,1658,1372,14,-4
+253349503,6640305,ape,11914524,PANİC ATAK,2026-09-26T12:38:31.000Z,2106,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,win,1640,1582,18,-20
+253343684,6640305,ape,22614092,影,2026-09-26T11:58:19.000Z,1953,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,rus,loss,1660,1653,-20,27
+253283620,6640305,ape,6597889,Predgi,2026-09-26T01:19:16.000Z,2348,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,malians,win,1651,1415,9,-11
+253270567,6640305,ape,16865030,DavidSon713,2026-09-25T22:08:32.000Z,1816,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,english,win,1639,1274,12,-1
+250279629,3947737,Pichulo Totem,25515070,一顾客,2026-09-04T04:25:42.000Z,45,High View,rm_1v1,rm_solo,false,abbasid_dynasty,abbasid_dynasty,win,,1323,,-13
+250277408,3947737,Pichulo Totem,4121091,Jdoe,2026-09-04T03:51:15.000Z,1280,High View,rm_1v1,rm_solo,false,abbasid_dynasty,golden_horde,win,,1089,,-1
+250211929,3947737,Pichulo Totem,13842775,SexPistols,2026-09-03T15:52:12.000Z,2751,High View,rm_1v1,rm_solo,false,abbasid_dynasty,macedonian_dynasty,win,,1187,,-7
+250211625,3947737,Pichulo Totem,5449779,Nulli Secundus,2026-09-03T15:49:46.000Z,40,High View,rm_1v1,rm_solo,false,abbasid_dynasty,jin_dynasty,win,,1210,,-9
+250195313,3947737,Pichulo Totem,628019,GUCCI GANG,2026-09-03T13:57:06.000Z,1215,Gorge,rm_1v1,rm_solo,false,knights_templar,macedonian_dynasty,win,,1193,,-10
+248870335,3947737,Pichulo Totem,24176430,甜妹不甜,2026-08-25T05:49:06.000Z,1558,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,chinese,win,1410,1362,17,-18
+248868305,3947737,Pichulo Totem,6965777,Shigurepoi,2026-08-25T05:17:14.000Z,1724,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,rus,win,1391,1317,19,-20
+248734575,3947737,Pichulo Totem,18377124,枫丹骑士团团长芙卡洛斯,2026-08-24T05:46:28.000Z,1963,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,jin_dynasty,win,1370,1357,21,-22
+248723315,3947737,Pichulo Totem,21443977,majoris,2026-08-24T02:47:20.000Z,1223,Ocean Gateway,rm_1v1,rm_solo,false,order_of_the_dragon,ayyubids,win,1349,1325,21,-22
+248557645,3947737,Pichulo Totem,6387591,Stan of Dard,2026-08-23T03:23:57.000Z,1251,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,delhi_sultanate,loss,1367,1488,-18,17
+248526724,3947737,Pichulo Totem,6618403,Captain Miller,2026-08-22T21:26:47.000Z,1844,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,win,1346,1381,21,-22
+248407267,3947737,Pichulo Totem,16819497,小笼包,2026-08-22T06:05:27.000Z,1933,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,win,1319,1294,27,-18
+248405001,3947737,Pichulo Totem,10148315,[Real] Franklin111n,2026-08-22T05:40:54.000Z,1265,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,loss,1348,1285,-29,28
+248399056,3947737,Pichulo Totem,10665287,つよ,2026-08-22T04:28:51.000Z,840,Relic River,rm_1v1,rm_solo,false,abbasid_dynasty,sengoku_daimyo,loss,1365,1493,-17,16
+248387247,3947737,Pichulo Totem,18262340,BoxAfterLanded,2026-08-22T02:10:00.000Z,2304,Relic River,rm_1v1,rm_solo,false,abbasid_dynasty,english,win,1345,1314,20,-21
+248258232,3947737,Pichulo Totem,19730264,MONO,2026-08-21T06:02:34.000Z,904,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1369,1390,-24,23
+248250122,3947737,Pichulo Totem,19730264,MONO,2026-08-21T03:52:35.000Z,1392,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,french,win,1349,1306,20,-21
+248112709,3947737,Pichulo Totem,5706760,大猫咪,2026-08-20T02:54:43.000Z,869,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,japanese,loss,1361,1349,-12,26
+247999703,3947737,Pichulo Totem,16467765,薯条仙人,2026-08-19T08:06:32.000Z,218,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,house_of_lancaster,win,1334,1420,27,-28
+247984486,3947737,Pichulo Totem,17962200,3105004473,2026-08-19T04:05:05.000Z,1830,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1317,1225,17,-19
+247920736,3947737,Pichulo Totem,10935017,districtinstead,2026-08-18T16:09:33.000Z,817,Golden Heights,rm_1v1,rm_solo,false,abbasid_dynasty,zhu_xis_legacy,loss,1341,1338,-24,23
+247837487,3947737,Pichulo Totem,15379497,鹏天魔帝,2026-08-18T01:17:45.000Z,2291,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,english,loss,1363,1392,-22,21
+247531992,3947737,Pichulo Totem,228573,PensionedPenguin,2026-08-16T01:31:51.000Z,426,Golden Heights,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,loss,1385,1404,-22,21
+247504521,3947737,Pichulo Totem,293366,Diabenecke,2026-08-15T20:27:36.000Z,1363,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,abbasid_dynasty,win,1363,1355,,
+247486988,3947737,Pichulo Totem,3901344,Hakoda,2026-08-15T18:07:35.000Z,1464,Golden Heights,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,loss,1386,1421,-23,22
+247485526,3947737,Pichulo Totem,19941860,COD COD COD,2026-08-15T17:56:05.000Z,644,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,zhu_xis_legacy,loss,1413,1207,-27,37
+247385489,3947737,Pichulo Totem,18384272,0717贝极星kira,2026-08-15T04:57:46.000Z,1199,Ancient Spires,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,win,1389,1469,24,-25
+247243994,3947737,Pichulo Totem,3901344,Hakoda,2026-08-14T06:36:45.000Z,1051,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,macedonian_dynasty,loss,1412,1399,-23,22
+247164662,3947737,Pichulo Totem,5820123,Baltoro  ☠,2026-08-13T15:14:14.000Z,1963,Relic River,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,win,1388,,24,
+246973564,3947737,Pichulo Totem,6477971,The eye in the sky,2026-08-12T05:26:44.000Z,1375,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,house_of_lancaster,win,1367,1319,21,-22
+246966279,3947737,Pichulo Totem,20247685,a'b'd,2026-08-12T03:31:45.000Z,1003,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,win,1340,1370,27,-23
+246824448,3947737,Pichulo Totem,18294659,̶R̶u̶s̶E̶n̶j̶o̶y̶e̶r,2026-08-11T02:35:49.000Z,899,Relic River,rm_1v1,rm_solo,false,abbasid_dynasty,english,win,1319,1304,21,-22
+246822336,3947737,Pichulo Totem,18377124,枫丹骑士团团长芙卡洛斯,2026-08-11T02:07:35.000Z,1580,Ancient Spires,rm_1v1,rm_solo,false,abbasid_dynasty,byzantines,loss,1342,1369,-23,22
+246821076,3947737,Pichulo Totem,842592,SkIan,2026-08-11T01:51:24.000Z,841,Relic River,rm_1v1,rm_solo,false,abbasid_dynasty,chinese,win,1324,1278,18,-19
+246629101,3947737,Pichulo Totem,8251526,Zafrinia,2026-08-09T17:19:49.000Z,2458,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1294,1367,30,-26
+246491540,3947737,Pichulo Totem,24378280,veri nais,2026-08-08T22:10:07.000Z,1466,Relic River,rm_1v1,rm_solo,false,order_of_the_dragon,japanese,loss,1313,1353,-19,23
+246490500,3947737,Pichulo Totem,3587408,mebak,2026-08-08T21:59:20.000Z,584,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,jin_dynasty,loss,1327,1548,-14,13
+246202596,3947737,Pichulo Totem,18834064,GCanonica2421,2026-08-07T02:16:22.000Z,1705,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,delhi_sultanate,loss,1347,1427,-20,19
+256409120,5451257,Dr. Flams,17143534,BALDMAXIS,2026-10-18T14:23:34.000Z,1510,The Pit,rm_1v1,rm_solo,false,abbasid_dynasty,house_of_lancaster,win,1417,1384,20,-21
+254814825,5451257,Dr. Flams,15711691,皇帝,2026-10-07T02:07:42.000Z,1472,Atacama,rm_1v1,rm_solo,false,french,sengoku_daimyo,win,1392,1366,25,-21
+254686215,5451257,Dr. Flams,22525354,Yicepick,2026-10-06T02:31:17.000Z,1578,Flankwoods,rm_1v1,rm_solo,false,tughlaq_dynasty,malians,win,1366,1356,26,-21
+254683923,5451257,Dr. Flams,20718532,et_steam,2026-10-06T01:58:46.000Z,1776,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,win,1329,1554,37,-32
+252428580,5451257,Dr. Flams,20575410,-McKillBeam-,2026-09-19T14:22:19.000Z,2103,High View,rm_1v1,rm_solo,false,japanese,zhu_xis_legacy,win,1296,1349,33,-20
+252425413,5451257,Dr. Flams,16977854,paullawton2000,2026-09-19T14:03:19.000Z,1051,Flankwoods,rm_1v1,rm_solo,false,japanese,english,win,1266,1398,30,-23
+252287094,5451257,Dr. Flams,10766037,P0,2026-09-18T15:42:18.000Z,1393,Dry Arabia,rm_1v1,rm_solo,false,rus,house_of_lancaster,win,1239,1219,27,-14
+252282968,5451257,Dr. Flams,16799997,simple_Simon,2026-09-18T15:12:27.000Z,1745,Flankwoods,rm_1v1,rm_solo,false,japanese,sengoku_daimyo,loss,1256,1317,-17,25
+252278976,5451257,Dr. Flams,6360250,菜小鸟,2026-09-18T14:45:47.000Z,1539,Hidden Valley,rm_1v1,rm_solo,false,japanese,english,loss,1267,1425,-11,19
+252278538,5451257,Dr. Flams,7226416,granath,2026-09-18T14:43:00.000Z,84,Flankwoods,rm_1v1,rm_solo,false,japanese,french,win,1241,872,26,-1
+252276225,5451257,Dr. Flams,11914524,PANİC ATAK,2026-09-18T14:28:33.000Z,750,High View,rm_1v1,rm_solo,false,japanese,english,loss,1249,1470,-8,16
+252270270,5451257,Dr. Flams,19274241,SL&JY,2026-09-18T13:50:29.000Z,2198,High View,rm_1v1,rm_solo,false,japanese,golden_horde,win,1216,1364,33,-24
+251505467,5451257,Dr. Flams,21443977,majoris,2026-09-12T16:18:38.000Z,1458,West Lake,rm_1v1,rm_solo,false,rus,ottomans,loss,1233,1302,-17,26
+251475492,5451257,Dr. Flams,5202290,maheerali1213,2026-09-12T13:15:52.000Z,1153,Gorge,rm_1v1,rm_solo,false,english,english,win,1197,1416,36,-26
+251475119,5451257,Dr. Flams,16799997,simple_Simon,2026-09-12T13:13:26.000Z,73,West Lake,rm_1v1,rm_solo,false,rus,knights_templar,win,1164,1310,33,-22
+251471888,5451257,Dr. Flams,17669072,ZeroSete,2026-09-12T12:52:54.000Z,1182,Snake River,rm_1v1,rm_solo,false,english,macedonian_dynasty,loss,1173,1339,-9,27
+251465879,5451257,Dr. Flams,23162072,四年级学生森下下士,2026-09-12T12:13:56.000Z,2231,Gorge,rm_1v1,rm_solo,false,rus,order_of_the_dragon,loss,1180,1342,-7,27
+250871904,5451257,Dr. Flams,11389083,Lord_Q,2026-09-07T23:34:44.000Z,1001,Flankwoods,rm_1v1,rm_solo,false,macedonian_dynasty,english,win,1145,1315,35,-22
+250868658,5451257,Dr. Flams,8010517,Wind,2026-09-07T22:51:39.000Z,1941,Flankwoods,rm_1v1,rm_solo,false,macedonian_dynasty,rus,loss,1147,1185,-2,34
+250866718,5451257,Dr. Flams,10428512,屁话别那么多,2026-09-07T22:26:42.000Z,1424,High View,rm_1v1,rm_solo,false,macedonian_dynasty,ottomans,win,,1442,,-29
+250662781,5451257,Dr. Flams,19917135,阿毛,2026-09-06T14:18:22.000Z,1828,Gorge,rm_1v1,rm_solo,false,english,french,loss,,,,
+250657044,5451257,Dr. Flams,24577847,CHSxlegendxAP20,2026-09-06T13:47:47.000Z,1705,West Lake,rm_1v1,rm_solo,false,english,ottomans,win,,1306,,-22
+250653748,5451257,Dr. Flams,17151187,Majin,2026-09-06T13:29:37.000Z,998,High View,rm_1v1,rm_solo,false,english,abbasid_dynasty,win,,984,,-4
+250648184,5451257,Dr. Flams,16724917,dont steal my sheep,2026-09-06T12:58:45.000Z,1775,Gorge,rm_1v1,rm_solo,false,english,malians,loss,,1313,,24
+247463996,5451257,Dr. Flams,6673349,Kazam,2026-08-15T15:23:05.000Z,1291,Relic River,rm_1v1,rm_solo,false,delhi_sultanate,macedonian_dynasty,win,1339,1058,,
+247459472,5451257,Dr. Flams,25524201,51king A1,2026-08-15T14:56:44.000Z,1387,Golden Heights,rm_1v1,rm_solo,false,delhi_sultanate,japanese,win,1318,1373,21,-22
+247454679,5451257,Dr. Flams,25229239,Roggero Cannoniero,2026-08-15T14:29:06.000Z,1573,Hidden Valley,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,loss,1341,1361,-23,22
+247450617,5451257,Dr. Flams,4541258,deathcat,2026-08-15T14:05:47.000Z,1316,Gorge,rm_1v1,rm_solo,false,english,french,loss,1368,1360,-27,26
+246613594,5451257,Dr. Flams,11351113,gogi67,2026-08-09T15:33:12.000Z,1919,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,macedonian_dynasty,win,1341,1423,,
+246609330,5451257,Dr. Flams,23184425,enbi,2026-08-09T15:08:37.000Z,1377,Relic River,rm_1v1,rm_solo,false,order_of_the_dragon,malians,win,1319,1348,22,-23
+246472450,5451257,Dr. Flams,393268,Tundra,2026-08-08T19:26:33.000Z,1948,Ancient Spires,rm_1v1,rm_solo,false,order_of_the_dragon,jin_dynasty,loss,1343,1383,-24,23
+246466898,5451257,Dr. Flams,15298680,Qa,2026-08-08T18:41:48.000Z,2441,Hidden Valley,rm_1v1,rm_solo,false,english,tughlaq_dynasty,win,1320,1339,23,-24
+246463338,5451257,Dr. Flams,6965353,𝕷𝖊𝖔𝖕𝖆𝖗𝖉,2026-08-08T18:12:22.000Z,1672,Gorge,rm_1v1,rm_solo,false,jeanne_darc,knights_templar,win,1300,1280,20,-21
+246461066,5451257,Dr. Flams,18715732,muksus7,2026-08-08T17:53:27.000Z,1025,Relic River,rm_1v1,rm_solo,false,delhi_sultanate,tughlaq_dynasty,loss,1318,1453,-18,16
+246457846,5451257,Dr. Flams,16799997,simple_Simon,2026-08-08T17:28:19.000Z,1409,Golden Heights,rm_1v1,rm_solo,false,jeanne_darc,knights_templar,win,1294,1323,24,-25
+253840253,231618,Phian,19161449,沈梦河,2026-09-30T01:58:36.000Z,1338,Flankwoods,rm_1v1,rm_solo,false,golden_horde,order_of_the_dragon,win,1403,,22,
+251392521,231618,Phian,11120535,Maugan,2026-09-11T23:23:22.000Z,2481,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,jin_dynasty,win,1380,1218,23,-16
+251391584,231618,Phian,512672,DirtymotherfknDan,2026-09-11T23:08:41.000Z,819,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,english,win,1361,,19,
+251385734,231618,Phian,8972588,umberTOto,2026-09-11T21:57:18.000Z,2274,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,delhi_sultanate,win,1340,862,21,-1
+251383760,231618,Phian,25810160,SebasCss,2026-09-11T21:36:52.000Z,916,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,ottomans,win,1322,1217,18,-20
+251381990,231618,Phian,858644,[ODW] Bob,2026-09-11T21:18:44.000Z,966,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,ayyubids,win,1301,1218,21,-22
+251379630,231618,Phian,10368123,"""Mantle"" le Absolute Pure Evil",2026-09-11T20:56:40.000Z,1005,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,jeanne_darc,win,1274,894,27,-4
+251374628,231618,Phian,11282232,teatess,2026-09-11T20:13:19.000Z,2010,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,ayyubids,loss,1299,1241,-25,24
+251371115,231618,Phian,11282232,teatess,2026-09-11T19:43:59.000Z,1668,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,ayyubids,loss,1326,1215,-27,26
+251350220,231618,Phian,15291206,四条眉毛陆飞,2026-09-11T16:45:46.000Z,2232,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,mongols,loss,1349,975,-23,42
+251348650,231618,Phian,15291206,四条眉毛陆飞,2026-09-11T16:33:11.000Z,689,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,jeanne_darc,win,1323,,26,
+251345077,231618,Phian,24016987,Clitoris Master,2026-09-11T16:05:44.000Z,1597,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,holy_roman_empire,loss,1343,,-20,
+251339617,231618,Phian,18871270,Trispi,2026-09-11T15:25:37.000Z,2359,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,french,loss,1370,1034,-27,41
+251337099,231618,Phian,20736649,DX13,2026-09-11T15:08:19.000Z,944,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,chinese,win,1351,1181,19,-14
+251269259,231618,Phian,8523565,Terminus,2026-09-11T02:41:49.000Z,1629,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1331,1194,20,-16
+251267458,231618,Phian,23474486,Ưng Vô Sở Trụ,2026-09-11T02:13:44.000Z,,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,chinese,,1331,1237,,
+251265898,231618,Phian,7067966,xplodinpigz,2026-09-11T01:50:04.000Z,1306,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,rus,win,1308,,23,
+251264057,231618,Phian,23573347,YaDudeBryan,2026-09-11T01:19:25.000Z,1783,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,french,loss,1329,1156,-21,32
+251263621,231618,Phian,648448,Weaselturd,2026-09-11T01:12:52.000Z,299,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1307,1230,22,-18
+251222067,231618,Phian,3795136,Kira,2026-09-10T17:13:53.000Z,1378,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,abbasid_dynasty,win,1285,1037,22,-10
+251218910,231618,Phian,3051178,Nidhogg,2026-09-10T16:44:14.000Z,1719,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,mongols,loss,1310,1260,-25,24
+251215691,231618,Phian,22441846,sorara,2026-09-10T16:16:09.000Z,1607,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,japanese,loss,1335,,-25,
+251214147,231618,Phian,25810160,SebasCss,2026-09-10T16:02:05.000Z,,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,ottomans,,1335,1197,,
+251211717,231618,Phian,3587041,tokushi,2026-09-10T15:41:57.000Z,833,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,house_of_lancaster,win,1313,1268,22,-23
+251120355,231618,Phian,17666015,Nytract,2026-09-09T21:03:44.000Z,2400,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,rus,win,1294,1106,19,-13
+251115614,231618,Phian,2944014,Yi Ming,2026-09-09T20:15:03.000Z,2854,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,english,loss,1315,1215,-21,29
+251012327,231618,Phian,21686550,[KETA] KeTaMiNe,2026-09-09T02:02:30.000Z,2021,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,zhu_xis_legacy,win,1288,1198,27,-18
+251008994,231618,Phian,21543948,阿邁爾凱諾 • 賓斯,2026-09-09T01:13:04.000Z,2371,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,house_of_lancaster,win,1262,1220,26,-20
+251007846,231618,Phian,14858251,BboySlug,2026-09-09T00:56:37.000Z,894,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,delhi_sultanate,win,1238,1269,24,-25
+251005480,231618,Phian,18207353,Flavimdopneu667,2026-09-09T00:20:59.000Z,2037,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,english,loss,1265,1249,-27,26
+250990975,231618,Phian,340921,Tribun,2026-09-08T20:55:59.000Z,764,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1241,670,24,-1
+250990028,231618,Phian,648448,Weaselturd,2026-09-08T20:45:46.000Z,451,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1214,1255,27,-28
+250987035,231618,Phian,8981895,Zeus,2026-09-08T20:15:01.000Z,1670,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,english,loss,1236,1303,-22,20
+250982317,231618,Phian,5854988,AdriRens,2026-09-08T19:32:09.000Z,2494,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,rus,loss,1261,1251,-25,24
+250981951,231618,Phian,11282232,teatess,2026-09-08T19:28:57.000Z,135,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,byzantines,win,1235,1238,26,-22
+250981736,231618,Phian,17438846,I'm Scared,2026-09-08T19:27:20.000Z,29,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,house_of_lancaster,win,1215,1125,20,-21
+250883697,231618,Phian,10038120,Dewa,2026-09-08T02:17:36.000Z,790,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,house_of_lancaster,win,1193,1044,22,-13
+250881535,231618,Phian,3651399,Capittano1985,2026-09-08T01:48:52.000Z,1600,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,house_of_lancaster,win,1175,1072,18,-19
+250879787,231618,Phian,15284030,Crusader4God574,2026-09-08T01:24:28.000Z,1312,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1150,1255,25,-26
+250877316,231618,Phian,25961314,Leeland,2026-09-08T00:51:22.000Z,1916,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,abbasid_dynasty,win,1125,1132,25,-20
+250834628,231618,Phian,1336862,Oie de Cajou,2026-09-07T17:59:46.000Z,925,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,malians,win,1098,,27,
+250832058,231618,Phian,6390461,sami.o.raad,2026-09-07T17:40:33.000Z,1046,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,zhu_xis_legacy,win,1070,,28,
+250828586,231618,Phian,24471120,JPenida,2026-09-07T17:13:53.000Z,1553,Snake River,rm_1v1,rm_solo,false,knights_templar,rus,loss,1091,1064,-21,30
+250823332,231618,Phian,7603197,E_ABCD,2026-09-07T16:33:30.000Z,2347,Hideout,rm_1v1,rm_solo,false,knights_templar,malians,loss,1112,1023,-21,31
+250759943,231618,Phian,13989461,Abbysek,2026-09-07T06:50:06.000Z,3771,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1083,1026,29,-16
+250756460,231618,Phian,19776742,pakzman,2026-09-07T05:51:38.000Z,3365,Dry Arabia,rm_1v1,rm_solo,false,japanese,english,loss,1104,1104,-21,25
+250754922,231618,Phian,21752599,Counter-Logic,2026-09-07T05:25:13.000Z,1535,Hideout,rm_1v1,rm_solo,false,knights_templar,order_of_the_dragon,loss,1133,1039,-29,33
+250753602,231618,Phian,11431087,Mr Berkshire781,2026-09-07T05:04:20.000Z,1132,Dry Arabia,rm_1v1,rm_solo,false,japanese,french,win,1103,1179,30,-26
+250750623,231618,Phian,21426850,mebsthnow,2026-09-07T04:19:06.000Z,2652,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,order_of_the_dragon,loss,1122,1009,-19,33
+250749590,231618,Phian,22803610,Seoi Amarelo,2026-09-07T04:05:25.000Z,762,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,byzantines,loss,1136,1151,-14,26
+250733062,231618,Phian,25458380,Mo Easy Bot,2026-09-07T00:07:39.000Z,1854,High View,rm_1v1,rm_solo,false,house_of_lancaster,english,win,1109,,27,
+250730967,231618,Phian,4577953,Waterg0at,2026-09-06T23:36:20.000Z,1768,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,english,loss,1132,,-23,
+250728491,231618,Phian,22560056,123456789,2026-09-06T22:59:15.000Z,2092,Hideout,rm_1v1,rm_solo,false,knights_templar,knights_templar,loss,1152,995,-20,36
+250727003,231618,Phian,12171166,mvboot,2026-09-06T22:38:35.000Z,1114,Gorge,rm_1v1,rm_solo,false,japanese,golden_horde,loss,1175,967,-23,38
+250724931,231618,Phian,838575,HoOmIiinidosS,2026-09-06T22:11:48.000Z,1505,Flankwoods,rm_1v1,rm_solo,false,japanese,sengoku_daimyo,loss,1200,1112,-25,32
+250723616,231618,Phian,3687378,Estratega,2026-09-06T21:55:12.000Z,934,High View,rm_1v1,rm_solo,false,house_of_lancaster,rus,win,1178,1042,22,-12
+250716304,231618,Phian,6540082,F L D,2026-09-06T20:40:41.000Z,4410,Hideout,rm_1v1,rm_solo,false,knights_templar,french,loss,1205,1125,-27,32
+250585727,231618,Phian,8748422,啊，书画家,2026-09-06T04:08:16.000Z,51,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,ottomans,win,1181,1194,24,-20
+250580484,231618,Phian,19172515,Yanmo,2026-09-06T03:09:15.000Z,3471,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,japanese,loss,1205,973,-24,39
+250578884,231618,Phian,7684345,Hinata,2026-09-06T02:51:57.000Z,951,Flankwoods,rm_1v1,rm_solo,false,house_of_lancaster,french,win,1182,1058,23,-14
+250576865,231618,Phian,3591331,江枫渔火对愁眠,2026-09-06T02:29:21.000Z,1302,High View,rm_1v1,rm_solo,false,japanese,malians,loss,1209,1128,-27,32
+250574572,231618,Phian,25482711,plate,2026-09-06T02:03:22.000Z,1486,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,macedonian_dynasty,loss,1231,1251,-22,21
+250564312,231618,Phian,10967958,More Or Less,2026-09-05T23:53:07.000Z,1346,High View,rm_1v1,rm_solo,false,house_of_lancaster,rus,win,1213,986,18,-8
+250561455,231618,Phian,4238328,shinning,2026-09-05T23:16:23.000Z,2044,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,french,loss,1233,1289,-20,23
+250556797,231618,Phian,3888458,HesAwkward,2026-09-05T22:19:17.000Z,1408,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,rus,win,1209,1184,24,-19
+250555121,231618,Phian,22600439,Regiment0606,2026-09-05T22:01:08.000Z,1042,Hidden Valley,rm_1v1,rm_solo,false,knights_templar,french,loss,1231,1255,-22,21
+250553399,231618,Phian,25005690,Huts,2026-09-05T21:43:42.000Z,884,High View,rm_1v1,rm_solo,false,house_of_lancaster,japanese,win,1207,1071,24,-13
+250521954,231618,Phian,4264117,bueckling,2026-09-05T17:20:38.000Z,1148,Hideout,rm_1v1,rm_solo,false,knights_templar,sengoku_daimyo,win,1178,1161,29,-19
+250516727,231618,Phian,6675656,FlaLuck,2026-09-05T16:40:07.000Z,2369,Hideout,rm_1v1,rm_solo,false,knights_templar,rus,loss,1204,,-26,
+250515260,231618,Phian,6675656,FlaLuck,2026-09-05T16:28:59.000Z,602,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1176,,28,
+250435226,231618,Phian,1856673,练习时常两年半,2026-09-05T06:30:49.000Z,2801,Flankwoods,rm_1v1,rm_solo,false,knights_templar,macedonian_dynasty,loss,1202,1188,-26,25
+250433077,231618,Phian,20579624,爆杀牛爷爷,2026-09-05T06:07:47.000Z,1324,High View,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,loss,1228,1071,-26,35
+250392136,231618,Phian,15873841,taha24,2026-09-04T21:51:10.000Z,1603,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,chinese,win,1205,,23,
+250388007,231618,Phian,11931636,noobking,2026-09-04T21:11:30.000Z,2310,Gorge,rm_1v1,rm_solo,false,house_of_lancaster,english,loss,1225,1136,-20,31
+250384096,231618,Phian,25523611,Starling_aoe,2026-09-04T20:37:10.000Z,1966,Gorge,rm_1v1,rm_solo,false,knights_templar,macedonian_dynasty,loss,1248,,-23,
+250380319,231618,Phian,26004893,韩英俊帅飞了,2026-09-04T20:05:48.000Z,1717,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,order_of_the_dragon,win,1224,,24,
+250374790,231618,Phian,6878569,mexxez 16,2026-09-04T19:21:44.000Z,2580,Gorge,rm_1v1,rm_solo,false,knights_templar,macedonian_dynasty,loss,1249,967,-25,41
+250268543,231618,Phian,23567996,喝什么粥,2026-09-04T01:42:13.000Z,1882,Hideout,rm_1v1,rm_solo,false,knights_templar,knights_templar,win,1225,1310,24,-25
+250266702,231618,Phian,9394839,Vangardwax,2026-09-04T01:15:02.000Z,1557,High View,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,1203,,22,
+250264702,231618,Phian,25810160,SebasCss,2026-09-04T00:46:11.000Z,1592,Gorge,rm_1v1,rm_solo,false,knights_templar,malians,win,1183,1129,20,-21
+250257151,231618,Phian,4696088,Fraack Jason,2026-09-03T22:53:53.000Z,1244,Dry Arabia,rm_1v1,rm_solo,false,japanese,byzantines,win,1157,,26,
+250252790,231618,Phian,9145717,bab2071,2026-09-03T22:02:29.000Z,,Hidden Valley,rm_1v1,rm_solo,false,knights_templar,holy_roman_empire,,1157,869,,
+250251475,231618,Phian,25776782,DOumage,2026-09-03T21:45:40.000Z,933,Snake River,rm_1v1,rm_solo,false,house_of_lancaster,malians,win,1129,,,
+250246586,231618,Phian,21573210,Roosh,2026-09-03T20:50:59.000Z,3209,High View,rm_1v1,rm_solo,false,house_of_lancaster,french,loss,1143,925,-14,39
+250244169,231618,Phian,4264117,bueckling,2026-09-03T20:26:16.000Z,1291,High View,rm_1v1,rm_solo,false,house_of_lancaster,order_of_the_dragon,loss,1163,997,-20,37
+250242584,231618,Phian,7945065,_emma,2026-09-03T20:11:51.000Z,709,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,english,win,1133,,30,
+250008520,231618,Phian,20137489,FUSTAFOX,2026-09-02T04:08:48.000Z,1386,Gorge,rm_1v1,rm_solo,false,knights_templar,knights_templar,win,,,,
+250006529,231618,Phian,20201584,XekalCon,2026-09-02T03:36:30.000Z,1877,High View,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,loss,,,,
+250005429,231618,Phian,10949203,IOANNIS OLY,2026-09-02T03:19:03.000Z,910,High View,rm_1v1,rm_solo,false,house_of_lancaster,french,win,,1125,,-18
+249991534,231618,Phian,5199495,[RG]GeneraL,2026-09-02T00:02:02.000Z,2691,Hideout,rm_1v1,rm_solo,false,knights_templar,knights_templar,win,,783,,-2
+249988620,231618,Phian,15767625,靓崽凯智,2026-09-01T23:18:14.000Z,2474,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,french,win,,,,
+248725583,231618,Phian,12080528,nemo0806,2026-08-24T03:20:29.000Z,1914,Relic River,rm_1v1,rm_solo,false,japanese,french,win,1187,1080,20,-21
+248722648,231618,Phian,25001128,aoe4stats.com,2026-08-24T02:38:19.000Z,2407,West Lake,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,loss,1209,1046,-22,31
+250997749,255233,queronte,7714333,Conter1593,2026-09-08T22:21:36.000Z,1180,Dry Arabia,rm_1v1,rm_solo,false,rus,order_of_the_dragon,win,1383,1523,34,-27
+250993380,255233,queronte,12236416,Babusch,2026-09-08T21:23:03.000Z,1672,High View,rm_1v1,rm_solo,false,rus,rus,win,1353,,30,
+250991575,255233,queronte,11960419,muszkieter,2026-09-08T21:03:01.000Z,748,Dry Arabia,rm_1v1,rm_solo,false,rus,macedonian_dynasty,loss,1362,1543,-9,22
+250990098,255233,queronte,6627262,Cirrek,2026-09-08T20:46:36.000Z,880,Dry Arabia,rm_1v1,rm_solo,false,rus,knights_templar,loss,1384,1156,-22,45
+250890716,255233,queronte,6689773,敏感戦士イートロン,2026-09-08T04:05:48.000Z,1110,High View,rm_1v1,rm_solo,false,rus,abbasid_dynasty,win,1355,1411,29,-20
+250890425,255233,queronte,1036727,faye-chan,2026-09-08T04:01:09.000Z,100,Dry Arabia,rm_1v1,rm_solo,false,rus,jin_dynasty,loss,1356,,-1,
+250739353,255233,queronte,9118989,Ned,2026-09-07T01:40:45.000Z,1362,Dry Arabia,rm_1v1,rm_solo,false,rus,malians,loss,1363,1640,-7,15
+250731708,255233,queronte,3587408,mebak,2026-09-06T23:47:25.000Z,2157,High View,rm_1v1,rm_solo,false,rus,jin_dynasty,win,1332,1416,31,-21
+250575151,255233,queronte,21601223,Seoi Zero,2026-09-06T02:09:52.000Z,1206,Hideout,rm_1v1,rm_solo,false,rus,malians,win,1303,1359,29,-18
+250542913,255233,queronte,199837,E.Sorcerer,2026-09-05T20:10:27.000Z,1293,High View,rm_1v1,rm_solo,false,rus,malians,win,1264,1457,39,-21
+250527451,255233,queronte,5651448,FolKlorE,2026-09-05T18:07:19.000Z,1186,High View,rm_1v1,rm_solo,false,rus,house_of_lancaster,win,1225,1261,39,-12
+250374394,255233,queronte,17518902,Zalph,2026-09-04T19:18:38.000Z,1462,High View,rm_1v1,rm_solo,false,rus,english,win,1190,1364,35,-21
+250271333,255233,queronte,18531778,(RADIO): Enemy spotted.,2026-09-04T02:20:22.000Z,1087,High View,rm_1v1,rm_solo,false,rus,jin_dynasty,win,1152,1015,38,-1
+250266853,255233,queronte,23770637,大爱羊尊,2026-09-04T01:17:31.000Z,1411,Hideout,rm_1v1,rm_solo,false,rus,ottomans,loss,1153,1540,-1,22
+250260168,255233,queronte,16342035,"| NBP | PaGuii, o empurrador",2026-09-03T23:37:54.000Z,2195,High View,rm_1v1,rm_solo,false,rus,ottomans,win,1112,1335,41,-17
+250255947,255233,queronte,26016610,fake doksh,2026-09-03T22:37:41.000Z,998,Archipelago,rm_1v1,rm_solo,false,knights_templar,english,win,1068,1318,44,-17
+250141900,255233,queronte,379424,耶穌愛你,2026-09-03T04:10:59.000Z,1798,Hideout,rm_1v1,rm_solo,false,rus,jin_dynasty,win,1027,,41,
+250140660,255233,queronte,1433912,打鱼高手,2026-09-03T03:51:16.000Z,1081,High View,rm_1v1,rm_solo,false,rus,mongols,loss,1029,,-2,
+250135155,255233,queronte,7286439,samuelpjp,2026-09-03T02:31:27.000Z,1095,High View,rm_1v1,rm_solo,false,rus,english,loss,1037,1189,-8,38
+250128940,255233,queronte,10428512,屁话别那么多,2026-09-03T01:08:16.000Z,1103,Hideout,rm_1v1,rm_solo,false,rus,ottomans,win,,1201,,-10
+250008905,255233,queronte,2217904,Charmed,2026-09-02T04:14:25.000Z,1491,Dry Arabia,rm_1v1,rm_solo,false,byzantines,french,loss,,,,
+250003383,255233,queronte,17074068,1234,2026-09-02T02:48:37.000Z,1150,High View,rm_1v1,rm_solo,false,byzantines,delhi_sultanate,loss,,1351,,30
+249997301,255233,queronte,5898682,CaliGuachimingo,2026-09-02T01:25:06.000Z,983,Archipelago,rm_1v1,rm_solo,false,knights_templar,japanese,win,,,,
+249996644,255233,queronte,7714333,Conter1593,2026-09-02T01:16:35.000Z,225,Hideout,rm_1v1,rm_solo,false,rus,rus,loss,,,,
+258141320,26053379,Capra Hircus,12151110,AIYAIYA,2026-10-30T14:59:31.000Z,1210,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,vikings,win,1388,1183,25,-11
+258067982,26053379,Capra Hircus,21686366,nife,2026-10-30T08:48:54.000Z,917,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,zhu_xis_legacy,loss,1414,1398,-26,25
+257854181,26053379,Capra Hircus,7503308,Moye,2026-10-29T02:10:14.000Z,724,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,loss,1442,1314,-28,32
+257604254,26053379,Capra Hircus,25543291,edithafried1552,2026-10-27T05:52:04.000Z,1063,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,golden_horde,win,1425,1350,17,-19
+257603828,26053379,Capra Hircus,26239010,小杰,2026-10-27T05:44:04.000Z,309,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,jin_dynasty,loss,1453,1385,-28,28
+257581491,26053379,Capra Hircus,20406161,Moengs,2026-10-26T23:43:50.000Z,1443,King of the Hill,rm_1v1,rm_solo,false,abbasid_dynasty,tughlaq_dynasty,win,1428,1468,25,-26
+257297483,26053379,Capra Hircus,289639,LegendLil,2026-10-25T03:10:42.000Z,1288,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,malians,loss,1446,1242,-18,34
+257219487,26053379,Capra Hircus,24937419,Ivar,2026-10-24T15:20:38.000Z,1510,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,zhu_xis_legacy,win,1426,1363,20,-22
+257217558,26053379,Capra Hircus,18380621,zh1359ww,2026-10-24T15:09:56.000Z,597,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,loss,1456,1305,-30,29
+257051311,26053379,Capra Hircus,9272985,真理之谬joker,2026-10-23T14:56:55.000Z,2039,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,golden_horde,win,1436,1339,20,-21
+256988136,26053379,Capra Hircus,8837971,Alexius Komnenus,2026-10-23T04:41:04.000Z,1190,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,french,win,1416,,20,
+256985792,26053379,Capra Hircus,21619018,🏥 the killer paramedic {JINS},2026-10-23T04:02:55.000Z,1489,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1438,1427,-22,21
+256984729,26053379,Capra Hircus,6687875,Reza,2026-10-23T03:44:34.000Z,1045,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,japanese,loss,1459,1480,-21,20
+256618477,26053379,Capra Hircus,12144775,Weaksol,2026-10-20T04:42:39.000Z,2424,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,french,win,1436,1448,23,-24
+256618214,26053379,Capra Hircus,9457284,Gold Whale,2026-10-20T04:37:38.000Z,240,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,house_of_lancaster,loss,1460,1457,-24,23
+256496617,26053379,Capra Hircus,15621128,2673090073,2026-10-19T05:06:14.000Z,1151,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,french,loss,1480,,-20,
+256488572,26053379,Capra Hircus,3587408,mebak,2026-10-19T02:38:18.000Z,2033,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,jin_dynasty,win,1454,1463,26,-27
+256315027,26053379,Capra Hircus,12405208,OmnaP,2026-10-18T00:27:10.000Z,2268,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,rus,win,1437,1298,17,-19
+256165394,26053379,Capra Hircus,9353508,ScoredCarrot251,2026-10-17T03:14:26.000Z,2011,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,holy_roman_empire,win,1411,1441,26,-27
+256164002,26053379,Capra Hircus,11680824,暮风夜雨,2026-10-17T02:57:59.000Z,428,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,loss,1431,1446,-20,19
+256041323,26053379,Capra Hircus,23589996,二本按满进tc,2026-10-16T07:19:10.000Z,1718,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,rus,loss,1457,1415,-26,25
+256035777,26053379,Capra Hircus,6101153,波流卡,2026-10-16T05:57:53.000Z,1155,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,ottomans,win,1430,1456,27,-28
+256035657,26053379,Capra Hircus,24754805,AAA和成君堡橄榄大果,2026-10-16T05:55:42.000Z,83,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,house_of_lancaster,loss,1459,1375,-29,28
+256035117,26053379,Capra Hircus,11514310,oily men enjoyer 2.0,2026-10-16T05:45:32.000Z,524,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,loss,1480,1516,-21,20
+256033909,26053379,Capra Hircus,22560428,Shin ßé ßỏng,2026-10-16T05:22:48.000Z,975,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,house_of_lancaster,win,1453,1448,27,-22
+256023011,26053379,Capra Hircus,881653,道道阴阳阴道道阴阳阳,2026-10-16T02:14:55.000Z,659,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,mongols,win,1429,1426,24,-25
+256013383,26053379,Capra Hircus,3523005,star,2026-10-15T23:32:35.000Z,992,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,order_of_the_dragon,win,1409,1387,20,-21
+255891161,26053379,Capra Hircus,2607134,Dirtus,2026-10-14T23:54:33.000Z,1179,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,loss,1432,1425,-23,22
+255890135,26053379,Capra Hircus,2607134,Dirtus,2026-10-14T23:36:39.000Z,907,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,win,1406,1452,26,-27
+255889888,26053379,Capra Hircus,22626233,困困小天包,2026-10-14T23:32:35.000Z,164,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,house_of_lancaster,loss,1440,1224,-34,34
+255838927,26053379,Capra Hircus,7802324,Knight of Faith,2026-10-14T14:51:06.000Z,2329,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,loss,1467,1362,-27,26
+255836153,26053379,Capra Hircus,20997865,Devlet Giray,2026-10-14T14:31:39.000Z,1053,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,golden_horde,loss,1488,1473,-21,20
+255717370,26053379,Capra Hircus,17143534,BALDMAXIS,2026-10-13T15:05:23.000Z,1587,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,order_of_the_dragon,win,1466,1390,22,-23
+255711416,26053379,Capra Hircus,26108104,v ö l u r,2026-10-13T14:23:59.000Z,1140,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,french,win,1447,1334,19,-20
+255702406,26053379,Capra Hircus,17255298,Velesssx,2026-10-13T13:24:00.000Z,1264,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,ottomans,win,1427,1369,20,-21
+255693175,26053379,Capra Hircus,7863922,Alarak,2026-10-13T12:14:32.000Z,660,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1447,1502,-20,18
+255691307,26053379,Capra Hircus,10433731,апапапа,2026-10-13T11:58:10.000Z,902,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,rus,loss,1469,1464,-22,21
+255496085,26053379,Capra Hircus,10408085,Darth Dent,2026-10-11T20:48:58.000Z,1790,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,house_of_lancaster,win,1449,1282,20,-14
+255374758,26053379,Capra Hircus,14906195,pyth,2026-10-11T06:12:28.000Z,1332,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,tughlaq_dynasty,win,1428,1364,21,-22
+255368717,26053379,Capra Hircus,4194321,Constantinople,2026-10-11T05:07:06.000Z,807,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,loss,1449,1444,-21,20
+255368467,26053379,Capra Hircus,18266315,超级高手,2026-10-11T05:04:35.000Z,48,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,malians,win,1424,1395,25,-21
+255368229,26053379,Capra Hircus,4504076,小孟尝,2026-10-11T05:02:03.000Z,35,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,ayyubids,win,1393,1489,31,-31
+255365757,26053379,Capra Hircus,21135070,浮光掠辉,2026-10-11T04:33:29.000Z,1261,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,ottomans,win,1365,1447,28,-28
+255340253,26053379,Capra Hircus,23567261,砂木,2026-10-10T23:13:40.000Z,991,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,macedonian_dynasty,loss,1383,1468,-18,17
+255197867,26053379,Capra Hircus,24319331,한국인,2026-10-10T02:23:06.000Z,1155,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,ayyubids,win,1358,1228,25,-15
+255128580,26053379,Capra Hircus,22329495,立方体,2026-10-09T14:52:01.000Z,556,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,loss,1383,1340,-25,24
+255062398,26053379,Capra Hircus,17726858,wakui,2026-10-09T02:23:10.000Z,705,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,abbasid_dynasty,win,1362,1286,21,-17
+254934368,26053379,Capra Hircus,11232822,Vallhala Calling Me,2026-10-07T23:53:27.000Z,1031,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1389,1299,-27,26
+254825038,26053379,Capra Hircus,6677135,Twine,2026-10-07T04:44:56.000Z,1764,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,win,1365,1305,24,-18
+254824338,26053379,Capra Hircus,3173251,Loongese,2026-10-07T04:34:04.000Z,612,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,order_of_the_dragon,loss,1389,1360,-24,23
+254823311,26053379,Capra Hircus,25593892,recoir,2026-10-07T04:16:25.000Z,984,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,french,win,1373,1237,16,-17
+254816384,26053379,Capra Hircus,2349456,Ahkens,2026-10-07T02:28:03.000Z,2040,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,order_of_the_dragon,loss,1394,1405,-21,20
+254751561,26053379,Capra Hircus,5202290,maheerali1213,2026-10-06T14:47:00.000Z,2361,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,english,loss,1419,1381,-25,25
+254708387,26053379,Capra Hircus,6637831,吓死乖宝宝,2026-10-06T07:58:13.000Z,1144,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,french,win,1395,1367,24,-25
+254703073,26053379,Capra Hircus,6133620,舒适蛆,2026-10-06T06:47:16.000Z,1262,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,holy_roman_empire,loss,1407,1602,-12,11
+254694024,26053379,Capra Hircus,6637831,吓死乖宝宝,2026-10-06T04:30:16.000Z,1473,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,french,win,1381,1418,26,-27
+254692815,26053379,Capra Hircus,8337637,Eutopiaaa,2026-10-06T04:11:12.000Z,1090,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1399,1361,-18,25
+254571860,26053379,Capra Hircus,8330667,Z4WhiteKnight4Z,2026-10-05T06:41:03.000Z,1445,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,win,1379,1121,20,-8
+254564923,26053379,Capra Hircus,8426537,洗把脸,2026-10-05T04:53:29.000Z,1666,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,holy_roman_empire,win,1360,1267,19,-21
+254562877,26053379,Capra Hircus,22478027,Yooloo,2026-10-05T04:19:38.000Z,1485,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,english,win,1337,1250,23,-17
+254561237,26053379,Capra Hircus,7499542,sbreda95,2026-10-05T03:52:34.000Z,1276,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,japanese,win,1305,1485,32,-32
+254248691,26053379,Capra Hircus,25679917,yzbjx,2026-10-03T05:06:51.000Z,636,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,win,1288,1174,17,-18
+254246852,26053379,Capra Hircus,8280231,Blink23,2026-10-03T04:42:24.000Z,1312,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,holy_roman_empire,win,1269,1218,19,-21
+254244781,26053379,Capra Hircus,22167028,五条悟らないで,2026-10-03T04:14:57.000Z,1545,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,japanese,loss,1294,1275,-25,25
+254100825,26053379,Capra Hircus,17600502,WhatCanISay,2026-10-02T02:54:07.000Z,1076,Lipany,rm_1v1,rm_solo,false,order_of_the_dragon,rus,loss,1321,1237,-27,27
+253980567,26053379,Capra Hircus,17819207,谁在呼叫舰队？,2026-10-01T05:33:59.000Z,719,High View,rm_1v1,rm_solo,false,rus,french,loss,1337,1471,-16,14
+253978159,26053379,Capra Hircus,11923415,奇,2026-10-01T04:58:05.000Z,867,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,byzantines,win,1314,1304,23,-24
+253852491,26053379,Capra Hircus,14002986,任,2026-09-30T05:31:36.000Z,1393,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,order_of_the_dragon,win,1293,1092,21,-10
+253852273,26053379,Capra Hircus,25388202,GolKRoger,2026-09-30T05:27:47.000Z,139,Snake River,rm_1v1,rm_solo,false,order_of_the_dragon,french,win,1271,933,22,-4
+253846401,26053379,Capra Hircus,17946359,Ashen one,2026-09-30T03:39:24.000Z,1180,Dry Arabia,rm_1v1,rm_solo,false,rus,golden_horde,win,1249,1258,22,-23
+253845230,26053379,Capra Hircus,3599529,foresth,2026-09-30T03:19:11.000Z,803,High View,rm_1v1,rm_solo,false,rus,ottomans,win,1224,1189,25,-21
+253843782,26053379,Capra Hircus,1260347,Herzan,2026-09-30T02:55:35.000Z,704,Gorge,rm_1v1,rm_solo,false,rus,holy_roman_empire,loss,1243,1289,-19,23
+253842944,26053379,Capra Hircus,3815653,Ambatukam,2026-09-30T02:41:51.000Z,778,Gorge,rm_1v1,rm_solo,false,rus,zhu_xis_legacy,loss,1263,1399,-20,18
+253842742,26053379,Capra Hircus,259486,HA LLEGADO WALLACE!!,2026-09-30T02:38:25.000Z,128,Gorge,rm_1v1,rm_solo,false,rus,delhi_sultanate,loss,1289,1277,-26,25
+253733854,26053379,Capra Hircus,4496722,sveti-Ilija,2026-09-29T05:41:12.000Z,1184,High View,rm_1v1,rm_solo,false,rus,abbasid_dynasty,win,1269,1231,20,-21
+253733086,26053379,Capra Hircus,22213625,retroman95,2026-09-29T05:26:23.000Z,722,Gorge,rm_1v1,rm_solo,false,rus,rus,win,1246,1156,23,-16
+253728600,26053379,Capra Hircus,21578331,yd8923,2026-09-29T04:05:23.000Z,1384,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,win,1216,1280,30,-26
+253721571,26053379,Capra Hircus,11097478,BALuestar,2026-09-29T02:06:22.000Z,728,Flankwoods,rm_1v1,rm_solo,false,abbasid_dynasty,zhu_xis_legacy,loss,1233,1283,-17,21
+253720311,26053379,Capra Hircus,2607134,Dirtus,2026-09-29T01:45:46.000Z,632,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,sengoku_daimyo,loss,1247,1329,-14,18
+253616655,26053379,Capra Hircus,25799064,2969627814,2026-09-28T07:00:34.000Z,1800,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,win,1222,1219,25,-21
+253451280,26053379,Capra Hircus,11205434,Sunday Friend,2026-09-27T03:45:20.000Z,1879,Flankwoods,rm_1v1,rm_solo,false,english,english,loss,1238,1302,-16,20
+253288997,26053379,Capra Hircus,15122560,山鸟与海鱼陌路,2026-09-26T02:27:07.000Z,1279,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1254,1322,-16,20
+253285397,26053379,Capra Hircus,6345821,legacy,2026-09-26T01:42:28.000Z,768,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,byzantines,loss,1268,1389,-14,18
+253283573,26053379,Capra Hircus,22803610,Seoi Amarelo,2026-09-26T01:18:36.000Z,930,Snake River,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1294,1261,-26,26
+253283120,26053379,Capra Hircus,22803610,Seoi Amarelo,2026-09-26T01:12:28.000Z,301,Snake River,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,win,1267,1284,27,-23
+253170064,26053379,Capra Hircus,8572190,Mikrob,2026-09-25T06:47:06.000Z,757,Snake River,rm_1v1,rm_solo,false,rus,knights_templar,loss,1284,1310,-17,27
+253169205,26053379,Capra Hircus,20328007,传奇幼刀有地绫,2026-09-25T06:37:40.000Z,206,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,house_of_lancaster,loss,1314,1105,-30,39
+253149772,26053379,Capra Hircus,22581877,Incurso,2026-09-25T02:11:50.000Z,1300,Flankwoods,rm_1v1,rm_solo,false,abbasid_dynasty,ayyubids,loss,1336,1425,-22,21
+253147782,26053379,Capra Hircus,5593885,Xhipinho,2026-09-25T01:46:41.000Z,1419,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,zhu_xis_legacy,loss,1362,1308,-26,30
+253144032,26053379,Capra Hircus,15640163,xw_!,2026-09-25T00:53:43.000Z,2104,High View,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,win,1342,1271,20,-17
+253138040,26053379,Capra Hircus,3587408,mebak,2026-09-24T23:18:37.000Z,2035,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,jin_dynasty,win,1314,1367,28,-23
+253085333,26053379,Capra Hircus,7601910,你从丹东来,2026-09-24T14:46:43.000Z,2377,High View,rm_1v1,rm_solo,false,abbasid_dynasty,mongols,loss,1331,1455,-17,16
+252963742,26053379,Capra Hircus,25664095,Kevink37,2026-09-23T14:48:00.000Z,1269,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,chinese,loss,1353,1395,-22,21
+252959769,26053379,Capra Hircus,2640594,Germoney,2026-09-23T14:20:48.000Z,1460,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,win,1329,1341,24,-25
+252791322,26053379,Capra Hircus,3010816,Buckle Up Buckaroo,2026-09-22T06:13:53.000Z,1906,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,knights_templar,win,1302,1344,27,-22
+252791084,26053379,Capra Hircus,25684970,老吴内个内个内个,2026-09-22T06:09:52.000Z,31,West Lake,rm_1v1,rm_solo,false,abbasid_dynasty,english,loss,,,,
+252790431,26053379,Capra Hircus,25684970,老吴内个内个内个,2026-09-22T05:59:50.000Z,540,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,english,loss,1349,1334,,
+252789251,26053379,Capra Hircus,18940703,HelleDussan| csgoroll.com,2026-09-22T05:38:58.000Z,1153,High View,rm_1v1,rm_solo,false,abbasid_dynasty,french,win,1329,1296,20,-21
+252788533,26053379,Capra Hircus,18940703,HelleDussan| csgoroll.com,2026-09-22T05:25:33.000Z,731,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1358,1268,-29,28
+252719119,26053379,Capra Hircus,2036022,Drizzt Do´Urden,2026-09-21T15:19:02.000Z,1553,Flankwoods,rm_1v1,rm_solo,false,abbasid_dynasty,rus,win,1336,1290,22,-18
+252701353,26053379,Capra Hircus,8343941,Sirbreizh,2026-09-21T13:14:50.000Z,1730,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,jeanne_darc,win,1313,1330,23,-24
+252659382,26053379,Capra Hircus,7319993,糕泥,2026-09-21T03:39:20.000Z,2240,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,english,win,1293,1094,20,-10
+252658337,26053379,Capra Hircus,25530700,HATRED,2026-09-21T03:21:37.000Z,953,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1316,870,-23,49
+252657348,26053379,Capra Hircus,20800990,其徐如林,2026-09-21T03:05:04.000Z,918,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,french,loss,1334,1276,-18,29
+252656503,26053379,Capra Hircus,25684970,老吴内个内个内个,2026-09-21T02:50:31.000Z,801,High View,rm_1v1,rm_solo,false,abbasid_dynasty,byzantines,loss,1362,1256,-28,32
+252654969,26053379,Capra Hircus,6387591,Stan of Dard,2026-09-21T02:25:39.000Z,1151,Flankwoods,rm_1v1,rm_solo,false,abbasid_dynasty,delhi_sultanate,loss,1383,1341,-21,28
+252300283,26053379,Capra Hircus,881653,道道阴阳阴道道阴阳阳,2026-09-18T17:28:52.000Z,885,Dry Arabia,rm_1v1,rm_solo,false,rus,mongols,loss,1410,1349,-27,26
+252297176,26053379,Capra Hircus,21976887,xTheMagiicz,2026-09-18T17:01:54.000Z,1439,Dry Arabia,rm_1v1,rm_solo,false,rus,house_of_lancaster,win,1385,1377,25,-21
+252295705,26053379,Capra Hircus,21050396,Filthy And Disgusting Rat,2026-09-18T16:49:08.000Z,689,High View,rm_1v1,rm_solo,false,rus,chinese,loss,1405,1077,-20,41
+252291588,26053379,Capra Hircus,25368207,Annapurna,2026-09-18T16:15:43.000Z,1637,High View,rm_1v1,rm_solo,false,rus,french,win,1378,1430,27,-28
+252282327,26053379,Capra Hircus,6979750,Carcotic,2026-09-18T15:08:10.000Z,942,West Lake,rm_1v1,rm_solo,false,rus,rus,loss,1401,1254,-23,33
+252268173,26053379,Capra Hircus,8675984,lochtext,2026-09-18T13:36:47.000Z,1602,High View,rm_1v1,rm_solo,false,rus,english,win,1381,1313,20,-21
+252112379,26053379,Capra Hircus,21426514,sensei,2026-09-17T07:25:06.000Z,1222,Gorge,rm_1v1,rm_solo,false,rus,delhi_sultanate,win,1362,1199,19,-13
+252110945,26053379,Capra Hircus,19917135,阿毛,2026-09-17T07:00:50.000Z,1334,High View,rm_1v1,rm_solo,false,rus,english,loss,1380,1470,-18,16
+252106109,26053379,Capra Hircus,18377124,枫丹骑士团团长芙卡洛斯,2026-09-17T05:27:32.000Z,1602,Dry Arabia,rm_1v1,rm_solo,false,rus,byzantines,loss,1403,1361,-23,27
+252103591,26053379,Capra Hircus,15469403,你眉间的雪,2026-09-17T04:38:55.000Z,1062,Hidden Valley,rm_1v1,rm_solo,false,rus,chinese,loss,1410,1759,-7,6
+252101265,26053379,Capra Hircus,18262340,BoxAfterLanded,2026-09-17T03:58:05.000Z,2226,High View,rm_1v1,rm_solo,false,rus,malians,loss,1438,1316,-28,27
+252095369,26053379,Capra Hircus,25079151,Stage26Malder,2026-09-17T02:17:00.000Z,1336,West Lake,rm_1v1,rm_solo,false,rus,french,win,1425,1225,13,-15
+252092855,26053379,Capra Hircus,2890406,Kafkel,2026-09-17T01:35:45.000Z,1936,High View,rm_1v1,rm_solo,false,rus,french,win,1404,1352,21,-22
+252086229,26053379,Capra Hircus,17315786,ShaYu,2026-09-16T23:42:45.000Z,1578,Gorge,rm_1v1,rm_solo,false,rus,french,win,1382,1339,22,-23
+252085446,26053379,Capra Hircus,881653,道道阴阳阴道道阴阳阳,2026-09-16T23:28:34.000Z,668,High View,rm_1v1,rm_solo,false,rus,mongols,win,1356,1429,26,-27
+252084049,26053379,Capra Hircus,20239656,xFranatic,2026-09-16T23:03:58.000Z,1233,West Lake,rm_1v1,rm_solo,false,rus,ottomans,win,1337,1271,19,-21
+251990808,26053379,Capra Hircus,17239530,马嘉炮的棋友,2026-09-16T07:16:42.000Z,1591,West Lake,rm_1v1,rm_solo,false,rus,holy_roman_empire,win,1313,1198,24,-15
+251989929,26053379,Capra Hircus,19730264,MONO,2026-09-16T07:01:48.000Z,806,Dry Arabia,rm_1v1,rm_solo,false,rus,french,loss,1332,1319,-19,26
+251989757,26053379,Capra Hircus,25664095,Kevink37,2026-09-16T06:58:37.000Z,45,West Lake,rm_1v1,rm_solo,false,rus,rus,loss,1359,1262,-27,31
+251988401,26053379,Capra Hircus,16757497,[Nomads] The Fat Lady Sang,2026-09-16T06:33:30.000Z,1443,Dry Arabia,rm_1v1,rm_solo,false,rus,knights_templar,loss,1386,1291,-27,27
+251901068,26053379,Capra Hircus,18017579,GoldLand,2026-09-15T13:23:18.000Z,2558,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,win,1362,1357,24,-25
+251892699,26053379,Capra Hircus,18976917,天蓬元帅猪悟能,2026-09-15T12:15:35.000Z,1127,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,macedonian_dynasty,loss,1386,1300,-24,29
+251745266,26053379,Capra Hircus,5898682,CaliGuachimingo,2026-09-14T06:36:32.000Z,1184,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,japanese,loss,1406,1430,-20,19
+251743757,26053379,Capra Hircus,18811373,ayaya,2026-09-14T06:07:53.000Z,1475,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,jin_dynasty,win,1389,1144,17,-8
+251740748,26053379,Capra Hircus,12102142,DING QUIXOTE,2026-09-14T05:09:09.000Z,1618,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,sengoku_daimyo,loss,1413,1337,-24,28
+251738085,26053379,Capra Hircus,15515946,shadow,2026-09-14T04:21:37.000Z,1251,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,zhu_xis_legacy,win,1377,1619,36,-36
+251734771,26053379,Capra Hircus,8196140,WhiskeyTangoFox,2026-09-14T03:21:38.000Z,2012,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,rus,loss,1405,1061,-28,42
+251731766,26053379,Capra Hircus,21735054,Farm,2026-09-14T02:31:50.000Z,1641,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1374,1396,31,-23
+251672309,26053379,Capra Hircus,21456813,Brodi,2026-09-13T16:22:37.000Z,998,High View,rm_1v1,rm_solo,false,order_of_the_dragon,zhu_xis_legacy,win,1356,1260,18,-19
+251544052,26053379,Capra Hircus,648269,DarkValor,2026-09-12T21:33:43.000Z,1445,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,loss,1375,1434,-19,18
+251540915,26053379,Capra Hircus,15354558,random_noob,2026-09-12T21:04:15.000Z,792,High View,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1352,1070,23,-7
+251535356,26053379,Capra Hircus,5948092,MatesVik9288,2026-09-12T20:15:50.000Z,1039,High View,rm_1v1,rm_solo,false,order_of_the_dragon,delhi_sultanate,win,1329,1118,23,-11
+251436168,26053379,Capra Hircus,17692979,sacimusic,2026-09-12T07:46:05.000Z,1273,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,macedonian_dynasty,loss,1350,1370,-21,20
+251426899,26053379,Capra Hircus,18531778,(RADIO): Enemy spotted.,2026-09-12T06:19:23.000Z,2795,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,jin_dynasty,loss,1374,1230,-24,32
+251422885,26053379,Capra Hircus,16831810,lamSolraC,2026-09-12T05:36:44.000Z,1260,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,abbasid_dynasty,win,1351,1330,23,-24
+251277426,26053379,Capra Hircus,3377280,cisco,2026-09-11T04:59:21.000Z,1740,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,french,win,1329,1288,22,-23
+251275799,26053379,Capra Hircus,15509425,[BuS] ZoKu,2026-09-11T04:30:59.000Z,1353,Hideout,rm_1v1,rm_solo,false,house_of_lancaster,english,loss,1352,1155,-23,35
+251273776,26053379,Capra Hircus,19115421,caicaie,2026-09-11T03:57:09.000Z,1707,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,malians,win,1327,1236,25,-16
+251271221,26053379,Capra Hircus,18176558,StevezGamez,2026-09-11T03:13:22.000Z,1175,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,order_of_the_dragon,win,1308,,19,
+251268036,26053379,Capra Hircus,11197271,君不见黄河之水天上来,2026-09-11T02:22:37.000Z,1105,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,french,win,1283,949,25,-4
+251201978,26053379,Capra Hircus,3587041,tokushi,2026-09-10T14:31:14.000Z,1208,High View,rm_1v1,rm_solo,false,order_of_the_dragon,house_of_lancaster,win,1259,1314,24,-25
+251153937,26053379,Capra Hircus,6028801,TTat_zi,2026-09-10T05:41:19.000Z,1438,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1236,1268,23,-24
+251152030,26053379,Capra Hircus,23893984,金主训,2026-09-10T05:04:57.000Z,1511,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1208,1213,28,-24
+251151518,26053379,Capra Hircus,23893984,金主训,2026-09-10T04:55:32.000Z,501,Snake River,rm_1v1,rm_solo,false,order_of_the_dragon,english,loss,1234,1183,-26,30
+251007678,26053379,Capra Hircus,11297701,Skytoss,2026-09-09T00:54:12.000Z,2281,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,chinese,loss,1260,1203,-26,31
+251003879,26053379,Capra Hircus,19405732,benzma 3mk,2026-09-08T23:56:39.000Z,1929,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,house_of_lancaster,win,1233,1171,27,-17
+251003630,26053379,Capra Hircus,7013321,Keyki5903,2026-09-08T23:52:22.000Z,194,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,loss,1258,1092,-25,36
+251001028,26053379,Capra Hircus,3772395,claudioztl,2026-09-08T23:11:44.000Z,1032,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,byzantines,win,1232,1172,26,-16
+250943611,26053379,Capra Hircus,22507260,试制-中岛橘花,2026-09-08T14:17:33.000Z,1601,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,ottomans,loss,1253,1215,-21,28
+250915138,26053379,Capra Hircus,21930925,السيف الدمشقي,2026-09-08T10:24:49.000Z,970,High View,rm_1v1,rm_solo,false,macedonian_dynasty,ayyubids,loss,1278,1112,-25,36
+250757056,26053379,Capra Hircus,7042687,野比胖虎,2026-09-07T06:02:17.000Z,1320,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,ottomans,win,1259,1143,19,-14
+250755278,26053379,Capra Hircus,21543948,阿邁爾凱諾 • 賓斯,2026-09-07T05:31:56.000Z,1383,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,house_of_lancaster,win,1229,1146,30,-14
+250754308,26053379,Capra Hircus,5206317,ToastMalone,2026-09-07T05:15:18.000Z,954,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,loss,1252,1272,-23,22
+250752570,26053379,Capra Hircus,7042687,野比胖虎,2026-09-07T04:47:46.000Z,1549,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,golden_horde,win,1224,1193,28,-18
+250750970,26053379,Capra Hircus,3377280,cisco,2026-09-07T04:23:25.000Z,751,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,sengoku_daimyo,win,1195,1016,29,-9
+250743491,26053379,Capra Hircus,8350146,Big O,2026-09-07T02:36:26.000Z,1756,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,order_of_the_dragon,win,1166,1102,29,-14
+250741614,26053379,Capra Hircus,3318958,MuffinVonChauffry,2026-09-07T02:10:45.000Z,1394,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,abbasid_dynasty,win,1136,1085,30,-15
+250740903,26053379,Capra Hircus,20811449,Pink Beast,2026-09-07T02:01:34.000Z,452,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,zhu_xis_legacy,win,1111,1089,25,-18
+250664853,26053379,Capra Hircus,3587041,tokushi,2026-09-06T14:29:18.000Z,1421,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,house_of_lancaster,win,1080,1153,31,-19
+250661145,26053379,Capra Hircus,16001038,shiro,2026-09-06T14:09:22.000Z,1092,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,french,win,1047,1177,33,-25
+250532604,26053379,Capra Hircus,1374249,sizzlinup2005,2026-09-05T18:48:16.000Z,1716,High View,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,win,1010,943,37,-11
+250530076,26053379,Capra Hircus,15304492,active_rider,2026-09-05T18:28:04.000Z,930,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,loss,1022,963,-12,36
+250529669,26053379,Capra Hircus,7791371,zxxx,2026-09-05T18:25:11.000Z,107,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,loss,1033,1179,-11,26
+250455967,26053379,Capra Hircus,4356555,Gauner68,2026-09-05T09:51:23.000Z,1723,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,loss,1048,,-15,
+250351861,26053379,Capra Hircus,17834399,时德,2026-09-04T16:13:58.000Z,1232,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,sengoku_daimyo,win,1017,,31,
+250348723,26053379,Capra Hircus,3684950,aMan832,2026-09-04T15:51:55.000Z,1230,High View,rm_1v1,rm_solo,false,tughlaq_dynasty,english,loss,1026,1186,-9,26
+250345773,26053379,Capra Hircus,19360540,今晚打老虎,2026-09-04T15:31:40.000Z,1087,High View,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,win,987,,39,
+250279947,26053379,Capra Hircus,7099800,]NsR[ Rasta Jedi,2026-09-04T04:30:33.000Z,1611,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,order_of_the_dragon,win,,987,,-12
+250141226,26053379,Capra Hircus,10868039,RUS,2026-09-03T04:00:22.000Z,1726,Dry Arabia,rm_1v1,rm_solo,false,abbasid_dynasty,macedonian_dynasty,win,,1159,,-22
+250000340,26053379,Capra Hircus,307349,BetBanana,2026-09-02T02:07:10.000Z,1164,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,zhu_xis_legacy,loss,,,,
+249998164,26053379,Capra Hircus,15184412,Destructor,2026-09-02T01:37:25.000Z,1227,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,win,,,,
+249996879,26053379,Capra Hircus,17946359,Ashen one,2026-09-02T01:19:33.000Z,1010,Gorge,rm_1v1,rm_solo,false,abbasid_dynasty,delhi_sultanate,loss,,,,
+249764511,26053379,Capra Hircus,14797661,单走红毛打野王,2026-08-31T07:16:49.000Z,2117,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,golden_horde,loss,1119,1201,-18,23
+249763248,26053379,Capra Hircus,9589670,ukiwa2010,2026-08-31T06:58:34.000Z,1012,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,rus,win,1093,1091,26,-20
+249761428,26053379,Capra Hircus,20960923,无尽白给最为致命,2026-08-31T06:29:49.000Z,1590,West Lake,rm_1v1,rm_solo,false,tughlaq_dynasty,order_of_the_dragon,loss,1109,1221,-16,22
+249756616,26053379,Capra Hircus,13837778,dark♂男,2026-08-31T05:05:01.000Z,1040,Gorge,rm_1v1,rm_solo,false,tughlaq_dynasty,zhu_xis_legacy,loss,1130,1115,-21,33
+249440968,26053379,Capra Hircus,20311180,联通太可恶啦,2026-08-29T08:13:13.000Z,1141,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,win,1099,916,31,-7
+249438621,26053379,Capra Hircus,20035631,木间秀吉,2026-08-29T07:50:46.000Z,1288,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1117,1169,-18,26
+249438292,26053379,Capra Hircus,24013240,铁血神将麦克斯,2026-08-29T07:47:51.000Z,89,Relic River,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,win,1086,1177,31,-23
+249436454,26053379,Capra Hircus,17560099,min,2026-08-29T07:30:13.000Z,943,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,holy_roman_empire,win,1057,1115,29,-22
+249434018,26053379,Capra Hircus,22051272,还在春日影,2026-08-29T07:06:12.000Z,1359,Gorge,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,win,1028,1117,29,-22
+249262338,26053379,Capra Hircus,3498324,Herbo Turbo,2026-08-28T01:54:43.000Z,1936,Relic River,rm_1v1,rm_solo,false,tughlaq_dynasty,english,win,994,1121,34,-27
+249260173,26053379,Capra Hircus,7281719,Tyler,2026-08-28T01:23:57.000Z,1512,Gorge,rm_1v1,rm_solo,false,tughlaq_dynasty,japanese,win,963,1063,31,-24
+249258722,26053379,Capra Hircus,14355320,bleSSeD,2026-08-28T01:03:40.000Z,1129,Gorge,rm_1v1,rm_solo,false,tughlaq_dynasty,english,win,,994,,-23
+249257710,26053379,Capra Hircus,22575189,Presidente8624,2026-08-28T00:48:33.000Z,851,Relic River,rm_1v1,rm_solo,false,tughlaq_dynasty,rus,win,,961,,-24
+249257511,26053379,Capra Hircus,5540562,Viana,2026-08-28T00:45:59.000Z,44,Flankwoods,rm_1v1,rm_solo,false,tughlaq_dynasty,holy_roman_empire,loss,,1013,,23
+249254859,26053379,Capra Hircus,11653773,Helvetian,2026-08-28T00:04:35.000Z,1319,Gorge,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,win,,910,,-22
+249200491,26053379,Capra Hircus,10453099,Z,2026-08-27T15:04:18.000Z,1227,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,english,win,,874,,-22
+258514034,5695714,Evil3990,4082884,KingTiger2,2026-11-01T02:46:56.000Z,1799,The Pit,rm_1v1,rm_solo,false,vikings,chinese,win,1359,1397,25,-26
+258499245,5695714,Evil3990,19131565,VES Meowasis,2026-11-01T00:49:19.000Z,1528,Dry Arabia,rm_1v1,rm_solo,false,vikings,vikings,win,1328,1473,31,-31
+258496463,5695714,Evil3990,25349555,Painter from Austria,2026-11-01T00:24:24.000Z,1025,Flankwoods,rm_1v1,rm_solo,false,vikings,malians,win,1303,,25,
+258458036,5695714,Evil3990,7682970,Sycrus,2026-10-31T19:58:20.000Z,1532,Dry Arabia,rm_1v1,rm_solo,false,vikings,english,win,1280,1317,23,-24
+258455414,5695714,Evil3990,7682970,Sycrus,2026-10-31T19:43:54.000Z,784,Flankwoods,rm_1v1,rm_solo,false,vikings,english,loss,1306,1292,-26,25
+258450529,5695714,Evil3990,20749056,Mr__Pebbles,2026-10-31T19:17:24.000Z,1184,Dry Arabia,rm_1v1,rm_solo,false,vikings,ottomans,win,1284,,22,
+258447979,5695714,Evil3990,707064,FitzBro,2026-10-31T19:03:17.000Z,715,King of the Hill,rm_1v1,rm_solo,false,vikings,vikings,loss,1310,,-26,
+258234901,5695714,Evil3990,6681642,Anski,2026-10-30T23:22:18.000Z,1053,The Pit,rm_1v1,rm_solo,false,vikings,scots,win,1291,1299,19,-21
+258230995,5695714,Evil3990,26297240,crusader4god,2026-10-30T22:53:51.000Z,1170,Flankwoods,rm_1v1,rm_solo,false,vikings,vikings,win,1263,1317,28,-24
+258226457,5695714,Evil3990,26297240,crusader4god,2026-10-30T22:23:28.000Z,1743,Flankwoods,rm_1v1,rm_solo,false,vikings,vikings,loss,1289,1292,-26,25
+258223857,5695714,Evil3990,6681642,Anski,2026-10-30T22:07:05.000Z,727,The Pit,rm_1v1,rm_solo,false,vikings,scots,win,1262,1347,27,-23
+258215382,5695714,Evil3990,7539015,Iselder,2026-10-30T21:17:14.000Z,2920,The Pit,rm_1v1,rm_solo,false,vikings,knights_templar,loss,1283,1373,-21,20
+258210655,5695714,Evil3990,18928237,rayane.tal22,2026-10-30T20:50:19.000Z,1526,Lipany,rm_1v1,rm_solo,false,vikings,french,loss,1305,1346,-22,21
+257812734,5695714,Evil3990,26045114,HotHABIBI1,2026-10-28T18:22:49.000Z,1401,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,tughlaq_dynasty,win,1278,1277,27,-23
+257810956,5695714,Evil3990,25898550,情深深雨濛濛,2026-10-28T18:06:14.000Z,890,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,order_of_the_dragon,loss,1293,1474,-15,13
+257689111,5695714,Evil3990,3051178,Nidhogg,2026-10-27T19:44:39.000Z,2370,Dry Arabia,rm_1v1,rm_solo,false,golden_horde,mongols,win,1265,1290,28,-24
+257685920,5695714,Evil3990,17116369,kushigh,2026-10-27T19:18:01.000Z,1509,Dry Arabia,rm_1v1,rm_solo,false,french,zhu_xis_legacy,win,1239,1263,26,-22
+257683094,5695714,Evil3990,21162410,Feevah,2026-10-27T18:53:01.000Z,1401,Flankwoods,rm_1v1,rm_solo,false,macedonian_dynasty,macedonian_dynasty,loss,1257,1375,-18,22
+257525789,5695714,Evil3990,25368207,Annapurna,2026-10-26T14:50:34.000Z,2016,King of the Hill,rm_1v1,rm_solo,false,order_of_the_dragon,rus,win,1226,1287,31,-21
+257517684,5695714,Evil3990,21705135,AAOA,2026-10-26T13:52:42.000Z,1744,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,zhu_xis_legacy,win,1196,1263,30,-24
+257105583,5695714,Evil3990,8855588,Mysty,2026-10-23T22:15:09.000Z,1080,Flankwoods,rm_1v1,rm_solo,false,macedonian_dynasty,abbasid_dynasty,loss,1213,1183,-17,31
+257103559,5695714,Evil3990,22375425,害怕卷二只玩弱势民族,2026-10-23T21:53:20.000Z,1211,Dry Arabia,rm_1v1,rm_solo,false,macedonian_dynasty,ottomans,loss,1230,1302,-17,23
+257100081,5695714,Evil3990,25715275,Khons8365,2026-10-23T21:18:49.000Z,1845,King of the Hill,rm_1v1,rm_solo,false,macedonian_dynasty,french,loss,1248,1215,-18,32
+257098641,5695714,Evil3990,24080855,TomCatBrit,2026-10-23T21:05:16.000Z,751,Dry Arabia,rm_1v1,rm_solo,false,knights_templar,tughlaq_dynasty,win,1218,1315,30,-24
+257097253,5695714,Evil3990,3181056,Chuqqqq,2026-10-23T20:53:09.000Z,663,The Pit,rm_1v1,rm_solo,false,knights_templar,english,loss,1236,1173,-18,33
+257050868,5695714,Evil3990,8916401,Gustel,2026-10-23T14:54:09.000Z,1367,King of the Hill,rm_1v1,rm_solo,false,macedonian_dynasty,holy_roman_empire,win,1207,1232,29,-17
+257048178,5695714,Evil3990,25229239,Roggero Cannoniero,2026-10-23T14:37:49.000Z,844,King of the Hill,rm_1v1,rm_solo,false,macedonian_dynasty,knights_templar,win,1178,1211,29,-16
+257041171,5695714,Evil3990,23895342,xx_cnsprcizz_xx,2026-10-23T13:57:41.000Z,2233,Lipany,rm_1v1,rm_solo,false,abbasid_dynasty,house_of_lancaster,loss,1197,1209,-19,32
+257024142,5695714,Evil3990,18511574,道爷我成了,2026-10-23T12:08:18.000Z,1560,King of the Hill,rm_1v1,rm_solo,false,order_of_the_dragon,english,win,1162,1312,35,-26
+257019982,5695714,Evil3990,7804707,TanteDorothy,2026-10-23T11:34:28.000Z,1437,The Pit,rm_1v1,rm_solo,false,french,japanese,win,1132,1226,30,-21
+256950258,5695714,Evil3990,15156065,BUDDACI,2026-10-22T19:40:08.000Z,2305,Dry Arabia,rm_1v1,rm_solo,false,french,ottomans,win,1101,1218,31,-21
+256919511,5695714,Evil3990,15720900,ArchMage,2026-10-22T15:10:35.000Z,1179,The Pit,rm_1v1,rm_solo,false,knights_templar,mongols,win,1068,1185,33,-17
+256917288,5695714,Evil3990,26213311,Jean kulky3800,2026-10-22T14:53:17.000Z,906,The Pit,rm_1v1,rm_solo,false,knights_templar,french,loss,1082,1198,-14,30
+256915700,5695714,Evil3990,10967958,More Or Less,2026-10-22T14:42:07.000Z,498,Atacama,rm_1v1,rm_solo,false,byzantines,english,win,1045,1259,37,-25
+256845870,5695714,Evil3990,25532727,relayor,2026-10-21T23:34:11.000Z,1820,Himeyama,rm_1v1,rm_solo,false,french,macedonian_dynasty,win,1011,1164,34,-21
+256845015,5695714,Evil3990,25233633,TheRodrigo 99,2026-10-21T23:18:26.000Z,835,King of the Hill,rm_1v1,rm_solo,false,delhi_sultanate,zhu_xis_legacy,loss,1025,1093,-14,35
+256839060,5695714,Evil3990,2822824,EnergyDr,2026-10-21T21:44:03.000Z,1312,Atacama,rm_1v1,rm_solo,false,order_of_the_dragon,rus,win,988,1222,37,-22
+256837608,5695714,Evil3990,24428469,TG+,2026-10-21T21:24:59.000Z,1069,Atacama,rm_1v1,rm_solo,false,byzantines,french,loss,994,747,-6,51
+256835957,5695714,Evil3990,4344019,Arcontar7531,2026-10-21T21:03:46.000Z,1186,The Pit,rm_1v1,rm_solo,false,tughlaq_dynasty,knights_templar,loss,1004,1279,-10,25
+256827683,5695714,Evil3990,10146004,Randall2522,2026-10-21T19:36:51.000Z,2504,Golden Heights,rm_1v1,rm_solo,false,tughlaq_dynasty,jeanne_darc,win,959,1259,45,-22
+256825324,5695714,Evil3990,14323244,Cindius007,2026-10-21T19:15:48.000Z,1201,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,delhi_sultanate,loss,965,,-6,
+256823020,5695714,Evil3990,14323244,Cindius007,2026-10-21T18:55:49.000Z,1116,King of the Hill,rm_1v1,rm_solo,false,tughlaq_dynasty,delhi_sultanate,loss,972,,-7,
+256821032,5695714,Evil3990,7022030,Ocarony Rabony,2026-10-21T18:38:47.000Z,929,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,french,loss,973,1387,-1,18
+256816767,5695714,Evil3990,8090424,shr00m,2026-10-21T17:59:13.000Z,2265,Atacama,rm_1v1,rm_solo,false,tughlaq_dynasty,byzantines,loss,976,1323,-3,22
+256816266,5695714,Evil3990,22755395,Purple Hippo957,2026-10-21T17:54:19.000Z,231,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,malians,loss,,1143,,36
+256814064,5695714,Evil3990,23470681,kolohartos22,2026-10-21T17:32:38.000Z,1227,Lipany,rm_1v1,rm_solo,false,tughlaq_dynasty,chinese,win,,1366,,-28
+256811662,5695714,Evil3990,1059005,Phoenix138,2026-10-21T17:09:48.000Z,1245,Himeyama,rm_1v1,rm_solo,false,tughlaq_dynasty,jin_dynasty,loss,,1300,,23
+256808006,5695714,Evil3990,8387472,LazeR,2026-10-21T16:35:57.000Z,1891,Dry Arabia,rm_1v1,rm_solo,false,tughlaq_dynasty,french,loss,,1337,,23
+256796680,5695714,Evil3990,20924573,Notch,2026-10-21T15:04:16.000Z,1189,Himeyama,rm_1v1,rm_solo,false,french,zhu_xis_legacy,win,,1279,,-22
+246290503,5695714,Evil3990,24690589,马奇诺设计师,2026-08-07T16:50:30.000Z,1800,Gorge,rm_1v1,rm_solo,false,french,macedonian_dynasty,win,1248,1307,27,-22
+259153495,272244,Filemonte,20042899,Viking victory*,2026-11-04T04:44:53.000Z,29,Dry Arabia,rm_1v1,rm_solo,false,scots,scots,win,1313,1130,18,-11
+259150189,272244,Filemonte,1340479,Norsu,2026-11-04T04:08:44.000Z,1840,Golden Pit,rm_1v1,rm_solo,false,scots,vikings,loss,1337,1325,-24,23
+259122004,272244,Filemonte,15179737,Nagash,2026-11-03T23:26:16.000Z,1076,Dry Arabia,rm_1v1,rm_solo,false,scots,english,win,1313,1310,24,-20
+259120634,272244,Filemonte,15526861,rhj84,2026-11-03T23:13:26.000Z,599,Dry Arabia,rm_1v1,rm_solo,false,scots,delhi_sultanate,win,1293,1243,20,-21
+258963399,272244,Filemonte,17723462,葛大炮,2026-11-03T03:11:14.000Z,1309,Highwoods,rm_1v1,rm_solo,false,scots,scots,win,1263,1385,30,-31
+258956757,272244,Filemonte,11972230,菲尔—尼克斯,2026-11-03T02:08:19.000Z,1104,Marshland,rm_1v1,rm_solo,false,scots,scots,loss,1287,1281,-24,23
+258928433,272244,Filemonte,26261278,minus1,2026-11-02T21:39:17.000Z,1867,Cliffside,rm_1v1,rm_solo,false,scots,house_of_lancaster,win,1259,1299,28,-24
+258927544,272244,Filemonte,24696268,GARDİAN,2026-11-02T21:32:51.000Z,279,Golden Pit,rm_1v1,rm_solo,false,scots,vikings,loss,1273,1158,-14,32
+258923790,272244,Filemonte,24209777,wojter322,2026-11-02T21:06:48.000Z,1489,Marshland,rm_1v1,rm_solo,false,scots,tughlaq_dynasty,loss,1296,1261,-23,28
+258922847,272244,Filemonte,21976887,xTheMagiicz,2026-11-02T21:00:42.000Z,188,Highwoods,rm_1v1,rm_solo,false,scots,scots,loss,1314,1398,-18,22
+258921148,272244,Filemonte,10261568,pr_ing,2026-11-02T20:49:50.000Z,591,Dry Arabia,rm_1v1,rm_solo,false,scots,order_of_the_dragon,loss,1342,1255,-28,27
+258917507,272244,Filemonte,909543,Frutti,2026-11-02T20:26:30.000Z,960,Cliffside,rm_1v1,rm_solo,false,scots,vikings,win,1321,1292,21,-22
+258914149,272244,Filemonte,3745426,Venlo,2026-11-02T20:06:42.000Z,1085,Cliffside,rm_1v1,rm_solo,false,scots,scots,loss,1345,1342,-24,23
+258779879,272244,Filemonte,8283605,Bruno JuBig,2026-11-02T04:07:24.000Z,1126,Golden Pit,rm_1v1,rm_solo,false,scots,japanese,win,1319,1369,26,-27
+258776454,272244,Filemonte,25192199,盲目吃鱼之神,2026-11-02T03:34:04.000Z,1858,Highwoods,rm_1v1,rm_solo,false,scots,vikings,loss,1339,1299,-20,28
+258772788,272244,Filemonte,20800990,其徐如林,2026-11-02T03:00:14.000Z,1239,Cliffside,rm_1v1,rm_solo,false,scots,jin_dynasty,loss,1364,1390,-25,24
+258769990,272244,Filemonte,3523005,star,2026-11-02T02:36:01.000Z,1120,Cliffside,rm_1v1,rm_solo,false,scots,scots,loss,1389,1414,-25,24
+258767737,272244,Filemonte,24696268,GARDİAN,2026-11-02T02:17:15.000Z,892,Golden Pit,rm_1v1,rm_solo,false,scots,vikings,win,1364,1101,25,-8
+258766072,272244,Filemonte,3360951,QUACK,2026-11-02T02:03:18.000Z,671,Golden Pit,rm_1v1,rm_solo,false,scots,holy_roman_empire,win,1336,1390,28,-24
+258730200,272244,Filemonte,4082884,KingTiger2,2026-11-01T21:19:28.000Z,1045,Marshland,rm_1v1,rm_solo,false,scots,holy_roman_empire,win,1310,1371,26,-27
+258726456,272244,Filemonte,6597889,Predgi,2026-11-01T20:58:10.000Z,1000,Golden Pit,rm_1v1,rm_solo,false,scots,malians,win,1286,1299,24,-25
+258196196,272244,Filemonte,7978200,有所事事,2026-10-30T19:32:09.000Z,1415,Atacama,rm_1v1,rm_solo,false,scots,vikings,win,1261,1196,25,-16
+258190166,272244,Filemonte,21815839,Greedus,2026-10-30T18:59:03.000Z,1738,King of the Hill,rm_1v1,rm_solo,false,scots,scots,loss,1286,1330,-25,24
+258040389,272244,Filemonte,24466389,ikun,2026-10-30T04:33:39.000Z,637,Atacama,rm_1v1,rm_solo,false,scots,japanese,win,1261,1239,25,-18
+258022782,272244,Filemonte,21803461,我就是我,2026-10-30T02:02:36.000Z,667,Dry Arabia,rm_1v1,rm_solo,false,scots,french,win,1233,1326,28,-24
+257865425,272244,Filemonte,22576250,KoOlLeAN,2026-10-29T05:14:35.000Z,738,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,byzantines,win,1213,1111,20,-16
+257865121,272244,Filemonte,18988479,JingjingDevil,2026-10-29T05:09:10.000Z,130,The Pit,rm_1v1,rm_solo,false,holy_roman_empire,ayyubids,loss,1237,1206,-24,28
+257863606,272244,Filemonte,4834484,夺命双熊,2026-10-29T04:41:27.000Z,1538,King of the Hill,rm_1v1,rm_solo,false,house_of_lancaster,abbasid_dynasty,loss,1257,1319,-20,24
+257861821,272244,Filemonte,3901344,Hakoda,2026-10-29T04:11:44.000Z,1698,The Pit,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,loss,1264,1549,-7,10
+257861466,272244,Filemonte,7503308,Moye,2026-10-29T04:06:26.000Z,26,Atacama,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,noresult,1228,1384,36,-31
+257859915,272244,Filemonte,25009930,nedsjelly,2026-10-29T03:40:37.000Z,600,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,japanese,loss,1244,1348,-16,21
+257857915,272244,Filemonte,22021856,Auroraone01,2026-10-29T03:07:16.000Z,1939,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,ottomans,loss,1260,1182,-16,33
+257473265,272244,Filemonte,17770227,Butter,2026-10-26T04:56:02.000Z,902,Lipany,rm_1v1,rm_solo,false,holy_roman_empire,japanese,win,1231,1235,29,-18
+257111430,272244,Filemonte,18892791,rorydyck13,2026-10-23T23:31:06.000Z,1533,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,order_of_the_dragon,win,1198,1443,33,-27
+252634260,272244,Filemonte,18977377,руиню на пудже,2026-09-20T21:21:02.000Z,746,Hidden Valley,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,win,1168,1287,30,-23
+252369883,272244,Filemonte,24706023,狠狠哈哈西,2026-09-19T06:22:57.000Z,777,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,byzantines,win,1135,1278,33,-25
+252338056,272244,Filemonte,15596596,HPa,2026-09-18T23:47:14.000Z,724,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,french,win,1104,1214,31,-23
+252337080,272244,Filemonte,26050568,圣殿罗士团急先锋,2026-09-18T23:32:18.000Z,805,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,japanese,loss,1119,982,-15,40
+252230096,272244,Filemonte,15304492,active_rider,2026-09-18T06:31:48.000Z,1185,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,mongols,win,1087,1197,32,-23
+252227933,272244,Filemonte,17592492,愁莫渡江,2026-09-18T05:52:26.000Z,2076,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,order_of_the_dragon,loss,1097,1316,-10,20
+252226227,272244,Filemonte,6101153,波流卡,2026-09-18T05:21:54.000Z,1701,West Lake,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,loss,1106,1300,-9,23
+252220969,272244,Filemonte,17530655,wakelin,2026-09-18T03:49:46.000Z,1085,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,zhu_xis_legacy,win,1071,1276,35,-24
+252218800,272244,Filemonte,17592492,愁莫渡江,2026-09-18T03:14:06.000Z,2061,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,order_of_the_dragon,loss,1082,1294,-11,22
+252218693,272244,Filemonte,17592492,愁莫渡江,2026-09-18T03:12:24.000Z,33,Dry Arabia,rm_1v1,rm_solo,false,order_of_the_dragon,order_of_the_dragon,loss,1095,1270,-13,24
+252217553,272244,Filemonte,17592492,愁莫渡江,2026-09-18T02:53:32.000Z,1037,West Lake,rm_1v1,rm_solo,false,order_of_the_dragon,order_of_the_dragon,loss,1110,1244,-15,26
+252216475,272244,Filemonte,17520938,残骑裂甲,2026-09-18T02:35:08.000Z,1048,Gorge,rm_1v1,rm_solo,false,order_of_the_dragon,knights_templar,loss,1123,1306,-13,24
+251417000,272244,Filemonte,16759625,choco,2026-09-12T04:29:12.000Z,1265,Dry Arabia,rm_1v1,rm_solo,false,house_of_lancaster,order_of_the_dragon,win,1084,1168,39,-15
+251410166,272244,Filemonte,11120535,Maugan,2026-09-12T03:08:00.000Z,4674,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,jin_dynasty,loss,1093,1230,-9,30
+251376956,272244,Filemonte,18715732,muksus7,2026-09-11T20:33:14.000Z,1997,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,holy_roman_empire,loss,1099,1382,-6,19
+251371033,272244,Filemonte,16001488,PurpleHannibal,2026-09-11T19:43:07.000Z,2873,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,knights_templar,loss,1109,1294,-10,28
+251153592,272244,Filemonte,1559276,NeK,2026-09-10T05:34:54.000Z,949,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,ayyubids,win,1070,1260,39,-18
+251151798,272244,Filemonte,15992449,晚风栖竹,2026-09-10T05:00:40.000Z,1938,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,mongols,loss,1081,,-11,
+251144373,272244,Filemonte,2524317,The Algorithms,2026-09-10T02:53:37.000Z,764,Hidden Valley,rm_1v1,rm_solo,false,holy_roman_empire,macedonian_dynasty,win,1044,1277,37,-21
+251142938,272244,Filemonte,17487774,MRA,2026-09-10T02:30:33.000Z,1323,Gorge,rm_1v1,rm_solo,false,ayyubids,japanese,loss,1050,1298,-6,29
+251124429,272244,Filemonte,2137505,IamFliT,2026-09-09T21:50:01.000Z,953,High View,rm_1v1,rm_solo,false,holy_roman_empire,tughlaq_dynasty,win,1009,1288,41,-23
+251121005,272244,Filemonte,19521242,Horal,2026-09-09T21:10:06.000Z,1870,High View,rm_1v1,rm_solo,false,house_of_lancaster,holy_roman_empire,loss,1013,1229,-4,32
+251120405,272244,Filemonte,25156143,Alajbegović,2026-09-09T21:04:12.000Z,285,Hidden Valley,rm_1v1,rm_solo,false,house_of_lancaster,rus,loss,1014,,-1,
+251118212,272244,Filemonte,10261568,pr_ing,2026-09-09T20:41:40.000Z,753,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,order_of_the_dragon,loss,1018,1357,-4,24
+251116295,272244,Filemonte,3237575,DemeX,2026-09-09T20:22:02.000Z,1126,Hidden Valley,rm_1v1,rm_solo,false,holy_roman_empire,malians,loss,1021,1361,-3,23
+251115876,272244,Filemonte,17667530,Trash,2026-09-09T20:17:43.000Z,180,Snake River,rm_1v1,rm_solo,false,holy_roman_empire,golden_horde,loss,1022,1429,-1,20
+250714344,272244,Filemonte,15773625,cucurucho,2026-09-06T20:23:20.000Z,1096,High View,rm_1v1,rm_solo,false,house_of_lancaster,rus,win,,1226,,-12
+250288596,272244,Filemonte,10725915,斯巴达,2026-09-04T06:55:35.000Z,1754,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,house_of_lancaster,win,,1062,,-5
+250287730,272244,Filemonte,17201009,liwszhua,2026-09-04T06:41:03.000Z,725,High View,rm_1v1,rm_solo,false,holy_roman_empire,jin_dynasty,loss,,1101,,42
+250287576,272244,Filemonte,23459260,Monsterkill09,2026-09-04T06:38:56.000Z,,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,japanese,,,1264,,
+250287350,272244,Filemonte,20060116,DeepBlue,2026-09-04T06:35:05.000Z,167,Gorge,rm_1v1,rm_solo,false,holy_roman_empire,japanese,loss,,,,
+250022880,272244,Filemonte,9457284,Gold Whale,2026-09-02T07:41:19.000Z,2525,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,abbasid_dynasty,loss,,1096,,43
+246688542,272244,Filemonte,16654714,サテライトライオン,2026-08-10T03:09:36.000Z,1065,Dry Arabia,rm_1v1,rm_solo,false,holy_roman_empire,knights_templar,win,1387,1460,27,-27
+246686380,272244,Filemonte,5588769,yogurtdrink,2026-08-10T02:38:26.000Z,1722,Relic River,rm_1v1,rm_solo,false,holy_roman_empire,malians,loss,1408,1490,-21,20

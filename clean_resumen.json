@@ -1,0 +1,11 @@
+{
+  "fecha_ejecucion": "2026-11-08T20:51:00.861082758-03:00",
+  "registros_originales": 949,
+  "excluidos_estado_tipo_resultado": 10,
+  "duplicados_eliminados": 3,
+  "registros_limpios": 936,
+  "excluidos_modelo_sin_ratings": 90,
+  "registros_modelacion": 846,
+  "partidas_unicas_modelo": 846,
+  "duraciones_invalidas": 0
+}

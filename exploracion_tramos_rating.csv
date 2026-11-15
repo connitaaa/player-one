@@ -1,0 +1,4 @@
+tramo,partidas,victorias,tasa_victoria_pct
+ventaja (>100),264,189,71.59
+similar (-100 a 100),393,215,54.71
+desventaja (<-100),189,69,36.51

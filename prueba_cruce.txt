@@ -1,0 +1,13 @@
+╭────────────────────────┬─────────────────────────────────────╮
+│ civilizacion           │ order_of_the_dragon                 │
+│ civilizacion_rival     │ english                             │
+│ rango_solicitado       │ todos                               │
+│ rango_api              │                                     │
+│ parche_api             │ 12182,12260,12303                   │
+│ fecha_consulta         │ 2026-11-15T16:22:21.889912638-03:00 │
+│ probabilidad_api       │ 0.55                                │
+│ partidas_muestra       │ 12                                  │
+│ victorias_muestra      │ 11                                  │
+│ probabilidad_empirica  │ 0.92                                │
+│ diferencia_api_muestra │ 0.37                                │
+╰────────────────────────┴─────────────────────────────────────╯

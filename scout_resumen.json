@@ -1,0 +1,88 @@
+{
+  "pais": "cl",
+  "modo": "rm_solo",
+  "fecha_ejecucion": "2026-11-04T11:57:59.106459786-03:00",
+  "inicio_periodo": "2026-08-06T11:57:44.804611897-03:00",
+  "objetivo_jugadores": 10,
+  "jugadores_revisados": 11,
+  "jugadores_activos": 11,
+  "omitidos_inactivos": 0,
+  "omitidos_pocas_partidas": 1,
+  "jugadores_seleccionados": 10,
+  "partidas_descargadas": 959,
+  "consultas_contabilizadas": 24,
+  "limite_consultas": 80,
+  "limite_alcanzado": false,
+  "jugadores": [
+    {
+      "profile_id": 4703134,
+      "nombre": "[Real] Starflark",
+      "rating": 2194,
+      "partidas_validas": 200,
+      "archivo": "data/raw/scout_4703134.json"
+    },
+    {
+      "profile_id": 11040949,
+      "nombre": "Real Alukar",
+      "rating": 1817,
+      "partidas_validas": 47,
+      "archivo": "data/raw/scout_11040949.json"
+    },
+    {
+      "profile_id": 6640305,
+      "nombre": "ape",
+      "rating": 1596,
+      "partidas_validas": 200,
+      "archivo": "data/raw/scout_6640305.json"
+    },
+    {
+      "profile_id": 3947737,
+      "nombre": "Pichulo Totem",
+      "rating": 1518,
+      "partidas_validas": 38,
+      "archivo": "data/raw/scout_3947737.json"
+    },
+    {
+      "profile_id": 5451257,
+      "nombre": "Dr. Flams",
+      "rating": 1437,
+      "partidas_validas": 35,
+      "archivo": "data/raw/scout_5451257.json"
+    },
+    {
+      "profile_id": 231618,
+      "nombre": "Phian",
+      "rating": 1425,
+      "partidas_validas": 93,
+      "archivo": "data/raw/scout_231618.json"
+    },
+    {
+      "profile_id": 255233,
+      "nombre": "queronte",
+      "rating": 1417,
+      "partidas_validas": 24,
+      "archivo": "data/raw/scout_255233.json"
+    },
+    {
+      "profile_id": 26053379,
+      "nombre": "Capra Hircus",
+      "rating": 1413,
+      "partidas_validas": 194,
+      "archivo": "data/raw/scout_26053379.json"
+    },
+    {
+      "profile_id": 5695714,
+      "nombre": "Evil3990",
+      "rating": 1384,
+      "partidas_validas": 50,
+      "archivo": "data/raw/scout_5695714.json"
+    },
+    {
+      "profile_id": 272244,
+      "nombre": "Filemonte",
+      "rating": 1331,
+      "partidas_validas": 68,
+      "archivo": "data/raw/scout_272244.json"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+civilizacion,rival,rating_jugador,rating_rival,diferencia_rating,fuente_cruce,ventaja_cruce,probabilidad_elo,probabilidad_logistica
+french,english,1600.0,1500.0,100.0,directa,0.561273192780605,0.6400649998028851,0.6791130823189311
+english,french,1500.0,1600.0,-100.0,directa,0.4387110029395961,0.3599350001971149,0.3961936927426799
+mongols,french,1800.0,1800.0,0.0,directa,0.5275286028898319,0.5,0.5737625145486184

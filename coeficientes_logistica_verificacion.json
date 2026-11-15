@@ -1,0 +1,15 @@
+{
+  "motor": "scikit-learn",
+  "version": "1.9.1",
+  "variables": [
+    "d_100",
+    "ventaja_10pp"
+  ],
+  "intercepto": 0.1642124937744755,
+  "coeficientes": [
+    0.2894405762028529,
+    0.4831571410371303
+  ],
+  "entrenamiento": 592,
+  "prueba": 254
+}

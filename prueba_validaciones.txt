@@ -1,0 +1,1 @@
+Listo: inspecciona resultados/verificacion_*.json y compáralos con aoe perfil/top/cruce.

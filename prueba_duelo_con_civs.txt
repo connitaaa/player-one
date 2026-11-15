@@ -1,0 +1,18 @@
+╭─────────────────────────────┬───────────────────╮
+│ profile_id1                 │ 4703134           │
+│ jugador1                    │ [Real] Starflark  │
+│ rating1                     │ 2161.00           │
+│ profile_id2                 │ 6640305           │
+│ jugador2                    │ ape               │
+│ rating2                     │ 1663.00           │
+│ civilizacion1               │ french            │
+│ civilizacion2               │ english           │
+│ fuente_ventaja              │ API AoE4 World    │
+│ parche_api                  │ 12182,12260,12303 │
+│ diferencia_rating           │ 498.00            │
+│ probabilidad_elo_j1         │ 0.95              │
+│ probabilidad_logistica_j1   │ 0.88              │
+│ probabilidad_elo_j2         │ 0.05              │
+│ probabilidad_logistica_j2   │ 0.12              │
+│ diferencia_logistica_elo_j1 │ -0.07             │
+╰─────────────────────────────┴───────────────────╯

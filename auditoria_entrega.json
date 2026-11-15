@@ -1,0 +1,71 @@
+{
+  "proyecto": "Player One",
+  "registros_originales": 846,
+  "entrenamiento": 592,
+  "prueba": 254,
+  "fuentes_cruces": [
+    {
+      "fuente": "directa",
+      "partidas": 776
+    },
+    {
+      "fuente": "neutral_imputada",
+      "partidas": 70
+    }
+  ],
+  "modelos": [
+    {
+      "modelo": "p_constante",
+      "partidas": 254,
+      "exactitud_pct": 54.72,
+      "log_loss": 0.6892587990975992
+    },
+    {
+      "modelo": "p_elo",
+      "partidas": 254,
+      "exactitud_pct": 60.24,
+      "log_loss": 0.6227618434122232
+    },
+    {
+      "modelo": "p_logistica",
+      "partidas": 254,
+      "exactitud_pct": 63.78,
+      "log_loss": 0.6206213032528042
+    }
+  ],
+  "ejemplos": [
+    {
+      "civilizacion": "french",
+      "rival": "english",
+      "rating_jugador": 1600.0,
+      "rating_rival": 1500.0,
+      "diferencia_rating": 1e+2,
+      "fuente_cruce": "directa",
+      "ventaja_cruce": 0.561273192780605,
+      "probabilidad_elo": 0.6400649998028851,
+      "probabilidad_logistica": 0.6791130823189311
+    },
+    {
+      "civilizacion": "english",
+      "rival": "french",
+      "rating_jugador": 1500.0,
+      "rating_rival": 1600.0,
+      "diferencia_rating": -1e+2,
+      "fuente_cruce": "directa",
+      "ventaja_cruce": 0.4387110029395961,
+      "probabilidad_elo": 0.3599350001971149,
+      "probabilidad_logistica": 0.3961936927426799
+    },
+    {
+      "civilizacion": "mongols",
+      "rival": "french",
+      "rating_jugador": 1800.0,
+      "rating_rival": 1800.0,
+      "diferencia_rating": 0.0,
+      "fuente_cruce": "directa",
+      "ventaja_cruce": 0.5275286028898319,
+      "probabilidad_elo": 0.5,
+      "probabilidad_logistica": 0.5737625145486184
+    }
+  ]
+}

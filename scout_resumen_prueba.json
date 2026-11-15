@@ -1,0 +1,32 @@
+{
+  "pais": "cl",
+  "modo": "rm_solo",
+  "fecha_ejecucion": "2026-11-04T11:47:07.055517016-03:00",
+  "inicio_periodo": "2026-08-06T11:47:03.481604328-03:00",
+  "objetivo_jugadores": 2,
+  "jugadores_revisados": 2,
+  "jugadores_activos": 2,
+  "omitidos_inactivos": 0,
+  "omitidos_pocas_partidas": 0,
+  "jugadores_seleccionados": 2,
+  "partidas_descargadas": 97,
+  "consultas_contabilizadas": 4,
+  "limite_consultas": 8,
+  "limite_alcanzado": false,
+  "jugadores": [
+    {
+      "profile_id": 4703134,
+      "nombre": "[Real] Starflark",
+      "rating": 2194,
+      "partidas_validas": 50,
+      "archivo": "data/raw/scout_4703134.json"
+    },
+    {
+      "profile_id": 11040949,
+      "nombre": "Real Alukar",
+      "rating": 1817,
+      "partidas_validas": 47,
+      "archivo": "data/raw/scout_11040949.json"
+    }
+  ]
+}
